@@ -1,0 +1,51 @@
+"distroless-php"
+
+module(name = "distroless-php")
+
+bazel_dep(name = "rules_oci", version = "2.0.1")
+bazel_dep(name = "rules_pkg", version = "1.0.1")
+bazel_dep(name = "platforms", version = "0.0.10")
+bazel_dep(name = "toolchains_llvm", version = "1.2.0")
+bazel_dep(name = "rules_distroless", version = "0.4.2")
+bazel_dep(name = "aspect_bazel_lib", version = "2.10.0")
+bazel_dep(name = "chrome-linux-sysroot", version = "0.0.1")
+
+git_override(
+    module_name = "rules_distroless",
+    commit = "f994712f6bd573b3d50b207ae5fa3df077caed67",
+    remote = "https://github.com/GoogleContainerTools/rules_distroless.git",
+)
+
+llvm = use_extension("@toolchains_llvm//toolchain/extensions:llvm.bzl", "llvm")
+llvm.toolchain(
+    name = "llvm_toolchain",
+    llvm_version = "16.0.0",
+)
+llvm.sysroot(
+    name = "llvm_toolchain",
+    label = "@chrome-linux-sysroot//:debian_bullseye_arm64",
+    targets = ["linux-aarch64"],
+)
+use_repo(llvm, "llvm_toolchain")
+
+apt = use_extension(
+    "@rules_distroless//apt:extensions.bzl",
+    "apt",
+)
+apt.install(
+    name = "php-fpm-bookworm",
+    lock = "//php-fpm:bookworm.lock.json",
+    manifest = "//php-fpm:bookworm.yaml",
+    resolve_transitive = False,
+)
+apt.install(
+    name = "nginx-bookworm",
+    lock = "//nginx:bookworm.lock.json",
+    manifest = "//nginx:bookworm.yaml",
+    resolve_transitive = False,
+)
+use_repo(apt, "php-fpm-bookworm", "nginx-bookworm")
+
+register_toolchains(
+    "@llvm_toolchain//:all",
+)

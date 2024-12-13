@@ -1,0 +1,45 @@
+version: 1
+
+sources:
+  - channel: bookworm main contrib
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  - channel: bookworm-security main
+    url: https://snapshot.debian.org/archive/debian-security/20241211T143334Z
+  - channel: bookworm-updates main
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+
+archs:
+  - "amd64"
+  - "arm64"
+
+packages:
+  # Packages
+  - php8.2-fpm
+  - php8.2-cli
+  - php8.2-common
+  - php8.2-opcache
+  - php-pear
+
+  # Dependencies
+  - libargon2-1
+  - libc6
+  - libmagic1
+  - libpcre2-8-0
+  - libsodium23
+  - libssl3
+  - libxml2
+  - media-types
+  - tzdata
+  - zlib1g
+  - libicu72
+  - liblzma5
+  - libstdc++6
+  - libgcc-s1
+  - libapparmor1
+  - libacl1
+  - libsystemd0
+  - libcap2
+  - libgcrypt20
+  - libzstd1
+  - liblz4-1
+  - libgpg-error0

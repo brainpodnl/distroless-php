@@ -1,0 +1,24 @@
+version: 1
+
+sources:
+  - channel: bookworm main contrib
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  - channel: bookworm-security main
+    url: https://snapshot.debian.org/archive/debian-security/20241211T143334Z
+  - channel: bookworm-updates main
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+
+archs:
+  - "amd64"
+  - "arm64"
+
+packages:
+  # Packages
+  - nginx
+
+  # Dependencies
+  - libc6
+  - libcrypt1
+  - libpcre2-8-0
+  - libssl3
+  - zlib1g
