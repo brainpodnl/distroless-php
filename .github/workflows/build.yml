@@ -35,5 +35,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Push image [nginx]
         run: bazel run nginx:push -- -t latest -r ghcr.io/brainpodnl/distroless-php/nginx
-      - name: Push image [php-fpm]
-        run: bazel run php-fpm:push -- -t 8.3 -r ghcr.io/brainpodnl/distroless-php/php-fpm
+      - name: Push image [php-fpm:7.4]
+        run: bazel run php:php-fpm-7.4_push -- -t 7.4 -r ghcr.io/brainpodnl/distroless-php/php-fpm
+      - name: Push image [php-fpm:8.3]
+        run: bazel run php:php-fpm-8.3_push -- -t 8.3 -r ghcr.io/brainpodnl/distroless-php/php-fpm
