@@ -36,4 +36,4 @@ jobs:
       - name: Push image [nginx]
         run: bazel run nginx:push -- -t latest -r ghcr.io/brainpodnl/distroless-php/nginx
       - name: Push image [php-fpm]
-        run: bazel run php-fpm:push -- -t 8.2 -r ghcr.io/brainpodnl/distroless-php/php-fpm
+        run: bazel run php-fpm:push -- -t 8.3 -r ghcr.io/brainpodnl/distroless-php/php-fpm

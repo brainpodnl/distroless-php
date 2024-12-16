@@ -7,6 +7,9 @@ sources:
     url: https://snapshot.debian.org/archive/debian-security/20241211T143334Z
   - channel: bookworm-updates main
     url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  # Custom PHP versions
+  - channel: bookworm main
+    url: https://packages.sury.org/php
 
 archs:
   - "amd64"
@@ -14,10 +17,10 @@ archs:
 
 packages:
   # Packages
-  - php8.2-fpm
-  - php8.2-cli
-  - php8.2-common
-  - php8.2-opcache
+  - php8.3-fpm
+  - php8.3-cli
+  - php8.3-common
+  - php8.3-opcache
   - php-pear
 
   # Dependencies

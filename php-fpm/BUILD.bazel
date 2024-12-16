@@ -25,9 +25,9 @@ group(
 tar(
     name = "sh",
     mtree = [
-        "./bin/php type=link link=/usr/bin/php8.2",
-        "./var/log/php8.2-fpm.log type=link link=/dev/stderr",
-        "./run/php/php8.2-fpm.sock type=file",
+        "./bin/php type=link link=/usr/bin/php8.3",
+        "./var/log/php8.3-fpm.log type=link link=/dev/stderr",
+        "./run/php/php8.3-fpm.sock type=file",
     ],
 )
 
@@ -38,7 +38,7 @@ oci_image(
         "@platforms//cpu:x86_64": "amd64",
     }),
     cmd = ["-F"],
-    entrypoint = ["/usr/sbin/php-fpm8.2"],
+    entrypoint = ["/usr/sbin/php-fpm8.3"],
     os = "linux",
     tags = ["manual"],
     tars = [
@@ -66,6 +66,6 @@ oci_image_index(
 oci_push(
     name = "push",
     image = ":index",
-    remote_tags = ["8.2"],
+    remote_tags = ["8.3"],
     repository = "php-fpm",
 )
