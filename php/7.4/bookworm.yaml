@@ -21,11 +21,15 @@ packages:
   - php7.4-cli
   - php7.4-common
   - php7.4-opcache
+  - php7.4-xml
+  - php7.4-mysql
   - php-pear
+  - php-common
 
   # Dependencies
   - libargon2-1
   - libc6
+  - libffi8
   - libmagic1
   - libpcre2-8-0
   - libsodium23
