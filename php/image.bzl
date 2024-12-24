@@ -1,7 +1,50 @@
 load("@aspect_bazel_lib//lib:tar.bzl", "tar")
 load("@rules_distroless//distroless:defs.bzl", "group", "passwd")
 load("@rules_oci//oci:defs.bzl", "oci_image", "oci_image_index", "oci_push")
+load("@rules_pkg//pkg:mappings.bzl", "pkg_files", "strip_prefix")
+load("@rules_pkg//pkg:tar.bzl", "pkg_tar")
 load("//:transition.bzl", "multi_arch")
+
+PHP_MODULES = {
+    "common": {
+        "10": ["pdo"],
+        "20": [
+            "calendar",
+            "ctype",
+            "exif",
+            "ffi",
+            "fileinfo",
+            "ftp",
+            "gettext",
+            "iconv",
+            "phar",
+            "posix",
+            "shmop",
+            "sockets",
+            "sysvmsg",
+            "sysvem",
+            "sysvshm",
+            "tokenizer",
+        ],
+    },
+    "opcache": {
+        "10": ["opcache"],
+    },
+    "xml": {
+        "15": ["xml"],
+        "20": [
+            "dom",
+            "simplexml",
+            "xmlreader",
+            "xmlwriter",
+            "xsl",
+        ],
+    },
+    "mysql": {
+        "10": ["mysqlnd"],
+        "20": ["mysqli", "pdo_mysql"],
+    },
+}
 
 def php_fpm_image(name, version):
     passwd(
@@ -23,14 +66,28 @@ def php_fpm_image(name, version):
         }],
     )
 
+    pkg_files(
+        name = "{}_fpm-config".format(version),
+        srcs = [":www.conf"],
+        prefix = "etc/php/{}/fpm/pool.d".format(version),
+        strip_prefix = strip_prefix.from_pkg(),
+    )
+
+    pkg_tar(
+        name = "{}_fpm-config.tar".format(version),
+        srcs = [":{}_fpm-config".format(version)],
+    )
+
     tar(
         name = name + "_sh",
-        mtree = [
-            "./bin/php type=link link=/usr/bin/php{}".format(version),
-            "./var/log/php{}-fpm.log type=link link=/dev/stderr".format(version),
-            "./run/php/php{}-fpm.sock type=file".format(version),
-            "./run/php/php-fpm.sock type=link link=/run/php/php{}-fpm.sock".format(version),
-        ],
+        mtree = ["./bin/php type=link link=/usr/bin/php{}".format(version)] +
+                [
+                    "./etc/php/{}/{}/conf.d/{}-{}.ini type=link link=/usr/share/php{}-{}/{}/{}.ini".format(version, engine, priority, mod, version, pkg, pkg, mod)
+                    for pkg in PHP_MODULES
+                    for priority in PHP_MODULES[pkg]
+                    for mod in PHP_MODULES[pkg][priority]
+                    for engine in ["cli", "fpm"]
+                ],
     )
 
     oci_image(
@@ -44,10 +101,11 @@ def php_fpm_image(name, version):
         os = "linux",
         tags = ["manual"],
         tars = [
+            "@php-{}-bookworm//:flat".format(version),
             ":{}_sh".format(name),
             ":{}_passwd".format(name),
             ":{}_group".format(name),
-            "@php-{}-bookworm//:flat".format(version),
+            ":{}_fpm-config.tar".format(version),
         ],
     )
 

@@ -21,11 +21,15 @@ packages:
   - php8.3-cli
   - php8.3-common
   - php8.3-opcache
+  - php8.3-xml
+  - php8.3-mysql 
   - php-pear
+  - php-common
 
   # Dependencies
   - libargon2-1
   - libc6
+  - libffi8
   - libmagic1
   - libpcre2-8-0
   - libsodium23
