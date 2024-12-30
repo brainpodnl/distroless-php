@@ -22,7 +22,8 @@ packages:
   - php8.3-common
   - php8.3-opcache
   - php8.3-xml
-  - php8.3-mysql 
+  - php8.3-mysql
+  - php8.3-intl 
   - php-pear
   - php-common
 

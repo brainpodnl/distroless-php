@@ -23,6 +23,7 @@ packages:
   - php7.4-opcache
   - php7.4-xml
   - php7.4-mysql
+  - php7.4-intl
   - php-pear
   - php-common
 
