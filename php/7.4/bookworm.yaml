@@ -23,6 +23,9 @@ packages:
   - php7.4-opcache
   - php7.4-xml
   - php7.4-mysql
+  - php7.4-intl
+  - php7.4-zip
+  - php7.4-gd
   - php-pear
   - php-common
 
@@ -50,3 +53,7 @@ packages:
   - libzstd1
   - liblz4-1
   - libgpg-error0
+  - libgd3
+  - libxslt1.1
+  - zlib1g-dev
+  - libzip4

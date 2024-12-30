@@ -22,7 +22,10 @@ packages:
   - php8.3-common
   - php8.3-opcache
   - php8.3-xml
-  - php8.3-mysql 
+  - php8.3-mysql
+  - php8.3-intl
+  - php8.3-zip 
+  - php8.3-gd
   - php-pear
   - php-common
 
@@ -50,3 +53,7 @@ packages:
   - libzstd1
   - liblz4-1
   - libgpg-error0
+  - libgd3
+  - libxslt1.1
+  - libzip4
+  - zlib1g-dev
