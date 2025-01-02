@@ -44,6 +44,15 @@ PHP_MODULES = {
         "10": ["mysqlnd"],
         "20": ["mysqli", "pdo_mysql"],
     },
+    "intl": {
+        "20": ["intl"],
+    },
+    "gd": {
+        "20": ["gd"],
+    },
+    "zip": {
+        "20": ["zip"],
+    },
 }
 
 def php_fpm_image(name, version):
