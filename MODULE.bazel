@@ -39,7 +39,6 @@ apt = use_extension(
     name = "php-{}-bookworm".format(version),
     lock = "//php/{}:bookworm.lock.json".format(version),
     manifest = "//php/{}:bookworm.yaml".format(version),
-    resolve_transitive = False,
 ) for version in PHP_VERSIONS]
 
 apt.install(
