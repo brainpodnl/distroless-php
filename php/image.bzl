@@ -53,6 +53,9 @@ PHP_MODULES = {
     "zip": {
         "20": ["zip"],
     },
+    "json": {
+        "20": ["json"],
+    },
 }
 
 def php_fpm_image(name, version):
