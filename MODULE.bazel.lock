@@ -147,9 +147,9 @@
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.3/MODULE.bazel": "af322bc08976524477c79d1e45e241b6efbeb918c497e8840b8ab116802dda79",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.3/source.json": "2be409ac3c7601245958cd4fcdff4288be79ed23bd690b4b951f500d54ee6e7d",
     "https://bcr.bazel.build/modules/zlib/1.3.1/MODULE.bazel": "751c9940dcfe869f5f7274e1295422a34623555916eb98c174c1e945594bf198",
-    "https://raw.githubusercontent.com/brainhivenl/bazel-registry/main/bazel_registry.json": "8a28e4aff06ee60aed2a8c281907fb8bcbf3b753c91fb5a5c57da3215d5b3497",
-    "https://raw.githubusercontent.com/brainhivenl/bazel-registry/main/modules/chrome-linux-sysroot/0.0.1/MODULE.bazel": "44875e092c42e4fb1384d1f17e3a5df629a0db5cc7599c2c10dbdae993e6d346",
-    "https://raw.githubusercontent.com/brainhivenl/bazel-registry/main/modules/chrome-linux-sysroot/0.0.1/source.json": "3a0ab0801ed5902b6c09701d0ee489ec7421c950ecca345fc50c9c0a53643b60"
+    "https://raw.githubusercontent.com/brainhivenl/bazel-registry/52b271e8ef2a9aaa74fda99605f9556f2571fd58/bazel_registry.json": "8a28e4aff06ee60aed2a8c281907fb8bcbf3b753c91fb5a5c57da3215d5b3497",
+    "https://raw.githubusercontent.com/brainhivenl/bazel-registry/52b271e8ef2a9aaa74fda99605f9556f2571fd58/modules/chrome-linux-sysroot/0.0.1/MODULE.bazel": "44875e092c42e4fb1384d1f17e3a5df629a0db5cc7599c2c10dbdae993e6d346",
+    "https://raw.githubusercontent.com/brainhivenl/bazel-registry/52b271e8ef2a9aaa74fda99605f9556f2571fd58/modules/chrome-linux-sysroot/0.0.1/source.json": "3a0ab0801ed5902b6c09701d0ee489ec7421c950ecca345fc50c9c0a53643b60"
   },
   "selectedYankedVersions": {},
   "moduleExtensions": {
