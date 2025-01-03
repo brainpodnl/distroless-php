@@ -31,3 +31,4 @@ packages:
   # Dependencies
   - media-types
   - tzdata
+  - coreutils
