@@ -36,6 +36,7 @@ pkg_files(
     name = "config",
     srcs = [
         ":fastcgi.conf",
+        ":mime.conf",
         ":nginx.conf",
     ],
     prefix = "etc/nginx",
