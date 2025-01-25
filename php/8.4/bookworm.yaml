@@ -1,0 +1,34 @@
+version: 1
+
+sources:
+  - channel: bookworm main contrib
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  - channel: bookworm-security main
+    url: https://snapshot.debian.org/archive/debian-security/20241211T143334Z
+  - channel: bookworm-updates main
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  # Custom PHP versions
+  - channel: bookworm main
+    url: https://packages.sury.org/php
+
+archs:
+  - "amd64"
+  - "arm64"
+
+packages:
+  # Packages
+  - php8.4-fpm
+  - php8.4-cli
+  - php8.4-common
+  - php8.4-opcache
+  - php8.4-xml
+  - php8.4-mysql
+  - php8.4-intl
+  - php8.4-zip
+  - php8.4-gd
+  - php-pear
+
+  # Dependencies
+  - media-types
+  - tzdata
+  - coreutils

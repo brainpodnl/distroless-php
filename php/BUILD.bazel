@@ -1,8 +1,10 @@
 load(":image.bzl", "php_fpm_image")
 
 PHP_VERSIONS = [
+    "7.2",
     "7.4",
     "8.3",
+    "8.4",
 ]
 
 [php_fpm_image(

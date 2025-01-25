@@ -1,0 +1,35 @@
+version: 1
+
+sources:
+  - channel: bookworm main contrib
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  - channel: bookworm-security main
+    url: https://snapshot.debian.org/archive/debian-security/20241211T143334Z
+  - channel: bookworm-updates main
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  # Custom PHP versions
+  - channel: bookworm main
+    url: https://packages.sury.org/php
+
+archs:
+  - "amd64"
+  - "arm64"
+
+packages:
+  # Packages
+  - php7.2-fpm
+  - php7.2-cli
+  - php7.2-common
+  - php7.2-opcache
+  - php7.2-xml
+  - php7.2-mysql
+  - php7.2-intl
+  - php7.2-zip
+  - php7.2-gd
+  - php7.2-json
+  - php-pear
+
+  # Dependencies
+  - media-types
+  - tzdata
+  - coreutils

@@ -16,7 +16,7 @@ git_override(
     remote = "https://github.com/GoogleContainerTools/rules_distroless.git",
 )
 
-PHP_VERSIONS = ["7.4", "8.3"]
+PHP_VERSIONS = ["7.2", "7.4", "8.3", "8.4"]
 
 llvm = use_extension("@toolchains_llvm//toolchain/extensions:llvm.bzl", "llvm")
 llvm.toolchain(
@@ -48,7 +48,7 @@ apt.install(
     resolve_transitive = False,
 )
 
-use_repo(apt, "nginx-bookworm", "php-7.4-bookworm", "php-8.3-bookworm")
+use_repo(apt, "nginx-bookworm", "php-7.2-bookworm", "php-7.4-bookworm", "php-8.3-bookworm", "php-8.4-bookworm")
 
 register_toolchains(
     "@llvm_toolchain//:all",
