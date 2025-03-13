@@ -3273,6 +3273,55 @@
 			"version": "1:2.5.1-4"
 		},
 		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "debconf_1.5.82_amd64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "openssl_3.0.15-1_deb12u1_amd64",
+					"name": "openssl",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "libssl3_3.0.15-1_deb12u1_amd64",
+					"name": "libssl3",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u9_amd64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_amd64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_amd64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				}
+			],
+			"key": "ca-certificates_20230311_amd64",
+			"name": "ca-certificates",
+			"sha256": "5308b9bd88eebe2a48be3168cb3d87677aaec5da9c63ad0cf561a29b8219115c",
+			"url": "https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/c/ca-certificates/ca-certificates_20230311_all.deb",
+			"version": "20230311"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "openssl_3.0.15-1_deb12u1_amd64",
+			"name": "openssl",
+			"sha256": "c9c37660d902f2a43dfbbf619b3f5f413cee298d8f317829e3c11cfff9e174aa",
+			"url": "https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/o/openssl/openssl_3.0.15-1~deb12u1_amd64.deb",
+			"version": "3.0.15-1~deb12u1"
+		},
+		{
 			"arch": "arm64",
 			"dependencies": [
 				{
@@ -6543,6 +6592,55 @@
 			"sha256": "481e1c3fcad6773ba1c9d7f1de59e4fc80d95326c9b20192e13b7111013c932a",
 			"url": "https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/a/attr/libattr1_2.5.1-4_arm64.deb",
 			"version": "1:2.5.1-4"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "debconf_1.5.82_arm64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "openssl_3.0.15-1_deb12u1_arm64",
+					"name": "openssl",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "libssl3_3.0.15-1_deb12u1_arm64",
+					"name": "libssl3",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u9_arm64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_arm64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_arm64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				}
+			],
+			"key": "ca-certificates_20230311_arm64",
+			"name": "ca-certificates",
+			"sha256": "5308b9bd88eebe2a48be3168cb3d87677aaec5da9c63ad0cf561a29b8219115c",
+			"url": "https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/c/ca-certificates/ca-certificates_20230311_all.deb",
+			"version": "20230311"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "openssl_3.0.15-1_deb12u1_arm64",
+			"name": "openssl",
+			"sha256": "28d03482e8c550bd65930bd41af99bbc9bff1125474010ccec9024ceffc39744",
+			"url": "https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/o/openssl/openssl_3.0.15-1~deb12u1_arm64.deb",
+			"version": "3.0.15-1~deb12u1"
 		}
 	],
 	"version": 1
