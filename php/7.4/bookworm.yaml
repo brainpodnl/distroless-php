@@ -34,3 +34,4 @@ packages:
   - media-types
   - tzdata
   - coreutils
+  - ca-certificates
