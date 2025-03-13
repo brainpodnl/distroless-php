@@ -27,6 +27,7 @@ packages:
   - php7.2-zip
   - php7.2-gd
   - php7.2-json
+  - php7.2-curl
   - php-pear
 
   # Dependencies

@@ -26,6 +26,7 @@ packages:
   - php8.4-intl
   - php8.4-zip
   - php8.4-gd
+  - php8.4-curl
   - php-pear
 
   # Dependencies

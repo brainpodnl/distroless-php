@@ -56,6 +56,9 @@ PHP_MODULES = {
     "json": {
         "20": ["json"],
     },
+    "curl": {
+        "20": ["curl"],
+    }
 }
 
 def php_fpm_image(name, version):
