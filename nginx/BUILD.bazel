@@ -33,6 +33,18 @@ tar(
 )
 
 pkg_files(
+    name = "conf.d",
+    srcs = [":default.conf"],
+    prefix = "etc/nginx/conf.d",
+    strip_prefix = strip_prefix.from_pkg(),
+)
+
+pkg_tar(
+    name = "conf.d.tar",
+    srcs = [":conf.d"],
+)
+
+pkg_files(
     name = "config",
     srcs = [
         ":fastcgi.conf",
@@ -66,6 +78,7 @@ oci_image(
         ":passwd",
         ":group",
         ":config.tar",
+        ":conf.d.tar",
         "@nginx-bookworm//:flat",
     ],
 )
