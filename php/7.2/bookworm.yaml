@@ -35,6 +35,7 @@ packages:
   - tzdata
   - coreutils
   - ca-certificates
+  - dash
   - curl
   - wget
   - graphicsmagick-imagemagick-compat
