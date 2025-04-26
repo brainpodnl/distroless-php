@@ -36,5 +36,5 @@ packages:
   - coreutils
   - ca-certificates
   - curl
-  - imagemagick
   - wget
+  - graphicsmagick-imagemagick-compat
