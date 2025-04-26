@@ -34,3 +34,6 @@ packages:
   - tzdata
   - coreutils
   - ca-certificates
+  - curl
+  - imagemagick
+  - wget
