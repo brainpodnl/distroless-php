@@ -27,6 +27,8 @@ packages:
   - php8.4-zip
   - php8.4-gd
   - php8.4-curl
+  - php8.4-redis
+  - php8.4-igbinary
   - php-pear
 
   # Dependencies

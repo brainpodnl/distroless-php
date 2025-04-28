@@ -28,6 +28,8 @@ packages:
   - php7.2-gd
   - php7.2-json
   - php7.2-curl
+  - php7.2-redis
+  - php7.2-igbinary
   - php-pear
 
   # Dependencies

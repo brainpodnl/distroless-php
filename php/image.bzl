@@ -58,8 +58,13 @@ PHP_MODULES = {
     },
     "curl": {
         "20": ["curl"],
-    }
+    },
 }
+
+PHP_EXTRA = [
+    "redis",
+    "igbinary",
+]
 
 def php_fpm_image(name, version):
     passwd(
@@ -102,6 +107,11 @@ def php_fpm_image(name, version):
                     for priority in PHP_MODULES[pkg]
                     for mod in PHP_MODULES[pkg][priority]
                     for engine in ["cli", "fpm"]
+                ] +
+                [
+                    "./etc/php/{}/{}/conf.d/30-{}.ini type=link link=/etc/php/{}/mods-available/{}.ini".format(version, engine, mod, version, mod)
+                    for engine in ["cli", "fpm"]
+                    for mod in PHP_EXTRA
                 ],
     )
 
