@@ -30,6 +30,7 @@ packages:
   - php7.2-curl
   - php7.2-redis
   - php7.2-igbinary
+  - php7.2-soap
   - php-pear
 
   # Dependencies

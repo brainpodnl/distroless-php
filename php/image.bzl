@@ -59,6 +59,9 @@ PHP_MODULES = {
     "curl": {
         "20": ["curl"],
     },
+    "soap": {
+        "20": ["soap"]
+    }
 }
 
 PHP_EXTRA = [

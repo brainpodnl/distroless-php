@@ -29,6 +29,7 @@ packages:
   - php8.4-curl
   - php8.4-redis
   - php8.4-igbinary
+  - php8.4-soap
   - php-pear
 
   # Dependencies
