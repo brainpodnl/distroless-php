@@ -61,7 +61,10 @@ PHP_MODULES = {
     },
     "soap": {
         "20": ["soap"]
-    }
+    },
+    "mbstring": {
+        "20": ["mbstring"],
+    },
 }
 
 PHP_EXTRA = [

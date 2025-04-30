@@ -2995,6 +2995,90 @@
 			"arch": "amd64",
 			"dependencies": [
 				{
+					"key": "libonig5_6.9.8-1_amd64",
+					"name": "libonig5",
+					"version": "6.9.8-1"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u9_amd64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_amd64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_amd64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "php8.3-common_8.3.20-4-p-0_20250414.61-p-debian12_1.gbp1029c4_amd64",
+					"name": "php8.3-common",
+					"version": "8.3.20-4+0~20250414.61+debian12~1.gbp1029c4"
+				},
+				{
+					"key": "libssl3_3.0.15-1_deb12u1_amd64",
+					"name": "libssl3",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "libffi8_3.4.4-1_amd64",
+					"name": "libffi8",
+					"version": "3.4.4-1"
+				},
+				{
+					"key": "ucf_3.0043-p-nmu1_amd64",
+					"name": "ucf",
+					"version": "3.0043+nmu1"
+				},
+				{
+					"key": "sensible-utils_0.0.17-p-nmu1_amd64",
+					"name": "sensible-utils",
+					"version": "0.0.17+nmu1"
+				},
+				{
+					"key": "debconf_1.5.82_amd64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "php-common_2-96-p-0_20250402.56-p-debian12_1.gbp84a5b7_amd64",
+					"name": "php-common",
+					"version": "2:96+0~20250402.56+debian12~1.gbp84a5b7"
+				},
+				{
+					"key": "psmisc_23.6-1_amd64",
+					"name": "psmisc",
+					"version": "23.6-1"
+				},
+				{
+					"key": "libtinfo6_6.4-4_amd64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				}
+			],
+			"key": "php8.3-mbstring_8.3.20-4-p-0_20250414.61-p-debian12_1.gbp1029c4_amd64",
+			"name": "php8.3-mbstring",
+			"sha256": "4eccfc55e46e477cc452d3016ab2c9959bd51fc2e78b4a8a5d5078a7c30386d8",
+			"url": "https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mbstring_8.3.20-4+0~20250414.61+debian12~1.gbp1029c4_amd64.deb",
+			"version": "8.3.20-4+0~20250414.61+debian12~1.gbp1029c4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libonig5_6.9.8-1_amd64",
+			"name": "libonig5",
+			"sha256": "59ecfce6d88c7c4b09496ce182b3b8303e8e8477664e009b16ae83a09cd12be7",
+			"url": "https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libo/libonig/libonig5_6.9.8-1_amd64.deb",
+			"version": "6.9.8-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
 					"key": "php-xml_2-8.4-p-96-p-0_20250402.56-p-debian12_1.gbp84a5b7_amd64",
 					"name": "php-xml",
 					"version": "2:8.4+96+0~20250402.56+debian12~1.gbp84a5b7"
@@ -6867,6 +6951,90 @@
 			"sha256": "37d24a9e77d83879ea51cf53179d3f47cf53fa2357def281f980ba882a92b4af",
 			"url": "https://packages.sury.org/php/pool/main/p/php8.3/php8.3-soap_8.3.20-4+0~20250414.61+debian12~1.gbp1029c4_arm64.deb",
 			"version": "8.3.20-4+0~20250414.61+debian12~1.gbp1029c4"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "libonig5_6.9.8-1_arm64",
+					"name": "libonig5",
+					"version": "6.9.8-1"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u9_arm64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_arm64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_arm64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "php8.3-common_8.3.20-4-p-0_20250414.61-p-debian12_1.gbp1029c4_arm64",
+					"name": "php8.3-common",
+					"version": "8.3.20-4+0~20250414.61+debian12~1.gbp1029c4"
+				},
+				{
+					"key": "libssl3_3.0.15-1_deb12u1_arm64",
+					"name": "libssl3",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "libffi8_3.4.4-1_arm64",
+					"name": "libffi8",
+					"version": "3.4.4-1"
+				},
+				{
+					"key": "ucf_3.0043-p-nmu1_arm64",
+					"name": "ucf",
+					"version": "3.0043+nmu1"
+				},
+				{
+					"key": "sensible-utils_0.0.17-p-nmu1_arm64",
+					"name": "sensible-utils",
+					"version": "0.0.17+nmu1"
+				},
+				{
+					"key": "debconf_1.5.82_arm64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "php-common_2-96-p-0_20250402.56-p-debian12_1.gbp84a5b7_arm64",
+					"name": "php-common",
+					"version": "2:96+0~20250402.56+debian12~1.gbp84a5b7"
+				},
+				{
+					"key": "psmisc_23.6-1_arm64",
+					"name": "psmisc",
+					"version": "23.6-1"
+				},
+				{
+					"key": "libtinfo6_6.4-4_arm64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				}
+			],
+			"key": "php8.3-mbstring_8.3.20-4-p-0_20250414.61-p-debian12_1.gbp1029c4_arm64",
+			"name": "php8.3-mbstring",
+			"sha256": "32a9e82fcd81df08202d457e6934cfcf86507219b55360a4f71f48a56f8d8a2d",
+			"url": "https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mbstring_8.3.20-4+0~20250414.61+debian12~1.gbp1029c4_arm64.deb",
+			"version": "8.3.20-4+0~20250414.61+debian12~1.gbp1029c4"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libonig5_6.9.8-1_arm64",
+			"name": "libonig5",
+			"sha256": "4693ac0f4fc8f2b8b4a7854463a8061a5b0fe7a7c2eb46b9cc21bc4c3adaf1ee",
+			"url": "https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libo/libonig/libonig5_6.9.8-1_arm64.deb",
+			"version": "6.9.8-1"
 		},
 		{
 			"arch": "arm64",

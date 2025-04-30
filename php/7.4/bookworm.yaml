@@ -31,6 +31,7 @@ packages:
   - php7.4-redis
   - php7.4-igbinary
   - php7.4-soap
+  - php7.4-mbstring
   - php-pear
 
   # Dependencies

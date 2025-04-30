@@ -3034,6 +3034,71 @@
 			"arch": "amd64",
 			"dependencies": [
 				{
+					"key": "libc6_2.36-9-p-deb12u9_amd64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_amd64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_amd64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "php7.2-common_7.2.34-54-p-0_20250311.107-p-debian12_1.gbpd6988c_amd64",
+					"name": "php7.2-common",
+					"version": "7.2.34-54+0~20250311.107+debian12~1.gbpd6988c"
+				},
+				{
+					"key": "libssl3_3.0.15-1_deb12u1_amd64",
+					"name": "libssl3",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "ucf_3.0043-p-nmu1_amd64",
+					"name": "ucf",
+					"version": "3.0043+nmu1"
+				},
+				{
+					"key": "sensible-utils_0.0.17-p-nmu1_amd64",
+					"name": "sensible-utils",
+					"version": "0.0.17+nmu1"
+				},
+				{
+					"key": "debconf_1.5.82_amd64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "php-common_2-96-p-0_20250402.56-p-debian12_1.gbp84a5b7_amd64",
+					"name": "php-common",
+					"version": "2:96+0~20250402.56+debian12~1.gbp84a5b7"
+				},
+				{
+					"key": "psmisc_23.6-1_amd64",
+					"name": "psmisc",
+					"version": "23.6-1"
+				},
+				{
+					"key": "libtinfo6_6.4-4_amd64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				}
+			],
+			"key": "php7.2-mbstring_7.2.34-54-p-0_20250311.107-p-debian12_1.gbpd6988c_amd64",
+			"name": "php7.2-mbstring",
+			"sha256": "0fa780ab76821ff3eea526eedc54ee476aee36bb01cefb53c611c9f0c470f6b1",
+			"url": "https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mbstring_7.2.34-54+0~20250311.107+debian12~1.gbpd6988c_amd64.deb",
+			"version": "7.2.34-54+0~20250311.107+debian12~1.gbpd6988c"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
 					"key": "php-xml_2-8.4-p-96-p-0_20250402.56-p-debian12_1.gbp84a5b7_amd64",
 					"name": "php-xml",
 					"version": "2:8.4+96+0~20250402.56+debian12~1.gbp84a5b7"
@@ -6944,6 +7009,71 @@
 			"name": "php7.2-soap",
 			"sha256": "fcc54ffa8bb65cd23b879b941f298286ffe177c7f640020efe4a5530be475b94",
 			"url": "https://packages.sury.org/php/pool/main/p/php7.2/php7.2-soap_7.2.34-54+0~20250311.107+debian12~1.gbpd6988c_arm64.deb",
+			"version": "7.2.34-54+0~20250311.107+debian12~1.gbpd6988c"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "libc6_2.36-9-p-deb12u9_arm64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_arm64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_arm64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "php7.2-common_7.2.34-54-p-0_20250311.107-p-debian12_1.gbpd6988c_arm64",
+					"name": "php7.2-common",
+					"version": "7.2.34-54+0~20250311.107+debian12~1.gbpd6988c"
+				},
+				{
+					"key": "libssl3_3.0.15-1_deb12u1_arm64",
+					"name": "libssl3",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "ucf_3.0043-p-nmu1_arm64",
+					"name": "ucf",
+					"version": "3.0043+nmu1"
+				},
+				{
+					"key": "sensible-utils_0.0.17-p-nmu1_arm64",
+					"name": "sensible-utils",
+					"version": "0.0.17+nmu1"
+				},
+				{
+					"key": "debconf_1.5.82_arm64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "php-common_2-96-p-0_20250402.56-p-debian12_1.gbp84a5b7_arm64",
+					"name": "php-common",
+					"version": "2:96+0~20250402.56+debian12~1.gbp84a5b7"
+				},
+				{
+					"key": "psmisc_23.6-1_arm64",
+					"name": "psmisc",
+					"version": "23.6-1"
+				},
+				{
+					"key": "libtinfo6_6.4-4_arm64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				}
+			],
+			"key": "php7.2-mbstring_7.2.34-54-p-0_20250311.107-p-debian12_1.gbpd6988c_arm64",
+			"name": "php7.2-mbstring",
+			"sha256": "04ab66155cba101920efb333ac7399c87b3a5d101088871cb61fb2b8f6b2b0d1",
+			"url": "https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mbstring_7.2.34-54+0~20250311.107+debian12~1.gbpd6988c_arm64.deb",
 			"version": "7.2.34-54+0~20250311.107+debian12~1.gbpd6988c"
 		},
 		{
