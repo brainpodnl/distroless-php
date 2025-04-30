@@ -30,6 +30,7 @@ packages:
   - php8.4-redis
   - php8.4-igbinary
   - php8.4-soap
+  - php8.4-mbstring
   - php-pear
 
   # Dependencies
