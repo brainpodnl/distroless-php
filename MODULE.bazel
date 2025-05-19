@@ -2,12 +2,12 @@
 
 module(name = "distroless-php")
 
-bazel_dep(name = "rules_oci", version = "2.0.1")
-bazel_dep(name = "rules_pkg", version = "1.0.1")
-bazel_dep(name = "platforms", version = "0.0.10")
-bazel_dep(name = "toolchains_llvm", version = "1.2.0")
+bazel_dep(name = "rules_oci", version = "2.2.6")
+bazel_dep(name = "rules_pkg", version = "1.1.0")
+bazel_dep(name = "platforms", version = "0.0.11")
+bazel_dep(name = "toolchains_llvm", version = "1.4.0")
 bazel_dep(name = "rules_distroless", version = "0.4.2")
-bazel_dep(name = "aspect_bazel_lib", version = "2.10.0")
+bazel_dep(name = "aspect_bazel_lib", version = "2.16.0")
 bazel_dep(name = "chrome-linux-sysroot", version = "0.0.1")
 
 git_override(
@@ -16,7 +16,12 @@ git_override(
     remote = "https://github.com/GoogleContainerTools/rules_distroless.git",
 )
 
-PHP_VERSIONS = ["7.2", "7.4", "8.3", "8.4"]
+PHP_VERSIONS = [
+    "7.2",
+    "7.4",
+    "8.3",
+    "8.4",
+]
 
 llvm = use_extension("@toolchains_llvm//toolchain/extensions:llvm.bzl", "llvm")
 llvm.toolchain(
@@ -35,10 +40,22 @@ apt = use_extension(
     "apt",
 )
 
+apt.install(
+    name = "php-common",
+    lock = "//php:common.lock.json",
+    manifest = "//php:common.yaml",
+)
+
+apt.install(
+    name = "php-wkhtmltopdf",
+    lock = "//php:wkhtmltopdf.lock.json",
+    manifest = "//php:wkhtmltopdf.yaml",
+)
+
 [apt.install(
-    name = "php-{}-bookworm".format(version),
-    lock = "//php/{}:bookworm.lock.json".format(version),
-    manifest = "//php/{}:bookworm.yaml".format(version),
+    name = "php-{}".format(version),
+    lock = "//php/{}:php.lock.json".format(version),
+    manifest = "//php/{}:php.yaml".format(version),
 ) for version in PHP_VERSIONS]
 
 apt.install(
@@ -48,8 +65,4 @@ apt.install(
     resolve_transitive = False,
 )
 
-use_repo(apt, "nginx-bookworm", "php-7.2-bookworm", "php-7.4-bookworm", "php-8.3-bookworm", "php-8.4-bookworm")
-
-register_toolchains(
-    "@llvm_toolchain//:all",
-)
+use_repo(apt, "nginx-bookworm", "php-common", "php-wkhtmltopdf", "php-7.2", "php-7.4", "php-8.3", "php-8.4")

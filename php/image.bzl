@@ -60,7 +60,7 @@ PHP_MODULES = {
         "20": ["curl"],
     },
     "soap": {
-        "20": ["soap"]
+        "20": ["soap"],
     },
     "mbstring": {
         "20": ["mbstring"],
@@ -132,12 +132,16 @@ def php_fpm_image(name, version):
         os = "linux",
         tags = ["manual"],
         tars = [
-            "@php-{}-bookworm//:flat".format(version),
+            "@php-common//:flat",
+            "@php-{}//:flat".format(version),
             ":{}_sh".format(name),
             ":{}_passwd".format(name),
             ":{}_group".format(name),
             ":{}_fpm-config.tar".format(version),
-        ],
+        ] + select({
+            "@platforms//cpu:arm64": [],
+            "@platforms//cpu:x86_64": ["@php-wkhtmltopdf//:flat"],
+        }),
     )
 
     multi_arch(
