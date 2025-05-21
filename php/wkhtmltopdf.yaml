@@ -1,0 +1,16 @@
+version: 1
+
+sources:
+  - channel: bookworm main contrib
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+  - channel: bookworm-security main
+    url: https://snapshot.debian.org/archive/debian-security/20241211T143334Z
+  - channel: bookworm-updates main
+    url: https://snapshot.debian.org/archive/debian/20241211T143334Z
+
+archs:
+  - "amd64"
+
+packages:
+  - xvfb
+  - wkhtmltopdf
