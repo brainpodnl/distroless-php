@@ -1,5 +1,5 @@
 load("@aspect_bazel_lib//lib:tar.bzl", "tar")
-load("@rules_distroless//distroless:defs.bzl", "group", "passwd")
+load("@rules_distroless//distroless:defs.bzl", "group", "passwd", "cacerts")
 load("@rules_oci//oci:defs.bzl", "oci_image", "oci_image_index", "oci_push")
 load("@rules_pkg//pkg:mappings.bzl", "pkg_files", "strip_prefix")
 load("@rules_pkg//pkg:tar.bzl", "pkg_tar")
@@ -105,7 +105,7 @@ def php_fpm_image(name, version):
     )
 
     tar(
-        name = name + "_sh",
+        name = "{}_sh".format(name),
         mtree = ["./bin/php type=link link=/usr/bin/php{}".format(version)] +
                 [
                     "./etc/php/{}/{}/conf.d/{}-{}.ini type=link link=/usr/share/php{}-{}/{}/{}.ini".format(version, engine, priority, mod, version, pkg, pkg, mod)
@@ -119,6 +119,11 @@ def php_fpm_image(name, version):
                     for engine in ["cli", "fpm"]
                     for mod in PHP_EXTRA
                 ],
+    )
+
+    cacerts(
+        name = "{}_cacerts".format(name),
+        package = "@ca-certificates//:data.tar.xz",
     )
 
     oci_image(
@@ -138,6 +143,7 @@ def php_fpm_image(name, version):
             ":{}_passwd".format(name),
             ":{}_group".format(name),
             ":{}_fpm-config.tar".format(version),
+            ":{}_cacerts".format(name),
         ] + select({
             "@platforms//cpu:arm64": [],
             "@platforms//cpu:x86_64": ["@php-wkhtmltopdf//:flat"],

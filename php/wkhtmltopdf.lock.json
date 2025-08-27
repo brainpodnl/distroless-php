@@ -1,4 +1,3131 @@
 {
-  "version": 1,
-  "packages": []
+	"packages": [
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "libxfont2_1-2.0.6-1_amd64",
+					"name": "libxfont2",
+					"version": "1:2.0.6-1"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u9_amd64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_amd64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_amd64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "libfreetype6_2.12.1-p-dfsg-5-p-deb12u3_amd64",
+					"name": "libfreetype6",
+					"version": "2.12.1+dfsg-5+deb12u3"
+				},
+				{
+					"key": "libpng16-16_1.6.39-2_amd64",
+					"name": "libpng16-16",
+					"version": "1.6.39-2"
+				},
+				{
+					"key": "libbrotli1_1.0.9-2-p-b6_amd64",
+					"name": "libbrotli1",
+					"version": "1.0.9-2+b6"
+				},
+				{
+					"key": "libfontenc1_1-1.1.4-1_amd64",
+					"name": "libfontenc1",
+					"version": "1:1.1.4-1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libxdmcp6_1-1.1.2-3_amd64",
+					"name": "libxdmcp6",
+					"version": "1:1.1.2-3"
+				},
+				{
+					"key": "libbsd0_0.11.7-2_amd64",
+					"name": "libbsd0",
+					"version": "0.11.7-2"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libxau6_1-1.0.9-1_amd64",
+					"name": "libxau6",
+					"version": "1:1.0.9-1"
+				},
+				{
+					"key": "libunwind8_1.6.2-3_amd64",
+					"name": "libunwind8",
+					"version": "1.6.2-3"
+				},
+				{
+					"key": "liblzma5_5.4.1-0.2_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-0.2"
+				},
+				{
+					"key": "libelogind0_246.10-1debian1_amd64",
+					"name": "libelogind0",
+					"version": "246.10-1debian1"
+				},
+				{
+					"key": "libcap2_1-2.66-4_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libpixman-1-0_0.42.2-1_amd64",
+					"name": "libpixman-1-0",
+					"version": "0.42.2-1"
+				},
+				{
+					"key": "libgl1_1.6.0-1_amd64",
+					"name": "libgl1",
+					"version": "1.6.0-1"
+				},
+				{
+					"key": "libglx0_1.6.0-1_amd64",
+					"name": "libglx0",
+					"version": "1.6.0-1"
+				},
+				{
+					"key": "libglx-mesa0_22.3.6-1-p-deb12u1_amd64",
+					"name": "libglx-mesa0",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libgl1-mesa-dri_22.3.6-1-p-deb12u1_amd64",
+					"name": "libgl1-mesa-dri",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libxcb-dri3-0_1.15-1_amd64",
+					"name": "libxcb-dri3-0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb1_1.15-1_amd64",
+					"name": "libxcb1",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libstdc-p--p-6_12.2.0-14_amd64",
+					"name": "libstdc++6",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "libsensors5_1-3.6.0-7.1_amd64",
+					"name": "libsensors5",
+					"version": "1:3.6.0-7.1"
+				},
+				{
+					"key": "libsensors-config_1-3.6.0-7.1_amd64",
+					"name": "libsensors-config",
+					"version": "1:3.6.0-7.1"
+				},
+				{
+					"key": "libllvm15_1-15.0.6-4-p-b1_amd64",
+					"name": "libllvm15",
+					"version": "1:15.0.6-4+b1"
+				},
+				{
+					"key": "libz3-4_4.8.12-3.1_amd64",
+					"name": "libz3-4",
+					"version": "4.8.12-3.1"
+				},
+				{
+					"key": "libxml2_2.9.14-p-dfsg-1.3_deb12u1_amd64",
+					"name": "libxml2",
+					"version": "2.9.14+dfsg-1.3~deb12u1"
+				},
+				{
+					"key": "libicu72_72.1-3_amd64",
+					"name": "libicu72",
+					"version": "72.1-3"
+				},
+				{
+					"key": "libtinfo6_6.4-4_amd64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				},
+				{
+					"key": "libffi8_3.4.4-1_amd64",
+					"name": "libffi8",
+					"version": "3.4.4-1"
+				},
+				{
+					"key": "libedit2_3.1-20221030-2_amd64",
+					"name": "libedit2",
+					"version": "3.1-20221030-2"
+				},
+				{
+					"key": "libglapi-mesa_22.3.6-1-p-deb12u1_amd64",
+					"name": "libglapi-mesa",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libexpat1_2.5.0-1-p-deb12u1_amd64",
+					"name": "libexpat1",
+					"version": "2.5.0-1+deb12u1"
+				},
+				{
+					"key": "libelf1_0.188-2.1_amd64",
+					"name": "libelf1",
+					"version": "0.188-2.1"
+				},
+				{
+					"key": "libdrm2_2.4.114-1-p-b1_amd64",
+					"name": "libdrm2",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libdrm-common_2.4.114-1_amd64",
+					"name": "libdrm-common",
+					"version": "2.4.114-1"
+				},
+				{
+					"key": "libdrm-radeon1_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-radeon1",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libdrm-nouveau2_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-nouveau2",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libdrm-intel1_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-intel1",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libpciaccess0_0.17-2_amd64",
+					"name": "libpciaccess0",
+					"version": "0.17-2"
+				},
+				{
+					"key": "libdrm-amdgpu1_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-amdgpu1",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libxxf86vm1_1-1.1.4-1-p-b2_amd64",
+					"name": "libxxf86vm1",
+					"version": "1:1.1.4-1+b2"
+				},
+				{
+					"key": "libxext6_2-1.3.4-1-p-b1_amd64",
+					"name": "libxext6",
+					"version": "2:1.3.4-1+b1"
+				},
+				{
+					"key": "libx11-6_2-1.8.4-2-p-deb12u2_amd64",
+					"name": "libx11-6",
+					"version": "2:1.8.4-2+deb12u2"
+				},
+				{
+					"key": "libx11-data_2-1.8.4-2-p-deb12u2_amd64",
+					"name": "libx11-data",
+					"version": "2:1.8.4-2+deb12u2"
+				},
+				{
+					"key": "libxshmfence1_1.3-1_amd64",
+					"name": "libxshmfence1",
+					"version": "1.3-1"
+				},
+				{
+					"key": "libxfixes3_1-6.0.0-2_amd64",
+					"name": "libxfixes3",
+					"version": "1:6.0.0-2"
+				},
+				{
+					"key": "libxcb-xfixes0_1.15-1_amd64",
+					"name": "libxcb-xfixes0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-sync1_1.15-1_amd64",
+					"name": "libxcb-sync1",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-shm0_1.15-1_amd64",
+					"name": "libxcb-shm0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-randr0_1.15-1_amd64",
+					"name": "libxcb-randr0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-present0_1.15-1_amd64",
+					"name": "libxcb-present0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-glx0_1.15-1_amd64",
+					"name": "libxcb-glx0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-dri2-0_1.15-1_amd64",
+					"name": "libxcb-dri2-0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libx11-xcb1_2-1.8.4-2-p-deb12u2_amd64",
+					"name": "libx11-xcb1",
+					"version": "2:1.8.4-2+deb12u2"
+				},
+				{
+					"key": "libglvnd0_1.6.0-1_amd64",
+					"name": "libglvnd0",
+					"version": "1.6.0-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libaudit1_1-3.0.9-1_amd64",
+					"name": "libaudit1",
+					"version": "1:3.0.9-1"
+				},
+				{
+					"key": "libcap-ng0_0.8.3-1-p-b3_amd64",
+					"name": "libcap-ng0",
+					"version": "0.8.3-1+b3"
+				},
+				{
+					"key": "libaudit-common_1-3.0.9-1_amd64",
+					"name": "libaudit-common",
+					"version": "1:3.0.9-1"
+				},
+				{
+					"key": "xserver-common_2-21.1.7-3-p-deb12u8_amd64",
+					"name": "xserver-common",
+					"version": "2:21.1.7-3+deb12u8"
+				},
+				{
+					"key": "x11-xkb-utils_7.7-p-7_amd64",
+					"name": "x11-xkb-utils",
+					"version": "7.7+7"
+				},
+				{
+					"key": "libxt6_1-1.2.1-1.1_amd64",
+					"name": "libxt6",
+					"version": "1:1.2.1-1.1"
+				},
+				{
+					"key": "libsm6_2-1.2.3-1_amd64",
+					"name": "libsm6",
+					"version": "2:1.2.3-1"
+				},
+				{
+					"key": "libuuid1_2.38.1-5-p-deb12u2_amd64",
+					"name": "libuuid1",
+					"version": "2.38.1-5+deb12u2"
+				},
+				{
+					"key": "libice6_2-1.0.10-1_amd64",
+					"name": "libice6",
+					"version": "2:1.0.10-1"
+				},
+				{
+					"key": "x11-common_1-7.7-p-23_amd64",
+					"name": "x11-common",
+					"version": "1:7.7+23"
+				},
+				{
+					"key": "lsb-base_11.6_amd64",
+					"name": "lsb-base",
+					"version": "11.6"
+				},
+				{
+					"key": "sysvinit-utils_3.06-4_amd64",
+					"name": "sysvinit-utils",
+					"version": "3.06-4"
+				},
+				{
+					"key": "libxrandr2_2-1.5.2-2-p-b1_amd64",
+					"name": "libxrandr2",
+					"version": "2:1.5.2-2+b1"
+				},
+				{
+					"key": "libxrender1_1-0.9.10-1.1_amd64",
+					"name": "libxrender1",
+					"version": "1:0.9.10-1.1"
+				},
+				{
+					"key": "libxkbfile1_1-1.1.0-1_amd64",
+					"name": "libxkbfile1",
+					"version": "1:1.1.0-1"
+				},
+				{
+					"key": "libxaw7_2-1.0.14-1_amd64",
+					"name": "libxaw7",
+					"version": "2:1.0.14-1"
+				},
+				{
+					"key": "libxpm4_1-3.5.12-1.1-p-deb12u1_amd64",
+					"name": "libxpm4",
+					"version": "1:3.5.12-1.1+deb12u1"
+				},
+				{
+					"key": "libxmu6_2-1.1.3-3_amd64",
+					"name": "libxmu6",
+					"version": "2:1.1.3-3"
+				},
+				{
+					"key": "xkb-data_2.35.1-1_amd64",
+					"name": "xkb-data",
+					"version": "2.35.1-1"
+				}
+			],
+			"key": "xvfb_2-21.1.7-3-p-deb12u8_amd64",
+			"name": "xvfb",
+			"sha256": "c52513ed0077680fdb2e7930c53ef0e9fdea3478a6551cfa9a355104da920e02",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/x/xorg-server/xvfb_21.1.7-3+deb12u8_amd64.deb"
+			],
+			"version": "2:21.1.7-3+deb12u8"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxfont2_1-2.0.6-1_amd64",
+			"name": "libxfont2",
+			"sha256": "79b19a4170c015607096613e726a07dc5e55a516bf79adc770a883d4aec20d87",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxfont/libxfont2_2.0.6-1_amd64.deb"
+			],
+			"version": "1:2.0.6-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+			"name": "zlib1g",
+			"sha256": "d7dd1d1411fedf27f5e27650a6eff20ef294077b568f4c8c5e51466dc7c08ce4",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_amd64.deb"
+			],
+			"version": "1:1.2.13.dfsg-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libc6_2.36-9-p-deb12u9_amd64",
+			"name": "libc6",
+			"sha256": "3a043b9dbf1a8c8b5a9e2268253e6dca8c7d431bd7a202fea96364abf374fea9",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/glibc/libc6_2.36-9+deb12u9_amd64.deb"
+			],
+			"version": "2.36-9+deb12u9"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgcc-s1_12.2.0-14_amd64",
+			"name": "libgcc-s1",
+			"sha256": "f3d1d48c0599aea85b7f2077a01d285badc42998c1a1e7473935d5cf995c8141",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/gcc-12/libgcc-s1_12.2.0-14_amd64.deb"
+			],
+			"version": "12.2.0-14"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "gcc-12-base_12.2.0-14_amd64",
+			"name": "gcc-12-base",
+			"sha256": "1a03df5a57833d65b5bb08cfa19d50e76f29088dc9e64fb934af42d9023a0807",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/gcc-12/gcc-12-base_12.2.0-14_amd64.deb"
+			],
+			"version": "12.2.0-14"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libfreetype6_2.12.1-p-dfsg-5-p-deb12u3_amd64",
+			"name": "libfreetype6",
+			"sha256": "f79b7088a7690b831c2494789d2d59248198b4ec49471f86f0cba9d6eb2db43a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/f/freetype/libfreetype6_2.12.1+dfsg-5+deb12u3_amd64.deb"
+			],
+			"version": "2.12.1+dfsg-5+deb12u3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libpng16-16_1.6.39-2_amd64",
+			"name": "libpng16-16",
+			"sha256": "dc32727dca9a87ba317da7989572011669f568d10159b9d8675ed7aedd26d686",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libp/libpng1.6/libpng16-16_1.6.39-2_amd64.deb"
+			],
+			"version": "1.6.39-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libbrotli1_1.0.9-2-p-b6_amd64",
+			"name": "libbrotli1",
+			"sha256": "563b4caec1aa5e876bd3355b36e7a38e1484baf5a293b48d1e8bd22db786e4d7",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/b/brotli/libbrotli1_1.0.9-2+b6_amd64.deb"
+			],
+			"version": "1.0.9-2+b6"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libfontenc1_1-1.1.4-1_amd64",
+			"name": "libfontenc1",
+			"sha256": "1d0aa6ea16a34a8de1ea170360c4cb699f3239aeddb292df2d2c4eb6e835de4b",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libf/libfontenc/libfontenc1_1.1.4-1_amd64.deb"
+			],
+			"version": "1:1.1.4-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+			"name": "libbz2-1.0",
+			"sha256": "54149da3f44b22d523b26b692033b84503d822cc5122fed606ea69cc83ca5aeb",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/b/bzip2/libbz2-1.0_1.0.8-5+b1_amd64.deb"
+			],
+			"version": "1.0.8-5+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxdmcp6_1-1.1.2-3_amd64",
+			"name": "libxdmcp6",
+			"sha256": "ecb8536f5fb34543b55bb9dc5f5b14c9dbb4150a7bddb3f2287b7cab6e9d25ef",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxdmcp/libxdmcp6_1.1.2-3_amd64.deb"
+			],
+			"version": "1:1.1.2-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libbsd0_0.11.7-2_amd64",
+			"name": "libbsd0",
+			"sha256": "bb31cc8b40f962a85b2cec970f7f79cc704a1ae4bad24257a822055404b2c60b",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libb/libbsd/libbsd0_0.11.7-2_amd64.deb"
+			],
+			"version": "0.11.7-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libmd0_1.0.4-2_amd64",
+			"name": "libmd0",
+			"sha256": "03539fd30c509e27101d13a56e52eda9062bdf1aefe337c07ab56def25a13eab",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libm/libmd/libmd0_1.0.4-2_amd64.deb"
+			],
+			"version": "1.0.4-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxau6_1-1.0.9-1_amd64",
+			"name": "libxau6",
+			"sha256": "679db1c4579ec7c61079adeaae8528adeb2e4bf5465baa6c56233b995d714750",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxau/libxau6_1.0.9-1_amd64.deb"
+			],
+			"version": "1:1.0.9-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libunwind8_1.6.2-3_amd64",
+			"name": "libunwind8",
+			"sha256": "7b297868682836e4c87be349f17e4a56bc287586e3576503e84a5cb5485ce925",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libu/libunwind/libunwind8_1.6.2-3_amd64.deb"
+			],
+			"version": "1.6.2-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "liblzma5_5.4.1-0.2_amd64",
+			"name": "liblzma5",
+			"sha256": "d4b7736e58512a2b047f9cb91b71db5a3cf9d3451192fc6da044c77bf51fe869",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xz-utils/liblzma5_5.4.1-0.2_amd64.deb"
+			],
+			"version": "5.4.1-0.2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libelogind0_246.10-1debian1_amd64",
+			"name": "libelogind0",
+			"sha256": "f1853367a30f1c7fbe7caa2cb94aec6967f98c136b1661e4b5155d63e8c4294c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/e/elogind/libelogind0_246.10-1debian1_amd64.deb"
+			],
+			"version": "246.10-1debian1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libcap2_1-2.66-4_amd64",
+			"name": "libcap2",
+			"sha256": "b36fefe9867f9e59b540f952e957a72ebdc241e997179d826da19a9511ade4a3",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libc/libcap2/libcap2_2.66-4_amd64.deb"
+			],
+			"version": "1:2.66-4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libselinux1_3.4-1-p-b6_amd64",
+			"name": "libselinux1",
+			"sha256": "2b07f5287b9105f40158b56e4d70cc1652dac56a408f3507b4ab3d061eed425f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libs/libselinux/libselinux1_3.4-1+b6_amd64.deb"
+			],
+			"version": "3.4-1+b6"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libpcre2-8-0_10.42-1_amd64",
+			"name": "libpcre2-8-0",
+			"sha256": "030db54f4d76cdfe2bf0e8eb5f9efea0233ab3c7aa942d672c7b63b52dbaf935",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/p/pcre2/libpcre2-8-0_10.42-1_amd64.deb"
+			],
+			"version": "10.42-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libpixman-1-0_0.42.2-1_amd64",
+			"name": "libpixman-1-0",
+			"sha256": "9ed75ef81b6b1eba9e1357f8b0ce01d31112b0e07b2b685bee2cf627a8932892",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/p/pixman/libpixman-1-0_0.42.2-1_amd64.deb"
+			],
+			"version": "0.42.2-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgl1_1.6.0-1_amd64",
+			"name": "libgl1",
+			"sha256": "6f89b1702c48e9a2437bb3c1ffac8e1ab2d828fc28b3d14b2eecd4cc19b2c790",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libg/libglvnd/libgl1_1.6.0-1_amd64.deb"
+			],
+			"version": "1.6.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libglx0_1.6.0-1_amd64",
+			"name": "libglx0",
+			"sha256": "95f568df73dedf43ae66834a75502112e0d4f3ad7124f3dbfa790b739383b896",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libg/libglvnd/libglx0_1.6.0-1_amd64.deb"
+			],
+			"version": "1.6.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libglx-mesa0_22.3.6-1-p-deb12u1_amd64",
+			"name": "libglx-mesa0",
+			"sha256": "6d0da356b1aaf73f85233773bb41506cc84e4744aedc69ef1db92848956de621",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/m/mesa/libglx-mesa0_22.3.6-1+deb12u1_amd64.deb"
+			],
+			"version": "22.3.6-1+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgl1-mesa-dri_22.3.6-1-p-deb12u1_amd64",
+			"name": "libgl1-mesa-dri",
+			"sha256": "2c3fbfb89a8eadf6a82836b2443bc4d9578cb83847daf37cf6ab6074daf4fcda",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/m/mesa/libgl1-mesa-dri_22.3.6-1+deb12u1_amd64.deb"
+			],
+			"version": "22.3.6-1+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+			"name": "libzstd1",
+			"sha256": "6315b5ac38b724a710fb96bf1042019398cb656718b1522279a5185ed39318fa",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libz/libzstd/libzstd1_1.5.4+dfsg2-5_amd64.deb"
+			],
+			"version": "1.5.4+dfsg2-5"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-dri3-0_1.15-1_amd64",
+			"name": "libxcb-dri3-0",
+			"sha256": "02699b144b9467de8636d27a76984b8f4e7b66e2d25d96df2b9677be86ee9a29",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-dri3-0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb1_1.15-1_amd64",
+			"name": "libxcb1",
+			"sha256": "fdc61332a3892168f3cc9cfa1fe9cf11a91dc3e0acacbc47cbc50ebaa234cc71",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb1_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libstdc-p--p-6_12.2.0-14_amd64",
+			"name": "libstdc++6",
+			"sha256": "9b1b269020cec6aced3b39f096f7b67edd1f0d4ab24f412cb6506d0800e19cbf",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/gcc-12/libstdc++6_12.2.0-14_amd64.deb"
+			],
+			"version": "12.2.0-14"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libsensors5_1-3.6.0-7.1_amd64",
+			"name": "libsensors5",
+			"sha256": "b7eb91dce728fbb9203aec8b22637303b29821c3384e5f78a8ff348b4e44efe3",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/l/lm-sensors/libsensors5_3.6.0-7.1_amd64.deb"
+			],
+			"version": "1:3.6.0-7.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libsensors-config_1-3.6.0-7.1_amd64",
+			"name": "libsensors-config",
+			"sha256": "7f3c9fbd822858a9e30335e4a7f66c9468962eb26cd375b93bc8b789660bf02f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/l/lm-sensors/libsensors-config_3.6.0-7.1_all.deb"
+			],
+			"version": "1:3.6.0-7.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libllvm15_1-15.0.6-4-p-b1_amd64",
+			"name": "libllvm15",
+			"sha256": "9f0751109ba89e65b1313a4f3e34a29977a0db6fa30ed475e2c6bd555fa9e866",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/l/llvm-toolchain-15/libllvm15_15.0.6-4+b1_amd64.deb"
+			],
+			"version": "1:15.0.6-4+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libz3-4_4.8.12-3.1_amd64",
+			"name": "libz3-4",
+			"sha256": "6221ca25ad5abcfbe1965801029d85a88b4775320384b4b716de8fab7a4d2f7a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/z/z3/libz3-4_4.8.12-3.1_amd64.deb"
+			],
+			"version": "4.8.12-3.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxml2_2.9.14-p-dfsg-1.3_deb12u1_amd64",
+			"name": "libxml2",
+			"sha256": "35b76cb7038fc1c940204a4f05f33ffb79d027353ce469397d9adcf8f9b3e1a7",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxml2/libxml2_2.9.14+dfsg-1.3~deb12u1_amd64.deb"
+			],
+			"version": "2.9.14+dfsg-1.3~deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libicu72_72.1-3_amd64",
+			"name": "libicu72",
+			"sha256": "e239c1c9f52bee0ff627f291552d63691b765ec7c5cdf6de7c7ae4dec0275857",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/i/icu/libicu72_72.1-3_amd64.deb"
+			],
+			"version": "72.1-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libtinfo6_6.4-4_amd64",
+			"name": "libtinfo6",
+			"sha256": "072d908f38f51090ca28ca5afa3b46b2957dc61fe35094c0b851426859a49a51",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/n/ncurses/libtinfo6_6.4-4_amd64.deb"
+			],
+			"version": "6.4-4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libffi8_3.4.4-1_amd64",
+			"name": "libffi8",
+			"sha256": "6d9f6c25c30efccce6d4bceaa48ea86c329a3432abb360a141f76ac223a4c34a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libf/libffi/libffi8_3.4.4-1_amd64.deb"
+			],
+			"version": "3.4.4-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libedit2_3.1-20221030-2_amd64",
+			"name": "libedit2",
+			"sha256": "1cf14abf2716d3279db12d0657a5737cf70074a1e71d3bdf73206625e3c89ce6",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libe/libedit/libedit2_3.1-20221030-2_amd64.deb"
+			],
+			"version": "3.1-20221030-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libglapi-mesa_22.3.6-1-p-deb12u1_amd64",
+			"name": "libglapi-mesa",
+			"sha256": "fda45e2e2980cc8fd8e12e401460a702e6f990952549adda5608c2f901c3199c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/m/mesa/libglapi-mesa_22.3.6-1+deb12u1_amd64.deb"
+			],
+			"version": "22.3.6-1+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libexpat1_2.5.0-1-p-deb12u1_amd64",
+			"name": "libexpat1",
+			"sha256": "c2bd305125bcece5816b2521f293a99499d674cd2dd744416caa4952158ad99d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/e/expat/libexpat1_2.5.0-1+deb12u1_amd64.deb"
+			],
+			"version": "2.5.0-1+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libelf1_0.188-2.1_amd64",
+			"name": "libelf1",
+			"sha256": "619add379c606b3ac6c1a175853b918e6939598a83d8ebadf3bdfd50d10b3c8c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/e/elfutils/libelf1_0.188-2.1_amd64.deb"
+			],
+			"version": "0.188-2.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdrm2_2.4.114-1-p-b1_amd64",
+			"name": "libdrm2",
+			"sha256": "be18fb670797ba32da9628cf3e8acd83160d8db8c8dd842501dd8e401c3b5371",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libd/libdrm/libdrm2_2.4.114-1+b1_amd64.deb"
+			],
+			"version": "2.4.114-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdrm-common_2.4.114-1_amd64",
+			"name": "libdrm-common",
+			"sha256": "32f9664138b38b224383c6986457d5ad2ec8efd559b1a0ce7749405f7a451aad",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libd/libdrm/libdrm-common_2.4.114-1_all.deb"
+			],
+			"version": "2.4.114-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdrm-radeon1_2.4.114-1-p-b1_amd64",
+			"name": "libdrm-radeon1",
+			"sha256": "2da3a9233187f995ad5a3e6db3d37252ea7209f0ca9605484d03478ebcc15feb",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libd/libdrm/libdrm-radeon1_2.4.114-1+b1_amd64.deb"
+			],
+			"version": "2.4.114-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdrm-nouveau2_2.4.114-1-p-b1_amd64",
+			"name": "libdrm-nouveau2",
+			"sha256": "ba59bb9ec6e1baf59fc4d4eb095a524e40d045af2413dad9d28df517005388b6",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libd/libdrm/libdrm-nouveau2_2.4.114-1+b1_amd64.deb"
+			],
+			"version": "2.4.114-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdrm-intel1_2.4.114-1-p-b1_amd64",
+			"name": "libdrm-intel1",
+			"sha256": "b0e39318d14c07f4d85668b6da7f66a1341addf87a47d785c34d5a8b393f544c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libd/libdrm/libdrm-intel1_2.4.114-1+b1_amd64.deb"
+			],
+			"version": "2.4.114-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libpciaccess0_0.17-2_amd64",
+			"name": "libpciaccess0",
+			"sha256": "4025f3608cf431c163efb94fdc553e7b93e16b8f0d741ea87762e19025ffc80e",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libp/libpciaccess/libpciaccess0_0.17-2_amd64.deb"
+			],
+			"version": "0.17-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdrm-amdgpu1_2.4.114-1-p-b1_amd64",
+			"name": "libdrm-amdgpu1",
+			"sha256": "b75a71e96f1faac0f131ac657e09efcbe8968eef62cc34b8abfcff2ff9f0cccd",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libd/libdrm/libdrm-amdgpu1_2.4.114-1+b1_amd64.deb"
+			],
+			"version": "2.4.114-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxxf86vm1_1-1.1.4-1-p-b2_amd64",
+			"name": "libxxf86vm1",
+			"sha256": "6f4ca916aaec26d7000fa7f58de3f71119309ab7590ce1f517abfe1825a676c7",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxxf86vm/libxxf86vm1_1.1.4-1+b2_amd64.deb"
+			],
+			"version": "1:1.1.4-1+b2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxext6_2-1.3.4-1-p-b1_amd64",
+			"name": "libxext6",
+			"sha256": "504b7be9d7df4f6f4519e8dd4d6f9d03a9fb911a78530fa23a692fba3058cba6",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxext/libxext6_1.3.4-1+b1_amd64.deb"
+			],
+			"version": "2:1.3.4-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libx11-6_2-1.8.4-2-p-deb12u2_amd64",
+			"name": "libx11-6",
+			"sha256": "d88c973e79fd9b65838d77624142952757e47a6eb1a58602acf0911cf35989f4",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/libx/libx11/libx11-6_1.8.4-2+deb12u2_amd64.deb"
+			],
+			"version": "2:1.8.4-2+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libx11-data_2-1.8.4-2-p-deb12u2_amd64",
+			"name": "libx11-data",
+			"sha256": "987a848aeb1c358e4186368871b0526f10bb14c6b53214ab3bf8b69abb830191",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/libx/libx11/libx11-data_1.8.4-2+deb12u2_all.deb"
+			],
+			"version": "2:1.8.4-2+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxshmfence1_1.3-1_amd64",
+			"name": "libxshmfence1",
+			"sha256": "1a38142e40e3d32dc4f9a326bf5617363b7d9b4bb762fdcdd262f2192092024d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxshmfence/libxshmfence1_1.3-1_amd64.deb"
+			],
+			"version": "1.3-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxfixes3_1-6.0.0-2_amd64",
+			"name": "libxfixes3",
+			"sha256": "1cd616396ff2ecae77e6e8b5b7695d414f0146de2d147837a2a02165f99e1a2c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxfixes/libxfixes3_6.0.0-2_amd64.deb"
+			],
+			"version": "1:6.0.0-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-xfixes0_1.15-1_amd64",
+			"name": "libxcb-xfixes0",
+			"sha256": "d744a7ebad2cbcf301c96cd6a1ab3ee856e436fc7be5cff5b7c28ac2ac181a64",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-xfixes0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-sync1_1.15-1_amd64",
+			"name": "libxcb-sync1",
+			"sha256": "3366ce715220d38dd0148b78a8e738137bade25ef7eec0698850c6f66800844f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-sync1_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-shm0_1.15-1_amd64",
+			"name": "libxcb-shm0",
+			"sha256": "c1afcef29dc78b95c475159b181b28b1dedaf1d5aa06efd2fa6d90c73bfbe0e5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-shm0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-randr0_1.15-1_amd64",
+			"name": "libxcb-randr0",
+			"sha256": "f86e3d8ff8622871008833e9d064919b7a6237399c903c59fc330ff00f199ff5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-randr0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-present0_1.15-1_amd64",
+			"name": "libxcb-present0",
+			"sha256": "89383e627a4d17b9390d609b2459481bfd2029566367b43068586769e418b6e5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-present0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-glx0_1.15-1_amd64",
+			"name": "libxcb-glx0",
+			"sha256": "1bce55fc292d93fa5f7fa50f84cef99ec29be70d0ffe98e86b8008e59f4a34fa",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-glx0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-dri2-0_1.15-1_amd64",
+			"name": "libxcb-dri2-0",
+			"sha256": "ef4959aa9e09a0d38d1de432e747585129d5d2dc1d84c8b6b3d2ffc3708b5805",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-dri2-0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libx11-xcb1_2-1.8.4-2-p-deb12u2_amd64",
+			"name": "libx11-xcb1",
+			"sha256": "f5da45e1d881a793250a96613f28c471a248877f1a0f18a5c90e2a620a76c898",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/libx/libx11/libx11-xcb1_1.8.4-2+deb12u2_amd64.deb"
+			],
+			"version": "2:1.8.4-2+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libglvnd0_1.6.0-1_amd64",
+			"name": "libglvnd0",
+			"sha256": "b6da5b153dd62d8b5e5fbe25242db1fc05c068707c365db49abda8c2427c75f8",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libg/libglvnd/libglvnd0_1.6.0-1_amd64.deb"
+			],
+			"version": "1.6.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgcrypt20_1.10.1-3_amd64",
+			"name": "libgcrypt20",
+			"sha256": "bffcac7e4f69e39d37d4a33e841d6371ac8b5aba6cd55546b385dc7ff6c702f5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libg/libgcrypt20/libgcrypt20_1.10.1-3_amd64.deb"
+			],
+			"version": "1.10.1-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgpg-error0_1.46-1_amd64",
+			"name": "libgpg-error0",
+			"sha256": "89944ee11d7370ce6ef46fc52f094c4a6512eff8943ec4c6ebefeae6360ceada",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libg/libgpg-error/libgpg-error0_1.46-1_amd64.deb"
+			],
+			"version": "1.46-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libaudit1_1-3.0.9-1_amd64",
+			"name": "libaudit1",
+			"sha256": "30954df4b5a7c505661ba8ae5e6ea94f5805e408899fb400783bb166eb5ff306",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/a/audit/libaudit1_3.0.9-1_amd64.deb"
+			],
+			"version": "1:3.0.9-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libcap-ng0_0.8.3-1-p-b3_amd64",
+			"name": "libcap-ng0",
+			"sha256": "b4b54769c77e4a71c8b33aee4d600ba28a9994a1c6f60d55d4ebe7fc44882e07",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libc/libcap-ng/libcap-ng0_0.8.3-1+b3_amd64.deb"
+			],
+			"version": "0.8.3-1+b3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libaudit-common_1-3.0.9-1_amd64",
+			"name": "libaudit-common",
+			"sha256": "17d0341ca6ce604ce59c296780ac2c2a24141a769823c50669af942c025e6591",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/a/audit/libaudit-common_3.0.9-1_all.deb"
+			],
+			"version": "1:3.0.9-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "xserver-common_2-21.1.7-3-p-deb12u8_amd64",
+			"name": "xserver-common",
+			"sha256": "82be0840168b1c39a9d670559bd68479dc275bb8ba30b24ea6e48ad98da33aaf",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/x/xorg-server/xserver-common_21.1.7-3+deb12u8_all.deb"
+			],
+			"version": "2:21.1.7-3+deb12u8"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "x11-xkb-utils_7.7-p-7_amd64",
+			"name": "x11-xkb-utils",
+			"sha256": "b25970e444fadf4717e5624bc2a2eecef785d09d731b571da8d43f5297b43b12",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/x11-xkb-utils/x11-xkb-utils_7.7+7_amd64.deb"
+			],
+			"version": "7.7+7"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxt6_1-1.2.1-1.1_amd64",
+			"name": "libxt6",
+			"sha256": "f736fe003286af34935460662f52d32267703d6a1931580ca01641aedf00e8dd",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxt/libxt6_1.2.1-1.1_amd64.deb"
+			],
+			"version": "1:1.2.1-1.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libsm6_2-1.2.3-1_amd64",
+			"name": "libsm6",
+			"sha256": "22a420890489023346f30fecef14ea900a0788e7bf959ef826aabb83944fccfb",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libs/libsm/libsm6_1.2.3-1_amd64.deb"
+			],
+			"version": "2:1.2.3-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libuuid1_2.38.1-5-p-deb12u2_amd64",
+			"name": "libuuid1",
+			"sha256": "e0391f372ef2fe78497d1d82271dfdf813e49c620de45604785a6f9f3ef84e7b",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/u/util-linux/libuuid1_2.38.1-5+deb12u2_amd64.deb"
+			],
+			"version": "2.38.1-5+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libice6_2-1.0.10-1_amd64",
+			"name": "libice6",
+			"sha256": "452796e565c9d42386bd59990000ae9c37d85e142e00ee2b14df0787e2bbf970",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libi/libice/libice6_1.0.10-1_amd64.deb"
+			],
+			"version": "2:1.0.10-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "x11-common_1-7.7-p-23_amd64",
+			"name": "x11-common",
+			"sha256": "fc97c2f4495eb33a77501c7960928c0d2001e5c4b2aa438f1713e2082c23bacd",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xorg/x11-common_7.7+23_all.deb"
+			],
+			"version": "1:7.7+23"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "lsb-base_11.6_amd64",
+			"name": "lsb-base",
+			"sha256": "f8bedd167280e76636df3a1bc023cd2906d458916c1af4c1d7912c5b971fc642",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/l/lsb/lsb-base_11.6_all.deb"
+			],
+			"version": "11.6"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "sysvinit-utils_3.06-4_amd64",
+			"name": "sysvinit-utils",
+			"sha256": "11790842108768ec52432ea22e7b4f057232813b7c27ef6dfe1aba776a5cb90e",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/s/sysvinit/sysvinit-utils_3.06-4_amd64.deb"
+			],
+			"version": "3.06-4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxrandr2_2-1.5.2-2-p-b1_amd64",
+			"name": "libxrandr2",
+			"sha256": "e2e10b672085ddf1d294cd689ed21bde5899325fd13626c2614b7d7b2d49a808",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxrandr/libxrandr2_1.5.2-2+b1_amd64.deb"
+			],
+			"version": "2:1.5.2-2+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxrender1_1-0.9.10-1.1_amd64",
+			"name": "libxrender1",
+			"sha256": "b2a6d160578f359220101947c8d67059b44704a251e688de1d0b744fefedfd1a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxrender/libxrender1_0.9.10-1.1_amd64.deb"
+			],
+			"version": "1:0.9.10-1.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxkbfile1_1-1.1.0-1_amd64",
+			"name": "libxkbfile1",
+			"sha256": "7c58d9986f918b71568ad83dbb6f4ab22c185f243461d41acee920cc5e13d347",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxkbfile/libxkbfile1_1.1.0-1_amd64.deb"
+			],
+			"version": "1:1.1.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxaw7_2-1.0.14-1_amd64",
+			"name": "libxaw7",
+			"sha256": "b208ae00c4ce66f0ef59a23ddaf9f9a84127c412e9f10a3817e34a095be6b72a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxaw/libxaw7_1.0.14-1_amd64.deb"
+			],
+			"version": "2:1.0.14-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxpm4_1-3.5.12-1.1-p-deb12u1_amd64",
+			"name": "libxpm4",
+			"sha256": "505400598dcda712380f2e4a73b09b015a3fedf78bd874f6429622c448e249f9",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/libx/libxpm/libxpm4_3.5.12-1.1+deb12u1_amd64.deb"
+			],
+			"version": "1:3.5.12-1.1+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxmu6_2-1.1.3-3_amd64",
+			"name": "libxmu6",
+			"sha256": "821e1cdd50bb64cf7429802f709f5d063c71ba745f12b4c7fcbcf022403fb0b0",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxmu/libxmu6_1.1.3-3_amd64.deb"
+			],
+			"version": "2:1.1.3-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "xkb-data_2.35.1-1_amd64",
+			"name": "xkb-data",
+			"sha256": "28a79c61b785f403da93af58c39aed13c022032935e3e54362c6707169cfe982",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xkeyboard-config/xkb-data_2.35.1-1_all.deb"
+			],
+			"version": "2.35.1-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "libstdc-p--p-6_12.2.0-14_amd64",
+					"name": "libstdc++6",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14_amd64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u9_amd64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u9"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14_amd64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14"
+				},
+				{
+					"key": "libqt5widgets5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+					"name": "libqt5widgets5",
+					"version": "5.15.8+dfsg-11+deb12u2"
+				},
+				{
+					"key": "libqt5core5a_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+					"name": "libqt5core5a",
+					"version": "5.15.8+dfsg-11+deb12u2"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libpcre2-16-0_10.42-1_amd64",
+					"name": "libpcre2-16-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libicu72_72.1-3_amd64",
+					"name": "libicu72",
+					"version": "72.1-3"
+				},
+				{
+					"key": "libglib2.0-0_2.74.6-2-p-deb12u4_amd64",
+					"name": "libglib2.0-0",
+					"version": "2.74.6-2+deb12u4"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libmount1_2.38.1-5-p-deb12u2_amd64",
+					"name": "libmount1",
+					"version": "2.38.1-5+deb12u2"
+				},
+				{
+					"key": "libblkid1_2.38.1-5-p-deb12u2_amd64",
+					"name": "libblkid1",
+					"version": "2.38.1-5+deb12u2"
+				},
+				{
+					"key": "libffi8_3.4.4-1_amd64",
+					"name": "libffi8",
+					"version": "3.4.4-1"
+				},
+				{
+					"key": "libdouble-conversion3_3.2.1-1_amd64",
+					"name": "libdouble-conversion3",
+					"version": "3.2.1-1"
+				},
+				{
+					"key": "shared-mime-info_2.2-1_amd64",
+					"name": "shared-mime-info",
+					"version": "2.2-1"
+				},
+				{
+					"key": "libxml2_2.9.14-p-dfsg-1.3_deb12u1_amd64",
+					"name": "libxml2",
+					"version": "2.9.14+dfsg-1.3~deb12u1"
+				},
+				{
+					"key": "liblzma5_5.4.1-0.2_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-0.2"
+				},
+				{
+					"key": "libqt5gui5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+					"name": "libqt5gui5",
+					"version": "5.15.8+dfsg-11+deb12u2"
+				},
+				{
+					"key": "libxrender1_1-0.9.10-1.1_amd64",
+					"name": "libxrender1",
+					"version": "1:0.9.10-1.1"
+				},
+				{
+					"key": "libx11-6_2-1.8.4-2-p-deb12u2_amd64",
+					"name": "libx11-6",
+					"version": "2:1.8.4-2+deb12u2"
+				},
+				{
+					"key": "libx11-data_2-1.8.4-2-p-deb12u2_amd64",
+					"name": "libx11-data",
+					"version": "2:1.8.4-2+deb12u2"
+				},
+				{
+					"key": "libxcb1_1.15-1_amd64",
+					"name": "libxcb1",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxdmcp6_1-1.1.2-3_amd64",
+					"name": "libxdmcp6",
+					"version": "1:1.1.2-3"
+				},
+				{
+					"key": "libbsd0_0.11.7-2_amd64",
+					"name": "libbsd0",
+					"version": "0.11.7-2"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libxau6_1-1.0.9-1_amd64",
+					"name": "libxau6",
+					"version": "1:1.0.9-1"
+				},
+				{
+					"key": "libxkbcommon0_1.5.0-1_amd64",
+					"name": "libxkbcommon0",
+					"version": "1.5.0-1"
+				},
+				{
+					"key": "xkb-data_2.35.1-1_amd64",
+					"name": "xkb-data",
+					"version": "2.35.1-1"
+				},
+				{
+					"key": "libxkbcommon-x11-0_1.5.0-1_amd64",
+					"name": "libxkbcommon-x11-0",
+					"version": "1.5.0-1"
+				},
+				{
+					"key": "libxcb-xkb1_1.15-1_amd64",
+					"name": "libxcb-xkb1",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-xinput0_1.15-1_amd64",
+					"name": "libxcb-xinput0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-xinerama0_1.15-1_amd64",
+					"name": "libxcb-xinerama0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-xfixes0_1.15-1_amd64",
+					"name": "libxcb-xfixes0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-sync1_1.15-1_amd64",
+					"name": "libxcb-sync1",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-shm0_1.15-1_amd64",
+					"name": "libxcb-shm0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-shape0_1.15-1_amd64",
+					"name": "libxcb-shape0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-render0_1.15-1_amd64",
+					"name": "libxcb-render0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-render-util0_0.3.9-1-p-b1_amd64",
+					"name": "libxcb-render-util0",
+					"version": "0.3.9-1+b1"
+				},
+				{
+					"key": "libxcb-randr0_1.15-1_amd64",
+					"name": "libxcb-randr0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-keysyms1_0.4.0-1-p-b2_amd64",
+					"name": "libxcb-keysyms1",
+					"version": "0.4.0-1+b2"
+				},
+				{
+					"key": "libxcb-image0_0.4.0-2_amd64",
+					"name": "libxcb-image0",
+					"version": "0.4.0-2"
+				},
+				{
+					"key": "libxcb-util1_0.4.0-1-p-b1_amd64",
+					"name": "libxcb-util1",
+					"version": "0.4.0-1+b1"
+				},
+				{
+					"key": "libxcb-icccm4_0.4.1-1.1_amd64",
+					"name": "libxcb-icccm4",
+					"version": "0.4.1-1.1"
+				},
+				{
+					"key": "libxcb-glx0_1.15-1_amd64",
+					"name": "libxcb-glx0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libx11-xcb1_2-1.8.4-2-p-deb12u2_amd64",
+					"name": "libx11-xcb1",
+					"version": "2:1.8.4-2+deb12u2"
+				},
+				{
+					"key": "libudev1_252.31-1_deb12u1_amd64",
+					"name": "libudev1",
+					"version": "252.31-1~deb12u1"
+				},
+				{
+					"key": "libsm6_2-1.2.3-1_amd64",
+					"name": "libsm6",
+					"version": "2:1.2.3-1"
+				},
+				{
+					"key": "libuuid1_2.38.1-5-p-deb12u2_amd64",
+					"name": "libuuid1",
+					"version": "2.38.1-5+deb12u2"
+				},
+				{
+					"key": "libice6_2-1.0.10-1_amd64",
+					"name": "libice6",
+					"version": "2:1.0.10-1"
+				},
+				{
+					"key": "x11-common_1-7.7-p-23_amd64",
+					"name": "x11-common",
+					"version": "1:7.7+23"
+				},
+				{
+					"key": "lsb-base_11.6_amd64",
+					"name": "lsb-base",
+					"version": "11.6"
+				},
+				{
+					"key": "sysvinit-utils_3.06-4_amd64",
+					"name": "sysvinit-utils",
+					"version": "3.06-4"
+				},
+				{
+					"key": "libqt5network5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+					"name": "libqt5network5",
+					"version": "5.15.8+dfsg-11+deb12u2"
+				},
+				{
+					"key": "libqt5dbus5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+					"name": "libqt5dbus5",
+					"version": "5.15.8+dfsg-11+deb12u2"
+				},
+				{
+					"key": "libdbus-1-3_1.14.10-1_deb12u1_amd64",
+					"name": "libdbus-1-3",
+					"version": "1.14.10-1~deb12u1"
+				},
+				{
+					"key": "libelogind0_246.10-1debian1_amd64",
+					"name": "libelogind0",
+					"version": "246.10-1debian1"
+				},
+				{
+					"key": "libcap2_1-2.66-4_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4"
+				},
+				{
+					"key": "libgssapi-krb5-2_1.20.1-2-p-deb12u2_amd64",
+					"name": "libgssapi-krb5-2",
+					"version": "1.20.1-2+deb12u2"
+				},
+				{
+					"key": "libkrb5support0_1.20.1-2-p-deb12u2_amd64",
+					"name": "libkrb5support0",
+					"version": "1.20.1-2+deb12u2"
+				},
+				{
+					"key": "libkrb5-3_1.20.1-2-p-deb12u2_amd64",
+					"name": "libkrb5-3",
+					"version": "1.20.1-2+deb12u2"
+				},
+				{
+					"key": "libssl3_3.0.15-1_deb12u1_amd64",
+					"name": "libssl3",
+					"version": "3.0.15-1~deb12u1"
+				},
+				{
+					"key": "libkeyutils1_1.6.3-2_amd64",
+					"name": "libkeyutils1",
+					"version": "1.6.3-2"
+				},
+				{
+					"key": "libk5crypto3_1.20.1-2-p-deb12u2_amd64",
+					"name": "libk5crypto3",
+					"version": "1.20.1-2+deb12u2"
+				},
+				{
+					"key": "libcom-err2_1.47.0-2_amd64",
+					"name": "libcom-err2",
+					"version": "1.47.0-2"
+				},
+				{
+					"key": "libpng16-16_1.6.39-2_amd64",
+					"name": "libpng16-16",
+					"version": "1.6.39-2"
+				},
+				{
+					"key": "libmtdev1_1.1.6-1_amd64",
+					"name": "libmtdev1",
+					"version": "1.1.6-1"
+				},
+				{
+					"key": "libmd4c0_0.4.8-1_amd64",
+					"name": "libmd4c0",
+					"version": "0.4.8-1"
+				},
+				{
+					"key": "libjpeg62-turbo_1-2.1.5-2_amd64",
+					"name": "libjpeg62-turbo",
+					"version": "1:2.1.5-2"
+				},
+				{
+					"key": "libinput10_1.22.1-1_amd64",
+					"name": "libinput10",
+					"version": "1.22.1-1"
+				},
+				{
+					"key": "libinput-bin_1.22.1-1_amd64",
+					"name": "libinput-bin",
+					"version": "1.22.1-1"
+				},
+				{
+					"key": "libwacom9_2.6.0-1_amd64",
+					"name": "libwacom9",
+					"version": "2.6.0-1"
+				},
+				{
+					"key": "libwacom-common_2.6.0-1_amd64",
+					"name": "libwacom-common",
+					"version": "2.6.0-1"
+				},
+				{
+					"key": "libgudev-1.0-0_237-2_amd64",
+					"name": "libgudev-1.0-0",
+					"version": "237-2"
+				},
+				{
+					"key": "libevdev2_1.13.0-p-dfsg-1_amd64",
+					"name": "libevdev2",
+					"version": "1.13.0+dfsg-1"
+				},
+				{
+					"key": "libharfbuzz0b_6.0.0-p-dfsg-3_amd64",
+					"name": "libharfbuzz0b",
+					"version": "6.0.0+dfsg-3"
+				},
+				{
+					"key": "libgraphite2-3_1.3.14-1_amd64",
+					"name": "libgraphite2-3",
+					"version": "1.3.14-1"
+				},
+				{
+					"key": "libfreetype6_2.12.1-p-dfsg-5-p-deb12u3_amd64",
+					"name": "libfreetype6",
+					"version": "2.12.1+dfsg-5+deb12u3"
+				},
+				{
+					"key": "libbrotli1_1.0.9-2-p-b6_amd64",
+					"name": "libbrotli1",
+					"version": "1.0.9-2+b6"
+				},
+				{
+					"key": "libgl1_1.6.0-1_amd64",
+					"name": "libgl1",
+					"version": "1.6.0-1"
+				},
+				{
+					"key": "libglx0_1.6.0-1_amd64",
+					"name": "libglx0",
+					"version": "1.6.0-1"
+				},
+				{
+					"key": "libglx-mesa0_22.3.6-1-p-deb12u1_amd64",
+					"name": "libglx-mesa0",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libgl1-mesa-dri_22.3.6-1-p-deb12u1_amd64",
+					"name": "libgl1-mesa-dri",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libxcb-dri3-0_1.15-1_amd64",
+					"name": "libxcb-dri3-0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libsensors5_1-3.6.0-7.1_amd64",
+					"name": "libsensors5",
+					"version": "1:3.6.0-7.1"
+				},
+				{
+					"key": "libsensors-config_1-3.6.0-7.1_amd64",
+					"name": "libsensors-config",
+					"version": "1:3.6.0-7.1"
+				},
+				{
+					"key": "libllvm15_1-15.0.6-4-p-b1_amd64",
+					"name": "libllvm15",
+					"version": "1:15.0.6-4+b1"
+				},
+				{
+					"key": "libz3-4_4.8.12-3.1_amd64",
+					"name": "libz3-4",
+					"version": "4.8.12-3.1"
+				},
+				{
+					"key": "libtinfo6_6.4-4_amd64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				},
+				{
+					"key": "libedit2_3.1-20221030-2_amd64",
+					"name": "libedit2",
+					"version": "3.1-20221030-2"
+				},
+				{
+					"key": "libglapi-mesa_22.3.6-1-p-deb12u1_amd64",
+					"name": "libglapi-mesa",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libexpat1_2.5.0-1-p-deb12u1_amd64",
+					"name": "libexpat1",
+					"version": "2.5.0-1+deb12u1"
+				},
+				{
+					"key": "libelf1_0.188-2.1_amd64",
+					"name": "libelf1",
+					"version": "0.188-2.1"
+				},
+				{
+					"key": "libdrm2_2.4.114-1-p-b1_amd64",
+					"name": "libdrm2",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libdrm-common_2.4.114-1_amd64",
+					"name": "libdrm-common",
+					"version": "2.4.114-1"
+				},
+				{
+					"key": "libdrm-radeon1_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-radeon1",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libdrm-nouveau2_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-nouveau2",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libdrm-intel1_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-intel1",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libpciaccess0_0.17-2_amd64",
+					"name": "libpciaccess0",
+					"version": "0.17-2"
+				},
+				{
+					"key": "libdrm-amdgpu1_2.4.114-1-p-b1_amd64",
+					"name": "libdrm-amdgpu1",
+					"version": "2.4.114-1+b1"
+				},
+				{
+					"key": "libxxf86vm1_1-1.1.4-1-p-b2_amd64",
+					"name": "libxxf86vm1",
+					"version": "1:1.1.4-1+b2"
+				},
+				{
+					"key": "libxext6_2-1.3.4-1-p-b1_amd64",
+					"name": "libxext6",
+					"version": "2:1.3.4-1+b1"
+				},
+				{
+					"key": "libxshmfence1_1.3-1_amd64",
+					"name": "libxshmfence1",
+					"version": "1.3-1"
+				},
+				{
+					"key": "libxfixes3_1-6.0.0-2_amd64",
+					"name": "libxfixes3",
+					"version": "1:6.0.0-2"
+				},
+				{
+					"key": "libxcb-present0_1.15-1_amd64",
+					"name": "libxcb-present0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libxcb-dri2-0_1.15-1_amd64",
+					"name": "libxcb-dri2-0",
+					"version": "1.15-1"
+				},
+				{
+					"key": "libglvnd0_1.6.0-1_amd64",
+					"name": "libglvnd0",
+					"version": "1.6.0-1"
+				},
+				{
+					"key": "libgbm1_22.3.6-1-p-deb12u1_amd64",
+					"name": "libgbm1",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libwayland-server0_1.21.0-1_amd64",
+					"name": "libwayland-server0",
+					"version": "1.21.0-1"
+				},
+				{
+					"key": "libfontconfig1_2.14.1-4_amd64",
+					"name": "libfontconfig1",
+					"version": "2.14.1-4"
+				},
+				{
+					"key": "fontconfig-config_2.14.1-4_amd64",
+					"name": "fontconfig-config",
+					"version": "2.14.1-4"
+				},
+				{
+					"key": "fonts-dejavu-core_2.37-6_amd64",
+					"name": "fonts-dejavu-core",
+					"version": "2.37-6"
+				},
+				{
+					"key": "debconf_1.5.82_amd64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "libegl1_1.6.0-1_amd64",
+					"name": "libegl1",
+					"version": "1.6.0-1"
+				},
+				{
+					"key": "libegl-mesa0_22.3.6-1-p-deb12u1_amd64",
+					"name": "libegl-mesa0",
+					"version": "22.3.6-1+deb12u1"
+				},
+				{
+					"key": "libwayland-client0_1.21.0-1_amd64",
+					"name": "libwayland-client0",
+					"version": "1.21.0-1"
+				},
+				{
+					"key": "fontconfig_2.14.1-4_amd64",
+					"name": "fontconfig",
+					"version": "2.14.1-4"
+				},
+				{
+					"key": "libqt5webkit5_5.212.0_alpha4-30_amd64",
+					"name": "libqt5webkit5",
+					"version": "5.212.0~alpha4-30"
+				},
+				{
+					"key": "libqt5qml5_5.15.8-p-dfsg-3_amd64",
+					"name": "libqt5qml5",
+					"version": "5.15.8+dfsg-3"
+				},
+				{
+					"key": "libxslt1.1_1.1.35-1_amd64",
+					"name": "libxslt1.1",
+					"version": "1.1.35-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libwoff1_1.0.2-2_amd64",
+					"name": "libwoff1",
+					"version": "1.0.2-2"
+				},
+				{
+					"key": "libwebp7_1.2.4-0.2-p-deb12u1_amd64",
+					"name": "libwebp7",
+					"version": "1.2.4-0.2+deb12u1"
+				},
+				{
+					"key": "libsqlite3-0_3.40.1-2-p-deb12u1_amd64",
+					"name": "libsqlite3-0",
+					"version": "3.40.1-2+deb12u1"
+				},
+				{
+					"key": "libqt5webchannel5_5.15.8-2_amd64",
+					"name": "libqt5webchannel5",
+					"version": "5.15.8-2"
+				},
+				{
+					"key": "libqt5sensors5_5.15.8-2_amd64",
+					"name": "libqt5sensors5",
+					"version": "5.15.8-2"
+				},
+				{
+					"key": "libqt5quick5_5.15.8-p-dfsg-3_amd64",
+					"name": "libqt5quick5",
+					"version": "5.15.8+dfsg-3"
+				},
+				{
+					"key": "libqt5qmlmodels5_5.15.8-p-dfsg-3_amd64",
+					"name": "libqt5qmlmodels5",
+					"version": "5.15.8+dfsg-3"
+				},
+				{
+					"key": "libqt5printsupport5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+					"name": "libqt5printsupport5",
+					"version": "5.15.8+dfsg-11+deb12u2"
+				},
+				{
+					"key": "libcups2_2.4.2-3-p-deb12u8_amd64",
+					"name": "libcups2",
+					"version": "2.4.2-3+deb12u8"
+				},
+				{
+					"key": "libgnutls30_3.7.9-2-p-deb12u3_amd64",
+					"name": "libgnutls30",
+					"version": "3.7.9-2+deb12u3"
+				},
+				{
+					"key": "libunistring2_1.0-2_amd64",
+					"name": "libunistring2",
+					"version": "1.0-2"
+				},
+				{
+					"key": "libtasn1-6_4.19.0-2_amd64",
+					"name": "libtasn1-6",
+					"version": "4.19.0-2"
+				},
+				{
+					"key": "libp11-kit0_0.24.1-2_amd64",
+					"name": "libp11-kit0",
+					"version": "0.24.1-2"
+				},
+				{
+					"key": "libnettle8_3.8.1-2_amd64",
+					"name": "libnettle8",
+					"version": "3.8.1-2"
+				},
+				{
+					"key": "libidn2-0_2.3.3-1-p-b1_amd64",
+					"name": "libidn2-0",
+					"version": "2.3.3-1+b1"
+				},
+				{
+					"key": "libhogweed6_3.8.1-2_amd64",
+					"name": "libhogweed6",
+					"version": "3.8.1-2"
+				},
+				{
+					"key": "libgmp10_2-6.2.1-p-dfsg1-1.1_amd64",
+					"name": "libgmp10",
+					"version": "2:6.2.1+dfsg1-1.1"
+				},
+				{
+					"key": "libavahi-common3_0.8-10_amd64",
+					"name": "libavahi-common3",
+					"version": "0.8-10"
+				},
+				{
+					"key": "libavahi-common-data_0.8-10_amd64",
+					"name": "libavahi-common-data",
+					"version": "0.8-10"
+				},
+				{
+					"key": "libavahi-client3_0.8-10_amd64",
+					"name": "libavahi-client3",
+					"version": "0.8-10"
+				},
+				{
+					"key": "libqt5positioning5_5.15.8-p-dfsg-3-p-deb12u1_amd64",
+					"name": "libqt5positioning5",
+					"version": "5.15.8+dfsg-3+deb12u1"
+				},
+				{
+					"key": "libhyphen0_2.8.8-7_amd64",
+					"name": "libhyphen0",
+					"version": "2.8.8-7"
+				},
+				{
+					"key": "libgstreamer1.0-0_1.22.0-2_amd64",
+					"name": "libgstreamer1.0-0",
+					"version": "1.22.0-2"
+				},
+				{
+					"key": "libcap2-bin_1-2.66-4_amd64",
+					"name": "libcap2-bin",
+					"version": "1:2.66-4"
+				},
+				{
+					"key": "libunwind8_1.6.2-3_amd64",
+					"name": "libunwind8",
+					"version": "1.6.2-3"
+				},
+				{
+					"key": "libdw1_0.188-2.1_amd64",
+					"name": "libdw1",
+					"version": "0.188-2.1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libgstreamer-plugins-base1.0-0_1.22.0-3-p-deb12u2_amd64",
+					"name": "libgstreamer-plugins-base1.0-0",
+					"version": "1.22.0-3+deb12u2"
+				},
+				{
+					"key": "iso-codes_4.15.0-1_amd64",
+					"name": "iso-codes",
+					"version": "4.15.0-1"
+				},
+				{
+					"key": "liborc-0.4-0_1-0.4.33-2_amd64",
+					"name": "liborc-0.4-0",
+					"version": "1:0.4.33-2"
+				},
+				{
+					"key": "dpkg_1.21.22_amd64",
+					"name": "dpkg",
+					"version": "1.21.22"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libqt5svg5_5.15.8-3_amd64",
+					"name": "libqt5svg5",
+					"version": "5.15.8-3"
+				}
+			],
+			"key": "wkhtmltopdf_0.12.6-2-p-b1_amd64",
+			"name": "wkhtmltopdf",
+			"sha256": "a1121e24ae47613f3eaa9f38ba61b93e9b22e2c034158e2af2928570456209af",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/w/wkhtmltopdf/wkhtmltopdf_0.12.6-2+b1_amd64.deb"
+			],
+			"version": "0.12.6-2+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5widgets5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+			"name": "libqt5widgets5",
+			"sha256": "83ae1ce407e9da43c69307f8b71050e3630fc54a32d613ac89f6f97e9acefb89",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtbase-opensource-src/libqt5widgets5_5.15.8+dfsg-11+deb12u2_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-11+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5core5a_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+			"name": "libqt5core5a",
+			"sha256": "7c85203160fc4eece5a9b085d3305003ce9c3ec087fe89a9f99b1a3911a48963",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtbase-opensource-src/libqt5core5a_5.15.8+dfsg-11+deb12u2_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-11+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libpcre2-16-0_10.42-1_amd64",
+			"name": "libpcre2-16-0",
+			"sha256": "53892097cf102ecd8f133ccd3f1f6be6f288c6ffeeeacf6ce081dfee15292675",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/p/pcre2/libpcre2-16-0_10.42-1_amd64.deb"
+			],
+			"version": "10.42-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libglib2.0-0_2.74.6-2-p-deb12u4_amd64",
+			"name": "libglib2.0-0",
+			"sha256": "8a7ece380c8d2c8c91e70474abecce6202ead6b5a8128b03165815ca3a50f078",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/glib2.0/libglib2.0-0_2.74.6-2+deb12u4_amd64.deb"
+			],
+			"version": "2.74.6-2+deb12u4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libmount1_2.38.1-5-p-deb12u2_amd64",
+			"name": "libmount1",
+			"sha256": "b10b8c2758fba10116af506938e4bbfb50b1c9a620a17fc8d7d89ce01b891add",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/u/util-linux/libmount1_2.38.1-5+deb12u2_amd64.deb"
+			],
+			"version": "2.38.1-5+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libblkid1_2.38.1-5-p-deb12u2_amd64",
+			"name": "libblkid1",
+			"sha256": "f9720847f25ada9f4e94abe6ed5e3d47924c418f3d23b8c0d1208bd13d57df47",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/u/util-linux/libblkid1_2.38.1-5+deb12u2_amd64.deb"
+			],
+			"version": "2.38.1-5+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdouble-conversion3_3.2.1-1_amd64",
+			"name": "libdouble-conversion3",
+			"sha256": "802b880ed900e4a8d54bab77b7551a7f3408b04891c3e5650fdc2368cc1fbc0a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/d/double-conversion/libdouble-conversion3_3.2.1-1_amd64.deb"
+			],
+			"version": "3.2.1-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "shared-mime-info_2.2-1_amd64",
+			"name": "shared-mime-info",
+			"sha256": "dd026add873483566faefebbd8779a1e5e14ab2e44682ebfe238c3828a2b936b",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/s/shared-mime-info/shared-mime-info_2.2-1_amd64.deb"
+			],
+			"version": "2.2-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5gui5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+			"name": "libqt5gui5",
+			"sha256": "a0768966c8d4be2d1d4a99014fe48423c7a571451cee9823a5c508dea783fc3d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtbase-opensource-src/libqt5gui5_5.15.8+dfsg-11+deb12u2_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-11+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxkbcommon0_1.5.0-1_amd64",
+			"name": "libxkbcommon0",
+			"sha256": "e3fe045b9a33a101de1c5a912a4a10928db055c3f68930f47eccbb44d7c7d54e",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxkbcommon/libxkbcommon0_1.5.0-1_amd64.deb"
+			],
+			"version": "1.5.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxkbcommon-x11-0_1.5.0-1_amd64",
+			"name": "libxkbcommon-x11-0",
+			"sha256": "9b34d760f0ca0f125419a6becc6492c489f0371953ef42caad3401199a497ff5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxkbcommon/libxkbcommon-x11-0_1.5.0-1_amd64.deb"
+			],
+			"version": "1.5.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-xkb1_1.15-1_amd64",
+			"name": "libxcb-xkb1",
+			"sha256": "1dc2f0de8576b1855b451a7e2a7163ecb5be08f8384f49655414714b48f6fa1b",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-xkb1_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-xinput0_1.15-1_amd64",
+			"name": "libxcb-xinput0",
+			"sha256": "d11dc7b5f9d2addadea1e76d60551d95cc4c73a7eac7cbc0d62360e4e188c0ea",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-xinput0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-xinerama0_1.15-1_amd64",
+			"name": "libxcb-xinerama0",
+			"sha256": "2932300acae42ebc22e026e1abf0c8926621dae5a6b7a3eb400aace88b4ec22c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-xinerama0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-shape0_1.15-1_amd64",
+			"name": "libxcb-shape0",
+			"sha256": "e0d0e31db4d72e2f7246d40edc6bd75e0249ae3138839e60a268db7da40a6ae2",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-shape0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-render0_1.15-1_amd64",
+			"name": "libxcb-render0",
+			"sha256": "29c32cc76be9393f409378be79a0f534b9f07dea06ae52fa80a7f27e298de239",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxcb/libxcb-render0_1.15-1_amd64.deb"
+			],
+			"version": "1.15-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-render-util0_0.3.9-1-p-b1_amd64",
+			"name": "libxcb-render-util0",
+			"sha256": "be4b38a63e65c84e2f1322f044d05a9baa677e0f3dc68b742a0a109a3ff40ae9",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xcb-util-renderutil/libxcb-render-util0_0.3.9-1+b1_amd64.deb"
+			],
+			"version": "0.3.9-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-keysyms1_0.4.0-1-p-b2_amd64",
+			"name": "libxcb-keysyms1",
+			"sha256": "aed1436db9a3e63b10d00c4ed16248b5c82b5dd2963a83a761f406af65eb4b49",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xcb-util-keysyms/libxcb-keysyms1_0.4.0-1+b2_amd64.deb"
+			],
+			"version": "0.4.0-1+b2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-image0_0.4.0-2_amd64",
+			"name": "libxcb-image0",
+			"sha256": "a475522faef7672ca065fdcd2594bc755bfcc4d819909f9d944e8c002b4460d1",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xcb-util-image/libxcb-image0_0.4.0-2_amd64.deb"
+			],
+			"version": "0.4.0-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-util1_0.4.0-1-p-b1_amd64",
+			"name": "libxcb-util1",
+			"sha256": "4c48af51fb2ac1be0490067e7450aeda27bf6c6c395165de02199eee4835336f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xcb-util/libxcb-util1_0.4.0-1+b1_amd64.deb"
+			],
+			"version": "0.4.0-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxcb-icccm4_0.4.1-1.1_amd64",
+			"name": "libxcb-icccm4",
+			"sha256": "f323194cb04cd4e5ae064fafec39db6dcf8a431cbd65a0bc53fa6c359862d8ff",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/x/xcb-util-wm/libxcb-icccm4_0.4.1-1.1_amd64.deb"
+			],
+			"version": "0.4.1-1.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libudev1_252.31-1_deb12u1_amd64",
+			"name": "libudev1",
+			"sha256": "08ace9bea5a30a924680a55a3b1342fb35d382dc7966c5d082ecbdd52d51ee06",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/s/systemd/libudev1_252.31-1~deb12u1_amd64.deb"
+			],
+			"version": "252.31-1~deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5network5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+			"name": "libqt5network5",
+			"sha256": "2971b91a76bb5a9b97c809ed30b13b51ee25e233a8b29677a33142087b40d372",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtbase-opensource-src/libqt5network5_5.15.8+dfsg-11+deb12u2_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-11+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5dbus5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+			"name": "libqt5dbus5",
+			"sha256": "cb6c58767a85db5704a8da09521f6dd2c11912ebdab9c847994c3944bf83bc93",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtbase-opensource-src/libqt5dbus5_5.15.8+dfsg-11+deb12u2_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-11+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdbus-1-3_1.14.10-1_deb12u1_amd64",
+			"name": "libdbus-1-3",
+			"sha256": "18ee0ce5fab9f7b671e87da1e9fa18660e36e04a3402f24bdb8635e0ba1d35f6",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/d/dbus/libdbus-1-3_1.14.10-1~deb12u1_amd64.deb"
+			],
+			"version": "1.14.10-1~deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgssapi-krb5-2_1.20.1-2-p-deb12u2_amd64",
+			"name": "libgssapi-krb5-2",
+			"sha256": "454eb2ecb79e03682b176f04a54b8820ccf8868c074995d96fb6f4736f546cec",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/k/krb5/libgssapi-krb5-2_1.20.1-2+deb12u2_amd64.deb"
+			],
+			"version": "1.20.1-2+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libkrb5support0_1.20.1-2-p-deb12u2_amd64",
+			"name": "libkrb5support0",
+			"sha256": "3bb1a8f9cfdd31f92e0cdd0a040c738a2de0d343afe7f830850e3ab7695e649c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/k/krb5/libkrb5support0_1.20.1-2+deb12u2_amd64.deb"
+			],
+			"version": "1.20.1-2+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libkrb5-3_1.20.1-2-p-deb12u2_amd64",
+			"name": "libkrb5-3",
+			"sha256": "9ce3d67db89417e1539f33a62ce85959dc96e3865ecad77606e2af1e6680d6da",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/k/krb5/libkrb5-3_1.20.1-2+deb12u2_amd64.deb"
+			],
+			"version": "1.20.1-2+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libssl3_3.0.15-1_deb12u1_amd64",
+			"name": "libssl3",
+			"sha256": "d7897e6c55a8d9e229dcf16b0b1d472d7f7be741b2b3b2ac624908ff63215a93",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/o/openssl/libssl3_3.0.15-1~deb12u1_amd64.deb"
+			],
+			"version": "3.0.15-1~deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libkeyutils1_1.6.3-2_amd64",
+			"name": "libkeyutils1",
+			"sha256": "cfac89e6a7a54ff3c6a4f843310e25efeddaa771baeae470bd98bd588c373563",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/k/keyutils/libkeyutils1_1.6.3-2_amd64.deb"
+			],
+			"version": "1.6.3-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libk5crypto3_1.20.1-2-p-deb12u2_amd64",
+			"name": "libk5crypto3",
+			"sha256": "de8ae0c2bb31c926b24c374c1159e8b8d5f9817421f45dd29f22cd201982ee3d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/k/krb5/libk5crypto3_1.20.1-2+deb12u2_amd64.deb"
+			],
+			"version": "1.20.1-2+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libcom-err2_1.47.0-2_amd64",
+			"name": "libcom-err2",
+			"sha256": "8010e4285276bb344c05ae780deae2fffb45e237116c3a78481365c5954125ec",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/e/e2fsprogs/libcom-err2_1.47.0-2_amd64.deb"
+			],
+			"version": "1.47.0-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libmtdev1_1.1.6-1_amd64",
+			"name": "libmtdev1",
+			"sha256": "176590c0ce393dd492ecb5e21ed338f629e5f38074341860086dbf3315af514d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/m/mtdev/libmtdev1_1.1.6-1_amd64.deb"
+			],
+			"version": "1.1.6-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libmd4c0_0.4.8-1_amd64",
+			"name": "libmd4c0",
+			"sha256": "ac234f1f12bec2ce96df7cc9bbd25f84426cb0c6b76cdf04afe165e9f820b4f4",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/m/md4c/libmd4c0_0.4.8-1_amd64.deb"
+			],
+			"version": "0.4.8-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libjpeg62-turbo_1-2.1.5-2_amd64",
+			"name": "libjpeg62-turbo",
+			"sha256": "95ec30140789a342add8f8371ed018924de51b539056522b66f207b25cba9cad",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_2.1.5-2_amd64.deb"
+			],
+			"version": "1:2.1.5-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libinput10_1.22.1-1_amd64",
+			"name": "libinput10",
+			"sha256": "de4699c1ed0e13acd9fa57e4fe11382758c977b4354082eb2d4f9164ab85bbce",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libi/libinput/libinput10_1.22.1-1_amd64.deb"
+			],
+			"version": "1.22.1-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libinput-bin_1.22.1-1_amd64",
+			"name": "libinput-bin",
+			"sha256": "bf41f2d10f852c0b2046213aa47b95c487d72d3adaf691bf421cffe8b051b275",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libi/libinput/libinput-bin_1.22.1-1_amd64.deb"
+			],
+			"version": "1.22.1-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libwacom9_2.6.0-1_amd64",
+			"name": "libwacom9",
+			"sha256": "397cd75859da00f367db1fbb2f3d62746d852a1f8dd626ede49dea5e2ee4d916",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libw/libwacom/libwacom9_2.6.0-1_amd64.deb"
+			],
+			"version": "2.6.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libwacom-common_2.6.0-1_amd64",
+			"name": "libwacom-common",
+			"sha256": "f8f59c10cdcf775bbe9a3fb96eb373822139f8e91660d8ee2deb432c5ae2337c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libw/libwacom/libwacom-common_2.6.0-1_all.deb"
+			],
+			"version": "2.6.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgudev-1.0-0_237-2_amd64",
+			"name": "libgudev-1.0-0",
+			"sha256": "9fc37e3420d2704119bd1989d2f93d84321f1f678a3634e86bc857becd55983a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libg/libgudev/libgudev-1.0-0_237-2_amd64.deb"
+			],
+			"version": "237-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libevdev2_1.13.0-p-dfsg-1_amd64",
+			"name": "libevdev2",
+			"sha256": "418b3a0eccd3efbab2be4f3e8e97e3a2523af420241ac5ce0ba8519c8c2424c2",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libe/libevdev/libevdev2_1.13.0+dfsg-1_amd64.deb"
+			],
+			"version": "1.13.0+dfsg-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libharfbuzz0b_6.0.0-p-dfsg-3_amd64",
+			"name": "libharfbuzz0b",
+			"sha256": "bfce132b7ee67b9c2d2166075b1936a25c8cc6866b6a049f99b8e94baa916e71",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/h/harfbuzz/libharfbuzz0b_6.0.0+dfsg-3_amd64.deb"
+			],
+			"version": "6.0.0+dfsg-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgraphite2-3_1.3.14-1_amd64",
+			"name": "libgraphite2-3",
+			"sha256": "31113b9e20c89d3b923da0540d6f30535b8d14f32e5904de89e34537fa87d59a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/graphite2/libgraphite2-3_1.3.14-1_amd64.deb"
+			],
+			"version": "1.3.14-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgbm1_22.3.6-1-p-deb12u1_amd64",
+			"name": "libgbm1",
+			"sha256": "b0edffc231b3261eedbed7d1fafabf1f1cc04ca3c149c2be8322ec70dd17e786",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/m/mesa/libgbm1_22.3.6-1+deb12u1_amd64.deb"
+			],
+			"version": "22.3.6-1+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libwayland-server0_1.21.0-1_amd64",
+			"name": "libwayland-server0",
+			"sha256": "df0396221d7b794496a687ec61fae82b6465648bc0ab6501ba0a5ed7f56eb8d6",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/w/wayland/libwayland-server0_1.21.0-1_amd64.deb"
+			],
+			"version": "1.21.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libfontconfig1_2.14.1-4_amd64",
+			"name": "libfontconfig1",
+			"sha256": "16ee38d374e064f534116dc442b086ef26f9831f1c0af7e5fb4fe4512e700649",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/f/fontconfig/libfontconfig1_2.14.1-4_amd64.deb"
+			],
+			"version": "2.14.1-4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "fontconfig-config_2.14.1-4_amd64",
+			"name": "fontconfig-config",
+			"sha256": "281c66e46b95f045a0282a6c7a03b33de0e9a08d016897a759aaf4a04adfddbe",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/f/fontconfig/fontconfig-config_2.14.1-4_amd64.deb"
+			],
+			"version": "2.14.1-4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "fonts-dejavu-core_2.37-6_amd64",
+			"name": "fonts-dejavu-core",
+			"sha256": "8892669e51aab4dc56682c8e39d8ddb7d70fad83c369344e1e240bf3ca22bb76",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/f/fonts-dejavu/fonts-dejavu-core_2.37-6_all.deb"
+			],
+			"version": "2.37-6"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "debconf_1.5.82_amd64",
+			"name": "debconf",
+			"sha256": "74ab14194a3762b2fc717917dcfda42929ab98e3c59295a063344dc551cd7cc8",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/d/debconf/debconf_1.5.82_all.deb"
+			],
+			"version": "1.5.82"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libegl1_1.6.0-1_amd64",
+			"name": "libegl1",
+			"sha256": "fe4d8b39f6e6fe1a32ab1efd85893553eaa9cf3866aa668ccf355f585b37d523",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libg/libglvnd/libegl1_1.6.0-1_amd64.deb"
+			],
+			"version": "1.6.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libegl-mesa0_22.3.6-1-p-deb12u1_amd64",
+			"name": "libegl-mesa0",
+			"sha256": "f3d97aa976fbebcb9bd8ddb6a0fdd8406b5c6be350d9031802b0e358aead197b",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/m/mesa/libegl-mesa0_22.3.6-1+deb12u1_amd64.deb"
+			],
+			"version": "22.3.6-1+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libwayland-client0_1.21.0-1_amd64",
+			"name": "libwayland-client0",
+			"sha256": "1f002d028b8b79eec9847c636d8886d10dfe8c884cc2bebe18086b1391c5a28d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/w/wayland/libwayland-client0_1.21.0-1_amd64.deb"
+			],
+			"version": "1.21.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "fontconfig_2.14.1-4_amd64",
+			"name": "fontconfig",
+			"sha256": "010e57c24a983eecc39aab8a84219a716c10901e03bacd1927331388656f890f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/f/fontconfig/fontconfig_2.14.1-4_amd64.deb"
+			],
+			"version": "2.14.1-4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5webkit5_5.212.0_alpha4-30_amd64",
+			"name": "libqt5webkit5",
+			"sha256": "fe0c96b419e9e043179f9ad7b6fdefad7f6dd9339036a1af1661d8181c1becb3",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtwebkit-opensource-src/libqt5webkit5_5.212.0~alpha4-30_amd64.deb"
+			],
+			"version": "5.212.0~alpha4-30"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5qml5_5.15.8-p-dfsg-3_amd64",
+			"name": "libqt5qml5",
+			"sha256": "4032e1c201fbfc31d9c62f668605b4aaf51197c192e3d57c615027b08a35486a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtdeclarative-opensource-src/libqt5qml5_5.15.8+dfsg-3_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxslt1.1_1.1.35-1_amd64",
+			"name": "libxslt1.1",
+			"sha256": "cfd7a73a83459329d6c5216aebad1cf764df3fa1e2a4499aaecb403eb98b6e0f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libx/libxslt/libxslt1.1_1.1.35-1_amd64.deb"
+			],
+			"version": "1.1.35-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libwoff1_1.0.2-2_amd64",
+			"name": "libwoff1",
+			"sha256": "b34b287d9a63dc70902063a7a738451613b09fcac8481958bb423c24dab8518e",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/w/woff2/libwoff1_1.0.2-2_amd64.deb"
+			],
+			"version": "1.0.2-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libwebp7_1.2.4-0.2-p-deb12u1_amd64",
+			"name": "libwebp7",
+			"sha256": "7259b7ce46444694ce536360ad53acb68eb3b47a7ff81d7b1b8a3939b2ac9918",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/libw/libwebp/libwebp7_1.2.4-0.2+deb12u1_amd64.deb"
+			],
+			"version": "1.2.4-0.2+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libsqlite3-0_3.40.1-2-p-deb12u1_amd64",
+			"name": "libsqlite3-0",
+			"sha256": "f152f8a4c4c78bf5762e324bcdabd18a7211944a928435ff270ad337a27aaa5f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/s/sqlite3/libsqlite3-0_3.40.1-2+deb12u1_amd64.deb"
+			],
+			"version": "3.40.1-2+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5webchannel5_5.15.8-2_amd64",
+			"name": "libqt5webchannel5",
+			"sha256": "8ec33ea9154fcb229e31ed4c490fae08631a2653b5a4c7c627c4a43bf76459e5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtwebchannel-opensource-src/libqt5webchannel5_5.15.8-2_amd64.deb"
+			],
+			"version": "5.15.8-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5sensors5_5.15.8-2_amd64",
+			"name": "libqt5sensors5",
+			"sha256": "b09eed0966e7aa67ae4de8e9027270c0b7d80757c1b598a5f4f4d47fbe5284a9",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtsensors-opensource-src/libqt5sensors5_5.15.8-2_amd64.deb"
+			],
+			"version": "5.15.8-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5quick5_5.15.8-p-dfsg-3_amd64",
+			"name": "libqt5quick5",
+			"sha256": "8e94a50c429bb732fc60dcf8d82686cbca9fd7a0f0b1a56a2e3b2cae1c11ada5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtdeclarative-opensource-src/libqt5quick5_5.15.8+dfsg-3_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5qmlmodels5_5.15.8-p-dfsg-3_amd64",
+			"name": "libqt5qmlmodels5",
+			"sha256": "9acbb4e6ccc2d5acbc6b5118afbe9b13e370b0206f491613a0e69293f4e1484d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtdeclarative-opensource-src/libqt5qmlmodels5_5.15.8+dfsg-3_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5printsupport5_5.15.8-p-dfsg-11-p-deb12u2_amd64",
+			"name": "libqt5printsupport5",
+			"sha256": "0d8f05ac86b1e717f140a5893cfe4576071604e379793bfa1b87fd230a957427",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtbase-opensource-src/libqt5printsupport5_5.15.8+dfsg-11+deb12u2_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-11+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libcups2_2.4.2-3-p-deb12u8_amd64",
+			"name": "libcups2",
+			"sha256": "47b81d3eb34c2546cce70aeed61742c6e4c379e7fb0d3358aa80ea7b3ff8acf0",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/c/cups/libcups2_2.4.2-3+deb12u8_amd64.deb"
+			],
+			"version": "2.4.2-3+deb12u8"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgnutls30_3.7.9-2-p-deb12u3_amd64",
+			"name": "libgnutls30",
+			"sha256": "cee417d4107bbe94ddcc124524366ea675e89d106b70969a7d508ef26e92a713",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/gnutls28/libgnutls30_3.7.9-2+deb12u3_amd64.deb"
+			],
+			"version": "3.7.9-2+deb12u3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libunistring2_1.0-2_amd64",
+			"name": "libunistring2",
+			"sha256": "d466bbfe011d764d793c1d9d777cad9c7cf65b938e11598f27408171ad95a951",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libu/libunistring/libunistring2_1.0-2_amd64.deb"
+			],
+			"version": "1.0-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libtasn1-6_4.19.0-2_amd64",
+			"name": "libtasn1-6",
+			"sha256": "eec4dc9d949d2c666b1da3fa762a340e8ba10c3a04d3eed32749a97695c15641",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libt/libtasn1-6/libtasn1-6_4.19.0-2_amd64.deb"
+			],
+			"version": "4.19.0-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libp11-kit0_0.24.1-2_amd64",
+			"name": "libp11-kit0",
+			"sha256": "251330faddbf013f060fcdb41f4b0c037c8a6e89ba7c09b04bfcc4e3f0807b22",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/p/p11-kit/libp11-kit0_0.24.1-2_amd64.deb"
+			],
+			"version": "0.24.1-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libnettle8_3.8.1-2_amd64",
+			"name": "libnettle8",
+			"sha256": "45922e6e289ffd92f0f92d2bb9159e84236ff202d552a461bf10e5335b3f0261",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/n/nettle/libnettle8_3.8.1-2_amd64.deb"
+			],
+			"version": "3.8.1-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libidn2-0_2.3.3-1-p-b1_amd64",
+			"name": "libidn2-0",
+			"sha256": "d50716d5824083d667427817d506b45d3f59dc77e1ca52de000f3f62d4918afa",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libi/libidn2/libidn2-0_2.3.3-1+b1_amd64.deb"
+			],
+			"version": "2.3.3-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libhogweed6_3.8.1-2_amd64",
+			"name": "libhogweed6",
+			"sha256": "ed8185c28b2cb519744a5a462dcd720d3b332c9b88a1d0002eac06dc8550cb94",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/n/nettle/libhogweed6_3.8.1-2_amd64.deb"
+			],
+			"version": "3.8.1-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgmp10_2-6.2.1-p-dfsg1-1.1_amd64",
+			"name": "libgmp10",
+			"sha256": "187aedef2ed763f425c1e523753b9719677633c7eede660401739e9c893482bd",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/gmp/libgmp10_6.2.1+dfsg1-1.1_amd64.deb"
+			],
+			"version": "2:6.2.1+dfsg1-1.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libavahi-common3_0.8-10_amd64",
+			"name": "libavahi-common3",
+			"sha256": "c47345c10a408418dcfe8796749649dbf44b78769fa4e8d222b3a2ac1e624086",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/a/avahi/libavahi-common3_0.8-10_amd64.deb"
+			],
+			"version": "0.8-10"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libavahi-common-data_0.8-10_amd64",
+			"name": "libavahi-common-data",
+			"sha256": "24b64db6a76378987478a9363e88cd8a50a0200e2cdfa316a35107f3faae39bd",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/a/avahi/libavahi-common-data_0.8-10_amd64.deb"
+			],
+			"version": "0.8-10"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libavahi-client3_0.8-10_amd64",
+			"name": "libavahi-client3",
+			"sha256": "6257e23561a91b7d33f6a0601952d2188a9aa8fd3645fdbd8d9eb65c235eae66",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/a/avahi/libavahi-client3_0.8-10_amd64.deb"
+			],
+			"version": "0.8-10"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5positioning5_5.15.8-p-dfsg-3-p-deb12u1_amd64",
+			"name": "libqt5positioning5",
+			"sha256": "e7fafd090f5a32b000a15ec9078aebca955b898c1bd5adda2dbb8ade39cc5e7d",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtlocation-opensource-src/libqt5positioning5_5.15.8+dfsg-3+deb12u1_amd64.deb"
+			],
+			"version": "5.15.8+dfsg-3+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libhyphen0_2.8.8-7_amd64",
+			"name": "libhyphen0",
+			"sha256": "d6a25b5879acc5b72d6e131e21127f67bb877ada5ca036598f6c9d7c6534dc66",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/h/hyphen/libhyphen0_2.8.8-7_amd64.deb"
+			],
+			"version": "2.8.8-7"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgstreamer1.0-0_1.22.0-2_amd64",
+			"name": "libgstreamer1.0-0",
+			"sha256": "85123e30798b028f5d344b06db7720fd64a75a5e85f4bb6d92e65556838a0344",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.22.0-2_amd64.deb"
+			],
+			"version": "1.22.0-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libcap2-bin_1-2.66-4_amd64",
+			"name": "libcap2-bin",
+			"sha256": "72da6038877cc5c7d71538a547e22d03346b1ef99a35169d7ff3500f5675df1e",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/libc/libcap2/libcap2-bin_2.66-4_amd64.deb"
+			],
+			"version": "1:2.66-4"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libdw1_0.188-2.1_amd64",
+			"name": "libdw1",
+			"sha256": "ffd7b1bad982ad1afd9c2b75ab2edd18e229508df731a8f4d8443f093a91442f",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/e/elfutils/libdw1_0.188-2.1_amd64.deb"
+			],
+			"version": "0.188-2.1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgstreamer-plugins-base1.0-0_1.22.0-3-p-deb12u2_amd64",
+			"name": "libgstreamer-plugins-base1.0-0",
+			"sha256": "3b0eb8f4a34b23357daae46eea1c66177a290a32e4c0256ccea297019c70372c",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian-security/20241211T143334Z/pool/updates/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.22.0-3+deb12u2_amd64.deb"
+			],
+			"version": "1.22.0-3+deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "iso-codes_4.15.0-1_amd64",
+			"name": "iso-codes",
+			"sha256": "b1beb869303229c38288d4ddacfd582c91f594759b5767c9cecebd87f16ff70e",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/i/iso-codes/iso-codes_4.15.0-1_all.deb"
+			],
+			"version": "4.15.0-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "liborc-0.4-0_1-0.4.33-2_amd64",
+			"name": "liborc-0.4-0",
+			"sha256": "f2b775c4281fc4d02432833cef274cfaa927a446bdf619f02292bd83b201fe3a",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/o/orc/liborc-0.4-0_0.4.33-2_amd64.deb"
+			],
+			"version": "1:0.4.33-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "dpkg_1.21.22_amd64",
+			"name": "dpkg",
+			"sha256": "9d97f27d8a8a06dd4800e8e0291337ca02e11cdfd7df09a4566a982a6d9fe4c4",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/d/dpkg/dpkg_1.21.22_amd64.deb"
+			],
+			"version": "1.21.22"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+			"name": "tar",
+			"sha256": "24fb92e98c2969171f81a8b589263d705f6b1670f95d121cd74c810d4605acc3",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/t/tar/tar_1.34+dfsg-1.2+deb12u1_amd64.deb"
+			],
+			"version": "1.34+dfsg-1.2+deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libacl1_2.3.1-3_amd64",
+			"name": "libacl1",
+			"sha256": "8be9df5795114bfe90e2be3d208ef47a5edd3fc7b3e20d387a597486d444e5e2",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/a/acl/libacl1_2.3.1-3_amd64.deb"
+			],
+			"version": "2.3.1-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libqt5svg5_5.15.8-3_amd64",
+			"name": "libqt5svg5",
+			"sha256": "7898f7b95314134aa96183bdd7aa89bb5c5367b913f42ac5162c2398db42a0c5",
+			"urls": [
+				"https://snapshot.debian.org/archive/debian/20241211T143334Z/pool/main/q/qtsvg-opensource-src/libqt5svg5_5.15.8-3_amd64.deb"
+			],
+			"version": "5.15.8-3"
+		}
+	],
+	"version": 1
 }

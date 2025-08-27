@@ -1,0 +1,15 @@
+build:
+  images:
+    type: bazel
+    targets:
+      nginx: nginx:image
+      php7.2: php:php-fpm-7.2
+      php7.4: php:php-fpm-7.4
+      php8.3: php:php-fpm-8.3
+      php8.4: php:php-fpm-8.4
+    platforms:
+      linux/amd64: :linux-amd64
+      linux/arm64: :linux-arm64
+
+insecureRegistries:
+  - brainpod-registry.localhost:5003
