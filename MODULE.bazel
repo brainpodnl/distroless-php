@@ -4,17 +4,17 @@ module(name = "distroless-php")
 
 bazel_dep(name = "rules_oci", version = "2.2.6")
 bazel_dep(name = "rules_pkg", version = "1.1.0")
-bazel_dep(name = "platforms", version = "0.0.11")
+bazel_dep(name = "platforms", version = "1.0.0")
 bazel_dep(name = "toolchains_llvm", version = "1.4.0")
-bazel_dep(name = "rules_distroless", version = "0.4.2")
-bazel_dep(name = "aspect_bazel_lib", version = "2.16.0")
-bazel_dep(name = "chrome-linux-sysroot", version = "0.0.1")
+bazel_dep(name = "rules_distroless", version = "0.5.3")
+bazel_dep(name = "aspect_bazel_lib", version = "2.21.1")
+bazel_dep(name = "chrome-linux-sysroot", version = "0.0.3")
 
-git_override(
-    module_name = "rules_distroless",
-    commit = "f994712f6bd573b3d50b207ae5fa3df077caed67",
-    remote = "https://github.com/GoogleContainerTools/rules_distroless.git",
-)
+# git_override(
+#     module_name = "rules_distroless",
+#     commit = "f994712f6bd573b3d50b207ae5fa3df077caed67",
+#     remote = "https://github.com/GoogleContainerTools/rules_distroless.git",
+# )
 
 PHP_VERSIONS = [
     "7.2",
@@ -22,6 +22,14 @@ PHP_VERSIONS = [
     "8.3",
     "8.4",
 ]
+
+http_archive = use_repo_rule("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+http_archive(
+    name = "ca-certificates",
+    build_file_content = 'exports_files(["data.tar.xz", "control.tar.xz"])',
+    sha256 = "ef590f89563aa4b46c8260d49d1cea0fc1b181d19e8df3782694706adf05c184",
+    urls = ["https://snapshot.debian.org/archive/debian/20250827T085636Z/pool/main/c/ca-certificates/ca-certificates_20250419_all.deb"],
+)
 
 llvm = use_extension("@toolchains_llvm//toolchain/extensions:llvm.bzl", "llvm")
 llvm.toolchain(

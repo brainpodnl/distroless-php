@@ -23,22 +23,16 @@ jobs:
         run: |
           echo "${{ secrets.BUILDBUDDY_BAZELRC }}" > .bazelrc.user &&
             echo "build --compilation_mode=opt" >> .bazelrc.user
-      - name: Set up Docker Context for Buildx
-        id: buildx-context
-        run: docker context create builders || true
+      - name: Setup Steiger
+        run: |
+          curl -Lo steiger https://github.com/brainhivenl/steiger/releases/download/v0.0.1/steiger-x86_64-unknown-linux-gnu &&
+            sudo install steiger /usr/local/bin/ &&
+            rm steiger
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Push image [nginx]
-        run: bazel run nginx:push -- -t latest -r ghcr.io/brainpodnl/distroless-php/nginx
-      - name: Push image [php-fpm:7.2]
-        run: bazel run php:php-fpm-7.2_push -- -t 7.2 -r ghcr.io/brainpodnl/distroless-php/php-fpm
-      - name: Push image [php-fpm:7.4]
-        run: bazel run php:php-fpm-7.4_push -- -t 7.4 -r ghcr.io/brainpodnl/distroless-php/php-fpm
-      - name: Push image [php-fpm:8.3]
-        run: bazel run php:php-fpm-8.3_push -- -t 8.3 -r ghcr.io/brainpodnl/distroless-php/php-fpm
-      - name: Push image [php-fpm:8.4]
-        run: bazel run php:php-fpm-8.4_push -- -t 8.4 -r ghcr.io/brainpodnl/distroless-php/php-fpm
+      - name: Build and push
+        run: steiger build --repo ghcr.io/brainpodnl/distroless-php
