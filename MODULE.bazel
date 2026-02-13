@@ -10,20 +10,22 @@ bazel_dep(name = "rules_distroless", version = "0.5.3")
 bazel_dep(name = "aspect_bazel_lib", version = "2.21.1")
 bazel_dep(name = "chrome-linux-sysroot", version = "0.0.3")
 
-# git_override(
-#     module_name = "rules_distroless",
-#     commit = "f994712f6bd573b3d50b207ae5fa3df077caed67",
-#     remote = "https://github.com/GoogleContainerTools/rules_distroless.git",
-# )
+git_override(
+    module_name = "rules_distroless",
+    commit = "a9e67d187351f9687c59418c6ce323173278c221",
+    remote = "https://github.com/birunts/rules_distroless.git",
+)
 
 PHP_VERSIONS = [
     "7.2",
     "7.4",
     "8.3",
     "8.4",
+    "8.5",
 ]
 
 http_archive = use_repo_rule("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
 http_archive(
     name = "ca-certificates",
     build_file_content = 'exports_files(["data.tar.xz", "control.tar.xz"])',
@@ -47,13 +49,11 @@ apt = use_extension(
     "@rules_distroless//apt:extensions.bzl",
     "apt",
 )
-
 apt.install(
     name = "php-common",
     lock = "//php:common.lock.json",
     manifest = "//php:common.yaml",
 )
-
 apt.install(
     name = "php-wkhtmltopdf",
     lock = "//php:wkhtmltopdf.lock.json",
@@ -72,5 +72,4 @@ apt.install(
     manifest = "//nginx:bookworm.yaml",
     resolve_transitive = False,
 )
-
-use_repo(apt, "nginx-bookworm", "php-common", "php-wkhtmltopdf", "php-7.2", "php-7.4", "php-8.3", "php-8.4")
+use_repo(apt, "nginx-bookworm", "php-7.2", "php-7.4", "php-8.3", "php-8.4", "php-8.5", "php-common", "php-wkhtmltopdf")
