@@ -10,11 +10,11 @@ bazel_dep(name = "rules_distroless", version = "0.5.3")
 bazel_dep(name = "aspect_bazel_lib", version = "2.21.1")
 bazel_dep(name = "chrome-linux-sysroot", version = "0.0.3")
 
-# git_override(
-#     module_name = "rules_distroless",
-#     commit = "f994712f6bd573b3d50b207ae5fa3df077caed67",
-#     remote = "https://github.com/GoogleContainerTools/rules_distroless.git",
-# )
+git_override(
+    module_name = "rules_distroless",
+    commit = "a9e67d187351f9687c59418c6ce323173278c221",
+    remote = "https://github.com/birunts/rules_distroless.git",
+)
 
 PHP_VERSIONS = [
     "7.2",
