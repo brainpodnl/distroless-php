@@ -10,6 +10,7 @@ MANIFESTS=(
   php/7.4/php.yaml
   php/8.3/php.yaml
   php/8.4/php.yaml
+  php/8.5/php.yaml
   nginx/bookworm.yaml
 )
 
@@ -20,6 +21,7 @@ LOCK_TARGETS=(
   @php-7.4//:lock
   @php-8.3//:lock
   @php-8.4//:lock
+  @php-8.5//:lock
   @nginx-bookworm//:lock
 )
 

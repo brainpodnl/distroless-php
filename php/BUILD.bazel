@@ -5,6 +5,7 @@ PHP_VERSIONS = [
     "7.4",
     "8.3",
     "8.4",
+    "8.5",
 ]
 
 [php_fpm_image(

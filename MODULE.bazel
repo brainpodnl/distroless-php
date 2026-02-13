@@ -21,9 +21,11 @@ PHP_VERSIONS = [
     "7.4",
     "8.3",
     "8.4",
+    "8.5",
 ]
 
 http_archive = use_repo_rule("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
 http_archive(
     name = "ca-certificates",
     build_file_content = 'exports_files(["data.tar.xz", "control.tar.xz"])',
@@ -47,13 +49,11 @@ apt = use_extension(
     "@rules_distroless//apt:extensions.bzl",
     "apt",
 )
-
 apt.install(
     name = "php-common",
     lock = "//php:common.lock.json",
     manifest = "//php:common.yaml",
 )
-
 apt.install(
     name = "php-wkhtmltopdf",
     lock = "//php:wkhtmltopdf.lock.json",
@@ -72,5 +72,4 @@ apt.install(
     manifest = "//nginx:bookworm.yaml",
     resolve_transitive = False,
 )
-
-use_repo(apt, "nginx-bookworm", "php-common", "php-wkhtmltopdf", "php-7.2", "php-7.4", "php-8.3", "php-8.4")
+use_repo(apt, "nginx-bookworm", "php-7.2", "php-7.4", "php-8.3", "php-8.4", "php-8.5", "php-common", "php-wkhtmltopdf")

@@ -50,6 +50,7 @@ bazel run @php-7.2//:lock
 bazel run @php-7.4//:lock
 bazel run @php-8.3//:lock
 bazel run @php-8.4//:lock
+bazel run @php-8.5//:lock
 bazel run @nginx-bookworm//:lock
 ```
 
