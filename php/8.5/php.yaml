@@ -30,4 +30,5 @@ packages:
   - php8.5-igbinary
   - php8.5-soap
   - php8.5-mbstring
+  - php8.5-bcmath
   - php-pear

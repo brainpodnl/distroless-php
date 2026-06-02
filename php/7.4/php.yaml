@@ -32,4 +32,5 @@ packages:
   - php7.4-igbinary
   - php7.4-soap
   - php7.4-mbstring
+  - php7.4-bcmath
   - php-pear
