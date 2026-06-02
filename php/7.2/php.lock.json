@@ -349,19 +349,19 @@
 					"version": "6.4-4"
 				},
 				{
-					"key": "php7.2-opcache_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-opcache",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -369,9 +369,9 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php7.2-litespeed_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-litespeed_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-litespeed",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libpcre3_2-8.45-1-p-0_20250310.11-p-debian12_1.gbp8792c4_amd64",
@@ -379,14 +379,14 @@
 					"version": "2:8.45-1+0~20250310.11+debian12~1.gbp8792c4"
 				},
 				{
-					"key": "php7.2-cli_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-cli_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-cli",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-readline_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-readline",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_amd64",
@@ -404,13 +404,13 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php7.2-fpm_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-fpm_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-fpm",
-			"sha256": "c1e3ed2a0ac56fa3275a330581397825e1a3310160b4d71dc2f228ed8c7baff5",
+			"sha256": "2eddb33ebd530b0e116bae5aa4901bc70837e3c8f9e74eaf71d2c7d9fb3e05bc",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-fpm_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-fpm_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -1190,9 +1190,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -1215,9 +1215,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -1230,13 +1230,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-opcache_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-opcache",
-			"sha256": "f462218834977c7854d6bcd96892aa84140cbb3929f9bd85f5e1039803b94610",
+			"sha256": "07c54f5c889dc804a14e4de7b85ae2d9e141d1f73d682fb8cc4c34a53c47797e",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-opcache_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-opcache_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -1277,9 +1277,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -1292,24 +1292,24 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-common",
-			"sha256": "e032f54aade22f88e63ea9bc1fb884603979972146045e63faba7631bdac5ecb",
+			"sha256": "991c97fa37ea59dfe775116e295909838e584d3b45970e132dc8fda0fcb335ed",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-common_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-common_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+			"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 			"name": "php-common",
-			"sha256": "3829d1cf7ecb30bd375e51e7afc440ab76e30400a946668bb183c14c9d5ad1cc",
+			"sha256": "c14066d71223a6eb5e8bb1a27de2a57568264cc4d02278e0c1fee39d172c8337",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php-defaults/php-common_101~+0~20260212.63+debian12~1.gbp7da167_all.deb"
+				"https://packages.sury.org/php/pool/main/p/php-defaults/php-common_101~+0~20260503.72+debian12~1.gbp7da167_all.deb"
 			],
-			"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+			"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 		},
 		{
 			"arch": "amd64",
@@ -1671,14 +1671,14 @@
 					"version": "6.4-4"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -1686,14 +1686,14 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php7.2-cli_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-cli_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-cli",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-readline_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-readline",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_amd64",
@@ -1706,9 +1706,9 @@
 					"version": "0.11.7-2"
 				},
 				{
-					"key": "php7.2-opcache_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-opcache",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "media-types_10.0.0_amd64",
@@ -1716,13 +1716,13 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php7.2-litespeed_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-litespeed_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-litespeed",
-			"sha256": "1c04662185516d8a80e195ee6872d859f4d5109b0057c4b93207775185666940",
+			"sha256": "c1c515c35f41f013120ff7902bbf635c294a007c6d5aa89a05929b269872a648",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-litespeed_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-litespeed_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -1814,9 +1814,9 @@
 					"version": "2025b-0+deb12u2"
 				},
 				{
-					"key": "php7.2-readline_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-readline",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_amd64",
@@ -1839,14 +1839,14 @@
 					"version": "1.0.4-2"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -1854,14 +1854,14 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php7.2-opcache_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-opcache",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-litespeed_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-litespeed_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-litespeed",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libpcre3_2-8.45-1-p-0_20250310.11-p-debian12_1.gbp8792c4_amd64",
@@ -2129,24 +2129,24 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php7.2-cli_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-cli_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-cli",
-			"sha256": "3c79a60aa3f812872e5daf8ab0a1dc5105162ea89546b9d4f6bc11e8eb199968",
+			"sha256": "db7b1c7a06c9c61a21466767f6b49a3c61e240becc45d893f0f797169be2b909",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-cli_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-cli_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php7.2-readline_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-readline",
-			"sha256": "e443fa1935f79ad4a8b50dfa9cb21f62e4d2f1a23aaa8dfa13c0e7b44ec648df",
+			"sha256": "24ddb271c1cb584c49972a0bbc703d848af41b3c1fc9a016a213284be6adfe2a",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-readline_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-readline_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -2240,9 +2240,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -2265,9 +2265,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -2280,13 +2280,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-xml_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-xml_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-xml",
-			"sha256": "acaea5f192130d922c253c8157fe368b4294b4af6612bc8e529f2dbd2c417f49",
+			"sha256": "9bff09901975be723408e74b530dab8f961bcefd75470f1f74b20567a96bda93",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-xml_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-xml_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -2318,9 +2318,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -2343,9 +2343,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -2358,13 +2358,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-mysql_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-mysql_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-mysql",
-			"sha256": "0976781513a913b994ab731cd3d022a96a3b8c251396f5890633efa378e06d72",
+			"sha256": "baaf3b44a42c524529efa422fe830472b7429de52ce0f3f7c92a514568f9e781",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mysql_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mysql_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -2395,9 +2395,9 @@
 					"version": "72.1-3+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -2420,9 +2420,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -2435,13 +2435,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-intl_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-intl_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-intl",
-			"sha256": "d4b4ee21677973c64722a72d0c5fd5598a06d3c6fdb70ea3d4bf6cce3c4fc994",
+			"sha256": "238e9c3ed333e490e89fe3f8e9270e37f6b9ff94ce5ac98638eaa51b365c5bfa",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-intl_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-intl_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -2482,9 +2482,9 @@
 					"version": "1.0.8-5+b1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "ucf_3.0043-p-nmu1-p-deb12u1_amd64",
@@ -2502,9 +2502,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -2517,13 +2517,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-zip_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-zip_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-zip",
-			"sha256": "771534393d7e1249300d110055fd33c25d85058a99c79c93efd848d724ed45fa",
+			"sha256": "fd0e481ee15e640e5a962ace3734b5979039fc531279e32879a564ee0bcb617b",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-zip_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-zip_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -2595,9 +2595,9 @@
 					"version": "1:1.0.9-1"
 				},
 				{
-					"key": "libgd3_2.3.3-13-p-0_20250427.18-p-debian12_1.gbp492e76_amd64",
+					"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_amd64",
 					"name": "libgd3",
-					"version": "2.3.3-13+0~20250427.18+debian12~1.gbp492e76"
+					"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
 				},
 				{
 					"key": "libwebp7_1.2.4-0.2-p-deb12u1_amd64",
@@ -2760,9 +2760,9 @@
 					"version": "20220623.1-1+deb12u2"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -2780,9 +2780,9 @@
 					"version": "0.0.17+nmu1"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -2795,13 +2795,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-gd_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-gd_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-gd",
-			"sha256": "1f15cc09cea97169d39adcc616d29fd2bb7526c5af327d3ca204121617af36cb",
+			"sha256": "c1ef58ddfd9cab06947b2d19962e2e15f92a0f36f88991eb3cedc6bbba36f8d4",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-gd_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-gd_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -2872,13 +2872,13 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "libgd3_2.3.3-13-p-0_20250427.18-p-debian12_1.gbp492e76_amd64",
+			"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_amd64",
 			"name": "libgd3",
-			"sha256": "be88cbc63adb43bb910a82223d7d18602b0b6b8dbb70040d7cbb7bf00713f9f2",
+			"sha256": "de36ac78b07a71899052eec6098ebfc8de987d226dfb00f5f59991f1759afa75",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-13+0~20250427.18+debian12~1.gbp492e76_amd64.deb"
+				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22_amd64.deb"
 			],
-			"version": "2.3.3-13+0~20250427.18+debian12~1.gbp492e76"
+			"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
 		},
 		{
 			"arch": "amd64",
@@ -3336,9 +3336,9 @@
 					"version": "1.0.9-2+b6"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "ucf_3.0043-p-nmu1-p-deb12u1_amd64",
@@ -3356,9 +3356,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -3371,13 +3371,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-curl_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-curl_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-curl",
-			"sha256": "53c892ec341093f0b1f80962b275bdeba4519694dcc1ac8fb44cf55833a26f11",
+			"sha256": "aa7f9de55a89c7504ae73442496cf0ada2b47de21482d3c88f269f689f801b7f",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-curl_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-curl_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -3639,14 +3639,14 @@
 					"version": "1.9.4-1"
 				},
 				{
-					"key": "php7.2-igbinary_3.2.16-6-p-0_20251124.56-p-debian12_1.gbp1eff65_amd64",
+					"key": "php7.2-igbinary_3.2.16-6-p-0_20260330.57-p-debian12_1.gbp1eff65_amd64",
 					"name": "php7.2-igbinary",
-					"version": "3.2.16-6+0~20251124.56+debian12~1.gbp1eff65"
+					"version": "3.2.16-6+0~20260330.57+debian12~1.gbp1eff65"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -3669,9 +3669,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -3711,9 +3711,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -3736,9 +3736,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -3751,13 +3751,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-igbinary_3.2.16-6-p-0_20251124.56-p-debian12_1.gbp1eff65_amd64",
+			"key": "php7.2-igbinary_3.2.16-6-p-0_20260330.57-p-debian12_1.gbp1eff65_amd64",
 			"name": "php7.2-igbinary",
-			"sha256": "d0dec89de3f34de7fcb93c92c48576a4d6e1978563aac96901a1ceb7662c0d8b",
+			"sha256": "00d822f7b78198adb6fc91c9af0c100572da296e36dfdd82db4c9f7fbb0fa169",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php-igbinary/php7.2-igbinary_3.2.16-6+0~20251124.56+debian12~1.gbp1eff65_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php-igbinary/php7.2-igbinary_3.2.16-6+0~20260330.57+debian12~1.gbp1eff65_amd64.deb"
 			],
-			"version": "3.2.16-6+0~20251124.56+debian12~1.gbp1eff65"
+			"version": "3.2.16-6+0~20260330.57+debian12~1.gbp1eff65"
 		},
 		{
 			"arch": "amd64",
@@ -3803,9 +3803,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -3828,9 +3828,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -3843,13 +3843,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-soap_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-soap_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-soap",
-			"sha256": "3252e707655c240653e5ec287d011009381e493e7471ba3fc0b2ad2fdc313b71",
+			"sha256": "11097d8b7328328f4ee1536064c36947f66a1a2f427971116018e59d18e5b73a",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-soap_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-soap_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
@@ -3870,9 +3870,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 					"name": "php7.2-common",
-					"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -3895,9 +3895,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -3910,26 +3910,93 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-mbstring_7.2.34-60-p-0_20260212.112-p-debian12_1.gbp41bac6_amd64",
+			"key": "php7.2-mbstring_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
 			"name": "php7.2-mbstring",
-			"sha256": "b0757938a1c761464e31db33164406b3e9b5f15720fb01e81eea666877d81de7",
+			"sha256": "122bff806b70e4b66076e7c1a220b694198b30f8e7fc14d192b4f1c78c854544",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mbstring_7.2.34-60+0~20260212.112+debian12~1.gbp41bac6_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mbstring_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
 			],
-			"version": "7.2.34-60+0~20260212.112+debian12~1.gbp41bac6"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [
 				{
-					"key": "php-xml_2-8.4-p-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
-					"name": "php-xml",
-					"version": "2:8.4+101~+0~20260212.63+debian12~1.gbp7da167"
+					"key": "libc6_2.36-9-p-deb12u13_amd64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u13"
 				},
 				{
-					"key": "php8.4-xml_8.4.18-1-p-0_20260212.41-p-debian12_1.gbp657862_amd64",
+					"key": "libgcc-s1_12.2.0-14-p-deb12u1_amd64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14+deb12u1"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14-p-deb12u1_amd64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14+deb12u1"
+				},
+				{
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
+					"name": "php7.2-common",
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
+				},
+				{
+					"key": "libssl3_3.0.18-1_deb12u2_amd64",
+					"name": "libssl3",
+					"version": "3.0.18-1~deb12u2"
+				},
+				{
+					"key": "ucf_3.0043-p-nmu1-p-deb12u1_amd64",
+					"name": "ucf",
+					"version": "3.0043+nmu1+deb12u1"
+				},
+				{
+					"key": "sensible-utils_0.0.17-p-nmu1_amd64",
+					"name": "sensible-utils",
+					"version": "0.0.17+nmu1"
+				},
+				{
+					"key": "debconf_1.5.82_amd64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
+					"name": "php-common",
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
+				},
+				{
+					"key": "psmisc_23.6-1_amd64",
+					"name": "psmisc",
+					"version": "23.6-1"
+				},
+				{
+					"key": "libtinfo6_6.4-4_amd64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				}
+			],
+			"key": "php7.2-bcmath_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_amd64",
+			"name": "php7.2-bcmath",
+			"sha256": "4d4dccd55abe9a4e688a8e62208e45ee504b360c18e6971e66a70dd8c663f660",
+			"urls": [
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-bcmath_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_amd64.deb"
+			],
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "php-xml_2-8.4-p-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
+					"name": "php-xml",
+					"version": "2:8.4+101~+0~20260503.72+debian12~1.gbp7da167"
+				},
+				{
+					"key": "php8.4-xml_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_amd64",
 					"name": "php8.4-xml",
-					"version": "8.4.18-1+0~20260212.41+debian12~1.gbp657862"
+					"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 				},
 				{
 					"key": "libxslt1.1_1.1.35-1-p-deb12u3_amd64",
@@ -3987,9 +4054,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.4-common_8.4.18-1-p-0_20260212.41-p-debian12_1.gbp657862_amd64",
+					"key": "php8.4-common_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_amd64",
 					"name": "php8.4-common",
-					"version": "8.4.18-1+0~20260212.41+debian12~1.gbp657862"
+					"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_amd64",
@@ -4017,9 +4084,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_amd64",
@@ -4043,35 +4110,35 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php-xml_2-8.4-p-101_-p-0_20260212.63-p-debian12_1.gbp7da167_amd64",
+			"key": "php-xml_2-8.4-p-101_-p-0_20260503.72-p-debian12_1.gbp7da167_amd64",
 			"name": "php-xml",
-			"sha256": "b7d08d70c5e1f572427cacf16377a1279a354287fd3c7136b2d9db24dded6ec2",
+			"sha256": "23418779f1b06b3e19d9d67ad5e83e6db524d0d5de8c9216100ad67ec6eefcd1",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php-defaults/php-xml_8.4+101~+0~20260212.63+debian12~1.gbp7da167_all.deb"
+				"https://packages.sury.org/php/pool/main/p/php-defaults/php-xml_8.4+101~+0~20260503.72+debian12~1.gbp7da167_all.deb"
 			],
-			"version": "2:8.4+101~+0~20260212.63+debian12~1.gbp7da167"
+			"version": "2:8.4+101~+0~20260503.72+debian12~1.gbp7da167"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php8.4-xml_8.4.18-1-p-0_20260212.41-p-debian12_1.gbp657862_amd64",
+			"key": "php8.4-xml_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_amd64",
 			"name": "php8.4-xml",
-			"sha256": "87d65d9fb5c5672ad6fe18c5cd8cf0f4bd956eccb4a9be505d99ee393efcb42b",
+			"sha256": "8021a3d4fd08146e7bb99e55a0ab0c341dfe6a2848e7ae41a16f68f5d017ebdb",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.18-1+0~20260212.41+debian12~1.gbp657862_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf_amd64.deb"
 			],
-			"version": "8.4.18-1+0~20260212.41+debian12~1.gbp657862"
+			"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php8.4-common_8.4.18-1-p-0_20260212.41-p-debian12_1.gbp657862_amd64",
+			"key": "php8.4-common_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_amd64",
 			"name": "php8.4-common",
-			"sha256": "37040aaacb27fd6908a26c5081ed80d7fa4a277e10f014f2ecb88a4f2ed63a40",
+			"sha256": "cb1b629f8b7bb00936ee78dd0bb0387cc6dac0faae1c971c431845615c4bddbe",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.18-1+0~20260212.41+debian12~1.gbp657862_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf_amd64.deb"
 			],
-			"version": "8.4.18-1+0~20260212.41+debian12~1.gbp657862"
+			"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 		},
 		{
 			"arch": "arm64",
@@ -4422,19 +4489,19 @@
 					"version": "6.4-4"
 				},
 				{
-					"key": "php7.2-opcache_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-opcache",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -4442,9 +4509,9 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php7.2-litespeed_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-litespeed_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-litespeed",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libpcre3_2-8.45-1-p-0_20250310.11-p-debian12_1.gbp8792c4_arm64",
@@ -4452,14 +4519,14 @@
 					"version": "2:8.45-1+0~20250310.11+debian12~1.gbp8792c4"
 				},
 				{
-					"key": "php7.2-cli_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-cli_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-cli",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-readline_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-readline",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_arm64",
@@ -4477,13 +4544,13 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php7.2-fpm_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-fpm_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-fpm",
-			"sha256": "bb344430a46c96b5801bae383c93a7e517ca95add6e9feaeb7a0cd28f04b9858",
+			"sha256": "aa389e52c7a0192d7fb224329d19737187f14c6ce1e0265a6cde70141365ce8e",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-fpm_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-fpm_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -5263,9 +5330,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -5288,9 +5355,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -5303,13 +5370,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-opcache_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-opcache",
-			"sha256": "a51c2eb6825ca0e3d21d980d457d1fbc43167148254136823391176b70a8ddfd",
+			"sha256": "9f6dc9ad2c55c04ef01019e5cb9c4cb8968cd1726bb5673c498dfebf9c5b705e",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-opcache_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-opcache_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -5350,9 +5417,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -5365,24 +5432,24 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-common",
-			"sha256": "afa456cf122ddb4fc2d6f03ffc119bffc7ea8245a0d237c52c4e028a819a4c85",
+			"sha256": "1552c97508b4548f8c68f3e1dc480be32a81ba019821dc0af7107fb8c72f335f",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-common_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-common_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+			"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 			"name": "php-common",
-			"sha256": "3829d1cf7ecb30bd375e51e7afc440ab76e30400a946668bb183c14c9d5ad1cc",
+			"sha256": "c14066d71223a6eb5e8bb1a27de2a57568264cc4d02278e0c1fee39d172c8337",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php-defaults/php-common_101~+0~20260212.63+debian12~1.gbp7da167_all.deb"
+				"https://packages.sury.org/php/pool/main/p/php-defaults/php-common_101~+0~20260503.72+debian12~1.gbp7da167_all.deb"
 			],
-			"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+			"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 		},
 		{
 			"arch": "arm64",
@@ -5744,14 +5811,14 @@
 					"version": "6.4-4"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -5759,14 +5826,14 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php7.2-cli_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-cli_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-cli",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-readline_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-readline",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_arm64",
@@ -5779,9 +5846,9 @@
 					"version": "0.11.7-2"
 				},
 				{
-					"key": "php7.2-opcache_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-opcache",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "media-types_10.0.0_arm64",
@@ -5789,13 +5856,13 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php7.2-litespeed_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-litespeed_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-litespeed",
-			"sha256": "461be274901c5fddb0fe786efebf20a4b8aa84f0c06fd8e19743c95a39dff849",
+			"sha256": "438b26c77004fed5af4172749a26fbc388da8917298ba5a0a4a25528a1c842dc",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-litespeed_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-litespeed_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -5887,9 +5954,9 @@
 					"version": "2025b-0+deb12u2"
 				},
 				{
-					"key": "php7.2-readline_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-readline",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_arm64",
@@ -5912,14 +5979,14 @@
 					"version": "1.0.4-2"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -5927,14 +5994,14 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php7.2-opcache_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-opcache_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-opcache",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
-					"key": "php7.2-litespeed_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-litespeed_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-litespeed",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libpcre3_2-8.45-1-p-0_20250310.11-p-debian12_1.gbp8792c4_arm64",
@@ -6202,24 +6269,24 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php7.2-cli_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-cli_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-cli",
-			"sha256": "1e379eca1f883c8bb677f220c0309deb291c9b90d0c2e2c279d945e9712ab40a",
+			"sha256": "9cfd698f016b2b9d361b46cf205ad5c533e661426f86bbff2dded51f80f239e4",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-cli_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-cli_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php7.2-readline_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-readline_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-readline",
-			"sha256": "d660980525191fb6221bfac8b9280fa1d9a35e865b28ef5025af673f44846f02",
+			"sha256": "4d2ed04599872527a85218f041d87ccf9520099d234659f94a308a780d8134f1",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-readline_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-readline_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -6313,9 +6380,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -6338,9 +6405,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -6353,13 +6420,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-xml_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-xml_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-xml",
-			"sha256": "38cc76e544418cc4a5704ca89584569c985615b329ef7bb73fb36164b360e7da",
+			"sha256": "fd9fcfb51762140e853ac786491e1ee7bc93d1ca06fd784c08107698f2bbaaad",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-xml_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-xml_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -6391,9 +6458,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -6416,9 +6483,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -6431,13 +6498,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-mysql_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-mysql_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-mysql",
-			"sha256": "b5aaa35151c8954af8495e7b33ae27fa67634b64297e80cbf0035fe7ce29b7b8",
+			"sha256": "606a481555f3ef96534c102d14c62c02d847ae4a4d457203e2bb601d3aa8250f",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mysql_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mysql_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -6468,9 +6535,9 @@
 					"version": "72.1-3+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -6493,9 +6560,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -6508,13 +6575,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-intl_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-intl_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-intl",
-			"sha256": "0b59cba8d9c74793b4c4ac34fb8576def93295d35c4980bbf5e26d7b396d1c4e",
+			"sha256": "1439734d1fcbd3fb38bfdc28c61141c4192f5fb3f3cf36f1bd4343c083d6ac30",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-intl_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-intl_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -6555,9 +6622,9 @@
 					"version": "1.0.8-5+b1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "ucf_3.0043-p-nmu1-p-deb12u1_arm64",
@@ -6575,9 +6642,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -6590,13 +6657,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-zip_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-zip_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-zip",
-			"sha256": "2edfc584f308e0de0c0d7496a946bc03799124dbb8a5d48be9fa9d16a51f3af4",
+			"sha256": "de5519a118e6984af36935403d5170b9496c08e4e9ee131123f270f92ab54555",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-zip_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-zip_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -6668,9 +6735,9 @@
 					"version": "1:1.0.9-1"
 				},
 				{
-					"key": "libgd3_2.3.3-13-p-0_20250427.18-p-debian12_1.gbp492e76_arm64",
+					"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_arm64",
 					"name": "libgd3",
-					"version": "2.3.3-13+0~20250427.18+debian12~1.gbp492e76"
+					"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
 				},
 				{
 					"key": "libwebp7_1.2.4-0.2-p-deb12u1_arm64",
@@ -6833,9 +6900,9 @@
 					"version": "20220623.1-1+deb12u2"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -6853,9 +6920,9 @@
 					"version": "0.0.17+nmu1"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -6868,13 +6935,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-gd_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-gd_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-gd",
-			"sha256": "dad0c9fb412bbe63b050efce22d9d445f51db434a722f3796b818e3ed6d5f230",
+			"sha256": "64b3ed87c5c46307dfa6164092771d2e6ef45f3d0019df3fe2fb7d2be2c6b5d3",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-gd_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-gd_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -6945,13 +7012,13 @@
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "libgd3_2.3.3-13-p-0_20250427.18-p-debian12_1.gbp492e76_arm64",
+			"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_arm64",
 			"name": "libgd3",
-			"sha256": "0ec3e427bc08d1568ef49e8227c252d3bd8fbd472146cd3903518327cb364ce0",
+			"sha256": "8833817e51dc28c01cea36d67f72553df52b7e09894f68b115fa991b03c5ab58",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-13+0~20250427.18+debian12~1.gbp492e76_arm64.deb"
+				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22_arm64.deb"
 			],
-			"version": "2.3.3-13+0~20250427.18+debian12~1.gbp492e76"
+			"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
 		},
 		{
 			"arch": "arm64",
@@ -7409,9 +7476,9 @@
 					"version": "1.0.9-2+b6"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "ucf_3.0043-p-nmu1-p-deb12u1_arm64",
@@ -7429,9 +7496,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -7444,13 +7511,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-curl_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-curl_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-curl",
-			"sha256": "c9db2b4cb82fb194b4ec40de885ecb5bf003391d67749016f4817b644e6855b8",
+			"sha256": "1db5b073e98112abcc693952c8f694dd369d497c4fc1f0fe27b58942f9437c2f",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-curl_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-curl_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -7712,14 +7779,14 @@
 					"version": "1.9.4-1"
 				},
 				{
-					"key": "php7.2-igbinary_3.2.16-5-p-0_20251118.55-p-debian12_1.gbp9ac245_arm64",
+					"key": "php7.2-igbinary_3.2.16-6-p-0_20260330.57-p-debian12_1.gbp1eff65_arm64",
 					"name": "php7.2-igbinary",
-					"version": "3.2.16-5+0~20251118.55+debian12~1.gbp9ac245"
+					"version": "3.2.16-6+0~20260330.57+debian12~1.gbp1eff65"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -7742,9 +7809,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -7784,9 +7851,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -7809,9 +7876,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -7824,13 +7891,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-igbinary_3.2.16-5-p-0_20251118.55-p-debian12_1.gbp9ac245_arm64",
+			"key": "php7.2-igbinary_3.2.16-6-p-0_20260330.57-p-debian12_1.gbp1eff65_arm64",
 			"name": "php7.2-igbinary",
-			"sha256": "65226306ebde4b173b1d7a76208ccf15c0bbcbf2c42f609d719ad2cb40ac2982",
+			"sha256": "a915f5304d91a21098663b631d524fc750bc73278fd45269f388f31cfaa9844b",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php-igbinary/php7.2-igbinary_3.2.16-5+0~20251118.55+debian12~1.gbp9ac245_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php-igbinary/php7.2-igbinary_3.2.16-6+0~20260330.57+debian12~1.gbp1eff65_arm64.deb"
 			],
-			"version": "3.2.16-5+0~20251118.55+debian12~1.gbp9ac245"
+			"version": "3.2.16-6+0~20260330.57+debian12~1.gbp1eff65"
 		},
 		{
 			"arch": "arm64",
@@ -7876,9 +7943,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -7901,9 +7968,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -7916,13 +7983,13 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-soap_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-soap_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-soap",
-			"sha256": "d61c45cb5cb255978c9dd417888f37994612555b0f254aa7534bf2e9af5a4ad1",
+			"sha256": "42dabafc95574426eec3147647d1bdc80da54aa883fa46c0deba8e91cc6b5b9d",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-soap_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-soap_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
@@ -7943,9 +8010,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php7.2-common_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 					"name": "php7.2-common",
-					"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -7968,9 +8035,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -7983,26 +8050,93 @@
 					"version": "6.4-4"
 				}
 			],
-			"key": "php7.2-mbstring_7.2.34-59-p-0_20251218.111-p-debian12_1.gbp637f71_arm64",
+			"key": "php7.2-mbstring_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
 			"name": "php7.2-mbstring",
-			"sha256": "c94add7ecf07978afb8fc8eb98fac9379697cd521b4223c969b66441ee0a4337",
+			"sha256": "555b9fa23618df1c20f6c39ea52219d10215b34601a871e5ac4779e024678ae1",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mbstring_7.2.34-59+0~20251218.111+debian12~1.gbp637f71_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-mbstring_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
 			],
-			"version": "7.2.34-59+0~20251218.111+debian12~1.gbp637f71"
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [
 				{
-					"key": "php-xml_2-8.4-p-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
-					"name": "php-xml",
-					"version": "2:8.4+101~+0~20260212.63+debian12~1.gbp7da167"
+					"key": "libc6_2.36-9-p-deb12u13_arm64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u13"
 				},
 				{
-					"key": "php8.4-xml_8.4.17-1-p-0_20260118.40-p-debian12_1.gbpd1ab00_arm64",
+					"key": "libgcc-s1_12.2.0-14-p-deb12u1_arm64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14+deb12u1"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14-p-deb12u1_arm64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14+deb12u1"
+				},
+				{
+					"key": "php7.2-common_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
+					"name": "php7.2-common",
+					"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
+				},
+				{
+					"key": "libssl3_3.0.18-1_deb12u2_arm64",
+					"name": "libssl3",
+					"version": "3.0.18-1~deb12u2"
+				},
+				{
+					"key": "ucf_3.0043-p-nmu1-p-deb12u1_arm64",
+					"name": "ucf",
+					"version": "3.0043+nmu1+deb12u1"
+				},
+				{
+					"key": "sensible-utils_0.0.17-p-nmu1_arm64",
+					"name": "sensible-utils",
+					"version": "0.0.17+nmu1"
+				},
+				{
+					"key": "debconf_1.5.82_arm64",
+					"name": "debconf",
+					"version": "1.5.82"
+				},
+				{
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
+					"name": "php-common",
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
+				},
+				{
+					"key": "psmisc_23.6-1_arm64",
+					"name": "psmisc",
+					"version": "23.6-1"
+				},
+				{
+					"key": "libtinfo6_6.4-4_arm64",
+					"name": "libtinfo6",
+					"version": "6.4-4"
+				}
+			],
+			"key": "php7.2-bcmath_7.2.34-63-p-0_20260514.120-p-debian12_1.gbp709ce5_arm64",
+			"name": "php7.2-bcmath",
+			"sha256": "a0af5b7977e0f19f3e0eeeefd326a56a7ddba1aa9c587b5bcfeb6b198a3a2184",
+			"urls": [
+				"https://packages.sury.org/php/pool/main/p/php7.2/php7.2-bcmath_7.2.34-63+0~20260514.120+debian12~1.gbp709ce5_arm64.deb"
+			],
+			"version": "7.2.34-63+0~20260514.120+debian12~1.gbp709ce5"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "php-xml_2-8.4-p-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
+					"name": "php-xml",
+					"version": "2:8.4+101~+0~20260503.72+debian12~1.gbp7da167"
+				},
+				{
+					"key": "php8.4-xml_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_arm64",
 					"name": "php8.4-xml",
-					"version": "8.4.17-1+0~20260118.40+debian12~1.gbpd1ab00"
+					"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 				},
 				{
 					"key": "libxslt1.1_1.1.35-1-p-deb12u3_arm64",
@@ -8060,9 +8194,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.4-common_8.4.17-1-p-0_20260118.40-p-debian12_1.gbpd1ab00_arm64",
+					"key": "php8.4-common_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_arm64",
 					"name": "php8.4-common",
-					"version": "8.4.17-1+0~20260118.40+debian12~1.gbpd1ab00"
+					"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 				},
 				{
 					"key": "libssl3_3.0.18-1_deb12u2_arm64",
@@ -8090,9 +8224,9 @@
 					"version": "1.5.82"
 				},
 				{
-					"key": "php-common_2-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+					"key": "php-common_2-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 					"name": "php-common",
-					"version": "2:101~+0~20260212.63+debian12~1.gbp7da167"
+					"version": "2:101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
 					"key": "psmisc_23.6-1_arm64",
@@ -8116,35 +8250,35 @@
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php-xml_2-8.4-p-101_-p-0_20260212.63-p-debian12_1.gbp7da167_arm64",
+			"key": "php-xml_2-8.4-p-101_-p-0_20260503.72-p-debian12_1.gbp7da167_arm64",
 			"name": "php-xml",
-			"sha256": "b7d08d70c5e1f572427cacf16377a1279a354287fd3c7136b2d9db24dded6ec2",
+			"sha256": "23418779f1b06b3e19d9d67ad5e83e6db524d0d5de8c9216100ad67ec6eefcd1",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php-defaults/php-xml_8.4+101~+0~20260212.63+debian12~1.gbp7da167_all.deb"
+				"https://packages.sury.org/php/pool/main/p/php-defaults/php-xml_8.4+101~+0~20260503.72+debian12~1.gbp7da167_all.deb"
 			],
-			"version": "2:8.4+101~+0~20260212.63+debian12~1.gbp7da167"
+			"version": "2:8.4+101~+0~20260503.72+debian12~1.gbp7da167"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php8.4-xml_8.4.17-1-p-0_20260118.40-p-debian12_1.gbpd1ab00_arm64",
+			"key": "php8.4-xml_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_arm64",
 			"name": "php8.4-xml",
-			"sha256": "810fa1a39353bd603b99e1afddf98729d2879b2fcb3595fd60b615cc4836a1d9",
+			"sha256": "d8d4aa2cbb20244ad62d20cd994085911c27ec9b316e1b1dacde164c1e2a1626",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.17-1+0~20260118.40+debian12~1.gbpd1ab00_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf_arm64.deb"
 			],
-			"version": "8.4.17-1+0~20260118.40+debian12~1.gbpd1ab00"
+			"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php8.4-common_8.4.17-1-p-0_20260118.40-p-debian12_1.gbpd1ab00_arm64",
+			"key": "php8.4-common_8.4.21-3-p-0_20260514.49-p-debian12_1.gbp45ccaf_arm64",
 			"name": "php8.4-common",
-			"sha256": "7faa4983f295155e431f404a630e236400a568fee318c8824efa21259f71833a",
+			"sha256": "c79a8d49aa170821978ae6a700cf2155cec3b6d40cc7e2317701ca5e823094ff",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.17-1+0~20260118.40+debian12~1.gbpd1ab00_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf_arm64.deb"
 			],
-			"version": "8.4.17-1+0~20260118.40+debian12~1.gbpd1ab00"
+			"version": "8.4.21-3+0~20260514.49+debian12~1.gbp45ccaf"
 		}
 	],
 	"version": 1
