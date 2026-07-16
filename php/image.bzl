@@ -65,6 +65,9 @@ PHP_MODULES = {
     "mbstring": {
         "20": ["mbstring"],
     },
+    "bcmath": {
+        "20": ["bcmath"],
+    },
 }
 
 PHP_EXTRA = [
