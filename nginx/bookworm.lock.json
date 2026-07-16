@@ -3,24 +3,24 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "nginx_1.22.1-9-p-deb12u4_amd64",
+			"key": "nginx_1.22.1-9-p-deb12u9_amd64",
 			"name": "nginx",
-			"sha256": "c5aa019e3257d39501fa39b91383585d76c75c30af75be95070ee75191afdbed",
+			"sha256": "4e7b52f8b31f26d77ffb5c427c41e36223e81b047242ecfa8dc1d7f939734885",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian-security/20260212T194631Z/pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u4_amd64.deb"
+				"https://snapshot.debian.org/archive/debian-security/20260716T114414Z/pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u9_amd64.deb"
 			],
-			"version": "1.22.1-9+deb12u4"
+			"version": "1.22.1-9+deb12u9"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "libc6_2.36-9-p-deb12u13_amd64",
+			"key": "libc6_2.36-9-p-deb12u14_amd64",
 			"name": "libc6",
-			"sha256": "3d8072c73b017e907bbf44b7db870687888a991961d74f1ecbba6b9458f32a2c",
+			"sha256": "ba4f88f73dbc3ae9055f3c20f4523bfdbaf1ad13ff95e258924f77d20b4fbedf",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/g/glibc/libc6_2.36-9+deb12u13_amd64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/g/glibc/libc6_2.36-9+deb12u14_amd64.deb"
 			],
-			"version": "2.36-9+deb12u13"
+			"version": "2.36-9+deb12u14"
 		},
 		{
 			"arch": "amd64",
@@ -29,7 +29,7 @@
 			"name": "libcrypt1",
 			"sha256": "f5f60a5cdfd4e4eaa9438ade5078a57741a7a78d659fcb0c701204f523e8bd29",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/libx/libxcrypt/libcrypt1_4.4.33-2_amd64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/libx/libxcrypt/libcrypt1_4.4.33-2_amd64.deb"
 			],
 			"version": "1:4.4.33-2"
 		},
@@ -40,20 +40,20 @@
 			"name": "libpcre2-8-0",
 			"sha256": "030db54f4d76cdfe2bf0e8eb5f9efea0233ab3c7aa942d672c7b63b52dbaf935",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/p/pcre2/libpcre2-8-0_10.42-1_amd64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/p/pcre2/libpcre2-8-0_10.42-1_amd64.deb"
 			],
 			"version": "10.42-1"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "libssl3_3.0.18-1_deb12u2_amd64",
+			"key": "libssl3_3.0.20-1_deb12u2_amd64",
 			"name": "libssl3",
-			"sha256": "ed44f11b74763cded2ad406f4de4d585ea27b0ce6377e7c8d98c2ddf2ed35cb3",
+			"sha256": "89be24b41bff568ee6e7caf5680a3d808e80315ed92e407056ce0fa7a5bda025",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian-security/20260212T194631Z/pool/updates/main/o/openssl/libssl3_3.0.18-1~deb12u2_amd64.deb"
+				"https://snapshot.debian.org/archive/debian-security/20260716T114414Z/pool/updates/main/o/openssl/libssl3_3.0.20-1~deb12u2_amd64.deb"
 			],
-			"version": "3.0.18-1~deb12u2"
+			"version": "3.0.20-1~deb12u2"
 		},
 		{
 			"arch": "amd64",
@@ -62,31 +62,31 @@
 			"name": "zlib1g",
 			"sha256": "d7dd1d1411fedf27f5e27650a6eff20ef294077b568f4c8c5e51466dc7c08ce4",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_amd64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_amd64.deb"
 			],
 			"version": "1:1.2.13.dfsg-1"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "nginx_1.22.1-9-p-deb12u4_arm64",
+			"key": "nginx_1.22.1-9-p-deb12u9_arm64",
 			"name": "nginx",
-			"sha256": "bc53ff1a219429eaf906aae19ba872f8dcab2129de51650d980a9a5f9bce89b4",
+			"sha256": "c50ba73501e353702a748a57aab4817bfe7d1e8d6cc7a2e24c97248bd91462de",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian-security/20260212T194631Z/pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u4_arm64.deb"
+				"https://snapshot.debian.org/archive/debian-security/20260716T114414Z/pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u9_arm64.deb"
 			],
-			"version": "1.22.1-9+deb12u4"
+			"version": "1.22.1-9+deb12u9"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "libc6_2.36-9-p-deb12u13_arm64",
+			"key": "libc6_2.36-9-p-deb12u14_arm64",
 			"name": "libc6",
-			"sha256": "03c3909c47a6df9f6f05357474efefca9bc30212069135a7c354fa78a1ec2415",
+			"sha256": "01f4330719fd4f65580e16ea5a0527f372fca750e8f588d26deaf09f2d3b1cf4",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/g/glibc/libc6_2.36-9+deb12u13_arm64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/g/glibc/libc6_2.36-9+deb12u14_arm64.deb"
 			],
-			"version": "2.36-9+deb12u13"
+			"version": "2.36-9+deb12u14"
 		},
 		{
 			"arch": "arm64",
@@ -95,7 +95,7 @@
 			"name": "libcrypt1",
 			"sha256": "eea0ad76ea5eb507127fea0c291622ea4ecdbb71c4b9a8ed9c76ae33fc1a0127",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/libx/libxcrypt/libcrypt1_4.4.33-2_arm64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/libx/libxcrypt/libcrypt1_4.4.33-2_arm64.deb"
 			],
 			"version": "1:4.4.33-2"
 		},
@@ -106,20 +106,20 @@
 			"name": "libpcre2-8-0",
 			"sha256": "b2448d0a8a3db7fbeac231e7ef93811346c1fb5f96ccf6f631701d8a4eb39206",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/p/pcre2/libpcre2-8-0_10.42-1_arm64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/p/pcre2/libpcre2-8-0_10.42-1_arm64.deb"
 			],
 			"version": "10.42-1"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "libssl3_3.0.18-1_deb12u2_arm64",
+			"key": "libssl3_3.0.20-1_deb12u2_arm64",
 			"name": "libssl3",
-			"sha256": "30b2d6c27fd4a2f5ef554ac3b86c96e8a3abbbfb454c6dbe7e308ce9df36f8c5",
+			"sha256": "a256e03cc3abd7243ac5c6ee91a9deb56478221ef0d3c2b0748551e13140c0bf",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian-security/20260212T194631Z/pool/updates/main/o/openssl/libssl3_3.0.18-1~deb12u2_arm64.deb"
+				"https://snapshot.debian.org/archive/debian-security/20260716T114414Z/pool/updates/main/o/openssl/libssl3_3.0.20-1~deb12u2_arm64.deb"
 			],
-			"version": "3.0.18-1~deb12u2"
+			"version": "3.0.20-1~deb12u2"
 		},
 		{
 			"arch": "arm64",
@@ -128,7 +128,7 @@
 			"name": "zlib1g",
 			"sha256": "52b8b8a145bbe1956bba82034f77022cbef0c3d0885c9e32d9817a7932fe1913",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260213T083951Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_arm64.deb"
+				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_arm64.deb"
 			],
 			"version": "1:1.2.13.dfsg-1"
 		}
