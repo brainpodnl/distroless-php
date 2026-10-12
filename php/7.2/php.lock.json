@@ -2595,9 +2595,9 @@
 					"version": "1:1.0.9-1"
 				},
 				{
-					"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_amd64",
+					"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_amd64",
 					"name": "libgd3",
-					"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
+					"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
 				},
 				{
 					"key": "libwebp7_1.2.4-0.2-p-deb12u1_amd64",
@@ -2872,13 +2872,13 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_amd64",
+			"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_amd64",
 			"name": "libgd3",
-			"sha256": "de36ac78b07a71899052eec6098ebfc8de987d226dfb00f5f59991f1759afa75",
+			"sha256": "f168fe3beb7424891a388ea54da71024f777fac268168fe451ac2d16d573deb4",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22_amd64.deb"
+				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-14+0~20260731.21+debian12~1.gbp938f32_amd64.deb"
 			],
-			"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
+			"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
 		},
 		{
 			"arch": "amd64",
@@ -3994,9 +3994,9 @@
 					"version": "2:8.4+101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
-					"key": "php8.4-xml_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_amd64",
+					"key": "php8.4-xml_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_amd64",
 					"name": "php8.4-xml",
-					"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+					"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 				},
 				{
 					"key": "libxslt1.1_1.1.35-1-p-deb12u4_amd64",
@@ -4054,9 +4054,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.4-common_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_amd64",
+					"key": "php8.4-common_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_amd64",
 					"name": "php8.4-common",
-					"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+					"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -4121,24 +4121,24 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php8.4-xml_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_amd64",
+			"key": "php8.4-xml_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_amd64",
 			"name": "php8.4-xml",
-			"sha256": "358fc85ebe2ef5b58e317fe9f6ca6e65076c3dfa366ecabeb7b932f7d6bfd43d",
+			"sha256": "903f122284283ed61323e3b0d7c6adb65a34aa2954b8192037c5fea95446e376",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.23-1+0~20260703.52+debian12~1.gbp817a0c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.26-1+0~20260925.56+debian12~1.gbp80d95d_amd64.deb"
 			],
-			"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+			"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php8.4-common_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_amd64",
+			"key": "php8.4-common_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_amd64",
 			"name": "php8.4-common",
-			"sha256": "2856dc667d0fcc88727f318aefb08535d5441e919fa73fa38b619f44a75455ea",
+			"sha256": "3394cee7d722a8e1f6f90c6db61ea55b5c605a9d19daa3a35eaf491a5298c46f",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.23-1+0~20260703.52+debian12~1.gbp817a0c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.26-1+0~20260925.56+debian12~1.gbp80d95d_amd64.deb"
 			],
-			"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+			"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 		},
 		{
 			"arch": "arm64",
@@ -6735,9 +6735,9 @@
 					"version": "1:1.0.9-1"
 				},
 				{
-					"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_arm64",
+					"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_arm64",
 					"name": "libgd3",
-					"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
+					"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
 				},
 				{
 					"key": "libwebp7_1.2.4-0.2-p-deb12u1_arm64",
@@ -7012,13 +7012,13 @@
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "libgd3_2.3.3-13-p-0_20260506.19-p-debian12_1.gbp4c9a22_arm64",
+			"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_arm64",
 			"name": "libgd3",
-			"sha256": "8833817e51dc28c01cea36d67f72553df52b7e09894f68b115fa991b03c5ab58",
+			"sha256": "d448acc5bac05a6417b8a6f46fd8502d348259b1564a33d594fa8e1e9754a1ad",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22_arm64.deb"
+				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-14+0~20260731.21+debian12~1.gbp938f32_arm64.deb"
 			],
-			"version": "2.3.3-13+0~20260506.19+debian12~1.gbp4c9a22"
+			"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
 		},
 		{
 			"arch": "arm64",
@@ -8134,9 +8134,9 @@
 					"version": "2:8.4+101~+0~20260503.72+debian12~1.gbp7da167"
 				},
 				{
-					"key": "php8.4-xml_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_arm64",
+					"key": "php8.4-xml_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
 					"name": "php8.4-xml",
-					"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+					"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 				},
 				{
 					"key": "libxslt1.1_1.1.35-1-p-deb12u4_arm64",
@@ -8194,9 +8194,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.4-common_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_arm64",
+					"key": "php8.4-common_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
 					"name": "php8.4-common",
-					"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+					"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -8261,24 +8261,24 @@
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php8.4-xml_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_arm64",
+			"key": "php8.4-xml_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
 			"name": "php8.4-xml",
-			"sha256": "fe431eaacb0f8a8fa70b46648e8783159e9e2baae9bd34e50676e61075fe4a8b",
+			"sha256": "886d37e8e46951000dc6bed1f8e0bd523907f113fefb3bda287c1c52b42a20d4",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.23-1+0~20260703.52+debian12~1.gbp817a0c_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.26-1+0~20260925.56+debian12~1.gbp80d95d_arm64.deb"
 			],
-			"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+			"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php8.4-common_8.4.23-1-p-0_20260703.52-p-debian12_1.gbp817a0c_arm64",
+			"key": "php8.4-common_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
 			"name": "php8.4-common",
-			"sha256": "7faf8ea8312478ed8f9708c8c3f4806cc11b2a8702d71498e0751137df601f15",
+			"sha256": "a26aade65c57be7468deab046d3165dcb3ff0bee21d4cac4904fd46835da1743",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.23-1+0~20260703.52+debian12~1.gbp817a0c_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.26-1+0~20260925.56+debian12~1.gbp80d95d_arm64.deb"
 			],
-			"version": "8.4.23-1+0~20260703.52+debian12~1.gbp817a0c"
+			"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
 		}
 	],
 	"version": 1
