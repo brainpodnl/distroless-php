@@ -77,9 +77,11 @@ oci_image(
         ":sh",
         ":passwd",
         ":group",
+        # The official NGINX package ships default config files. Layer the
+        # project configuration afterwards so it takes precedence.
+        "@nginx-bookworm//:flat",
         ":config.tar",
         ":conf.d.tar",
-        "@nginx-bookworm//:flat",
     ],
 )
 

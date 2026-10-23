@@ -3,13 +3,13 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "nginx_1.22.1-9-p-deb12u9_amd64",
+			"key": "nginx_1.31.8-1_bookworm_amd64",
 			"name": "nginx",
-			"sha256": "4e7b52f8b31f26d77ffb5c427c41e36223e81b047242ecfa8dc1d7f939734885",
+			"sha256": "6591c44bb94139916bf99e149857f5406006b3c7120b3b384dc0dddd97e5818c",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian-security/20260716T114414Z/pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u9_amd64.deb"
+				"https://nginx.org/packages/mainline/debian/pool/nginx/n/nginx/nginx_1.31.8-1~bookworm_amd64.deb"
 			],
-			"version": "1.22.1-9+deb12u9"
+			"version": "1.31.8-1~bookworm"
 		},
 		{
 			"arch": "amd64",
@@ -69,13 +69,13 @@
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "nginx_1.22.1-9-p-deb12u9_arm64",
+			"key": "nginx_1.31.8-1_bookworm_arm64",
 			"name": "nginx",
-			"sha256": "c50ba73501e353702a748a57aab4817bfe7d1e8d6cc7a2e24c97248bd91462de",
+			"sha256": "730113cad444c6ea02011ddea712a0f81ab75b114b26602aca1d1e4926408155",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian-security/20260716T114414Z/pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u9_arm64.deb"
+				"https://nginx.org/packages/mainline/debian/pool/nginx/n/nginx/nginx_1.31.8-1~bookworm_arm64.deb"
 			],
-			"version": "1.22.1-9+deb12u9"
+			"version": "1.31.8-1~bookworm"
 		},
 		{
 			"arch": "arm64",
