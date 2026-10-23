@@ -126,7 +126,7 @@ def php_fpm_image(name, version):
 
     cacerts(
         name = "{}_cacerts".format(name),
-        package = "@ca-certificates//:data.tar.xz",
+        package = "@php-common//ca-certificates:data",
     )
 
     oci_image(

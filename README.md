@@ -2,6 +2,30 @@
 
 Distroless PHP images built with Bazel, using [rules_distroless](https://github.com/GoogleContainerTools/rules_distroless).
 
+## CA trust bundle
+
+All PHP versions generate their CA bundle from the same `php-common` package that
+supplies the image's raw root certificates. Keep the version constraint in
+`php/common.yaml` and the amd64/arm64 entries in `php/common.lock.json` aligned.
+The minimum fixed package for the October 2026 eMudhra incident is
+`20250419~deb12u2` ([DLA-4845-1](https://lists.debian.org/debian-lts-announce/2026/10/msg00039.html)).
+Both emSign ECC Root CA - G3 and AAA Certificate Services must be absent: removing
+only the first leaves a cross-signed trust path.
+
+Run the same focused regression check as CI (Python 3 and OpenSSL 3 required):
+
+```sh
+bazel build //php:php-fpm-8.4_cacerts @php-common//ca-certificates:data
+python3 tests/check_ca_trust.py \
+  "$(bazel cquery //php:php-fpm-8.4_cacerts --output=files)" \
+  "$(bazel cquery @php-common//ca-certificates:data --output=files)"
+```
+
+The check validates both the generated layer and installed raw certificates,
+retains unaffected roots, and rejects offline chains through both affected roots.
+Existing published images do not update automatically: rebuild and roll out all
+supported PHP versions and architectures after merging a trust-store update.
+
 ## Updating Debian package snapshots
 
 The YAML manifests pin Debian packages to a specific [snapshot.debian.org](https://snapshot.debian.org) timestamp for reproducibility. When snapshots expire or return 404s, you need to update the timestamps and regenerate the lock files.
