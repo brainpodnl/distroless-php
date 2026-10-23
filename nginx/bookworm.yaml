@@ -1,6 +1,10 @@
 version: 1
 
 sources:
+  # NGINX 1.31.7 fixes CVE-2026-97205, CVE-2026-93479, and CVE-2026-15176.
+  # Use the official mainline repository because Debian bookworm only ships 1.22.
+  - channel: bookworm nginx
+    url: https://nginx.org/packages/mainline/debian
   - channel: bookworm main contrib
     url: https://snapshot.debian.org/archive/debian/20260716T082409Z
   - channel: bookworm-security main
@@ -14,7 +18,7 @@ archs:
 
 packages:
   # Packages
-  - nginx
+  - nginx (= 1.31.8-1~bookworm)
 
   # Dependencies
   - libc6
