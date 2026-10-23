@@ -24,15 +24,6 @@ PHP_VERSIONS = [
     "8.5",
 ]
 
-http_archive = use_repo_rule("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
-
-http_archive(
-    name = "ca-certificates",
-    build_file_content = 'exports_files(["data.tar.xz", "control.tar.xz"])',
-    sha256 = "ef590f89563aa4b46c8260d49d1cea0fc1b181d19e8df3782694706adf05c184",
-    urls = ["https://snapshot.debian.org/archive/debian/20250827T085636Z/pool/main/c/ca-certificates/ca-certificates_20250419_all.deb"],
-)
-
 llvm = use_extension("@toolchains_llvm//toolchain/extensions:llvm.bzl", "llvm")
 llvm.toolchain(
     name = "llvm_toolchain",
