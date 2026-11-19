@@ -3,13 +3,13 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "nginx_1.31.8-1_bookworm_amd64",
+			"key": "nginx_1.31.9-1_bookworm_amd64",
 			"name": "nginx",
-			"sha256": "6591c44bb94139916bf99e149857f5406006b3c7120b3b384dc0dddd97e5818c",
+			"sha256": "c72eb76c41e85d8749272d396774df7bb5ab7487b7f9499b1cf5b3f7d6863428",
 			"urls": [
-				"https://nginx.org/packages/mainline/debian/pool/nginx/n/nginx/nginx_1.31.8-1~bookworm_amd64.deb"
+				"https://nginx.org/packages/mainline/debian/pool/nginx/n/nginx/nginx_1.31.9-1~bookworm_amd64.deb"
 			],
-			"version": "1.31.8-1~bookworm"
+			"version": "1.31.9-1~bookworm"
 		},
 		{
 			"arch": "amd64",
@@ -69,13 +69,13 @@
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "nginx_1.31.8-1_bookworm_arm64",
+			"key": "nginx_1.31.9-1_bookworm_arm64",
 			"name": "nginx",
-			"sha256": "730113cad444c6ea02011ddea712a0f81ab75b114b26602aca1d1e4926408155",
+			"sha256": "a00f2d0d121e1f83b6ab1e9610f39a1d7e15a072ebd399ea92dd9a24c18ffdfb",
 			"urls": [
-				"https://nginx.org/packages/mainline/debian/pool/nginx/n/nginx/nginx_1.31.8-1~bookworm_arm64.deb"
+				"https://nginx.org/packages/mainline/debian/pool/nginx/n/nginx/nginx_1.31.9-1~bookworm_arm64.deb"
 			],
-			"version": "1.31.8-1~bookworm"
+			"version": "1.31.9-1~bookworm"
 		},
 		{
 			"arch": "arm64",
