@@ -349,14 +349,14 @@
 					"version": "6.4-4"
 				},
 				{
-					"key": "php8.3-opcache_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-opcache_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-opcache",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "php-common_2-101-p-0_20261021.78-p-debian12_1.gbp53f25f_amd64",
@@ -369,14 +369,14 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php8.3-cli_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-cli_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-cli",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
-					"key": "php8.3-readline_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-readline_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-readline",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_amd64",
@@ -394,13 +394,13 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php8.3-fpm_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-fpm_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-fpm",
-			"sha256": "c5fb3ac48c956b38c7aff596d33182f4c7124c8c8c5f044b335512c532395b7a",
+			"sha256": "fdf1cbc35e465a1d0aff4b8f723d481e685624783c8bb4adec971fc8651307fb",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-fpm_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-fpm_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1180,9 +1180,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -1223,15 +1223,170 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-opcache_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-opcache_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-opcache",
-			"sha256": "49ebabac818190fd8a4a5fffa1ff57811779601ba24a4e0b0e1f7e8d2df1a41f",
+			"sha256": "40d9cc4f3969b41a450d3628ef1a8260e09af0282e441b2a7d244e35c41f1965",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-opcache_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-opcache_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1290,15 +1445,170 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-common",
-			"sha256": "8b03693b2a221d3972e6c1ecba136c24c009d82875ed199816ab46d91c05504b",
+			"sha256": "5fc5d7622520d0c648e35d4df6dca7d4e8a721dd99f111d79549286c478ab701",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-common_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-common_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1406,9 +1716,9 @@
 					"version": "2026b-0+deb12u1"
 				},
 				{
-					"key": "php8.3-readline_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-readline_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-readline",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_amd64",
@@ -1431,9 +1741,9 @@
 					"version": "1.0.4-2"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libffi8_3.4.4-1_amd64",
@@ -1451,9 +1761,144 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php8.3-opcache_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
+				},
+				{
+					"key": "php8.3-opcache_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-opcache",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "media-types_10.0.0_amd64",
@@ -1461,24 +1906,24 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php8.3-cli_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-cli_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-cli",
-			"sha256": "e9d89c16af2fe06661ba3e6aeda71ab62326170b1f41b03edd17874146f48408",
+			"sha256": "c47b4e8967d15a073343cc8f86466050fef79407a3d438f464cb8cbbebb43ef0",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-cli_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-cli_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php8.3-readline_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-readline_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-readline",
-			"sha256": "6332982713a1a52ead0cc0115604d4e1db12d43a9ef4a43fd87e91f198faf8bc",
+			"sha256": "2ff1886feccb2809e9f82aa560db167e65113f7d4b114d956bf1270253c45623",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-readline_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-readline_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1572,9 +2017,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -1615,15 +2060,150 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-xml_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-xml_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-xml",
-			"sha256": "7a62b8052b568d299a7682cce8f77f7333307f5f6333c3f0f9928acd7624937c",
+			"sha256": "f813fb63a4da1df7050c5829e3f2ced81a9b1ed6a8ceab69ccb6b51d183faf6c",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-xml_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-xml_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1655,9 +2235,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -1698,15 +2278,170 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-mysql_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-mysql_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-mysql",
-			"sha256": "d09aa99995a82b1a53bf71c36f004026fbdb555997590c202199e5429afad0e6",
+			"sha256": "36ed119dc0947d8e6e244c03ee366061593d83c6a85401a354811d5377e58930",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mysql_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mysql_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1737,9 +2472,9 @@
 					"version": "72.1-3+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -1780,15 +2515,170 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-intl_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-intl_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-intl",
-			"sha256": "27c1e9c867f862ca172dc08ba8790e15e575a8bd345c80e2016b1a33d7ac2a4d",
+			"sha256": "c026822b993717f997ac59b51d4434929d58c421c34b0c5618fcf30dac4cf778",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-intl_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-intl_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1829,9 +2719,9 @@
 					"version": "1.0.8-5+b1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libffi8_3.4.4-1_amd64",
@@ -1867,15 +2757,160 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-zip_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-zip_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-zip",
-			"sha256": "b53f52b17ede32dabe05fa651a947588f9461bebb285f4eab35febe1a5faa2c6",
+			"sha256": "534c839284de1889f051aea513215ab602e16d0c4a4538bd2a521c73de6a70cc",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-zip_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-zip_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -1892,9 +2927,29 @@
 			"arch": "amd64",
 			"dependencies": [
 				{
-					"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_amd64",
+					"key": "libgd3_2.3.3-16-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "libgd3",
-					"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
+					"version": "2.3.3-16+0~deb.sury.org.1+debian12"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u14_amd64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u14"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14-p-deb12u1_amd64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14+deb12u1"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14-p-deb12u1_amd64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14+deb12u1"
 				},
 				{
 					"key": "libxpm4_1-3.5.12-1.1-p-deb12u1_amd64",
@@ -1922,21 +2977,6 @@
 					"version": "1:1.1.2-3"
 				},
 				{
-					"key": "libc6_2.36-9-p-deb12u14_amd64",
-					"name": "libc6",
-					"version": "2.36-9+deb12u14"
-				},
-				{
-					"key": "libgcc-s1_12.2.0-14-p-deb12u1_amd64",
-					"name": "libgcc-s1",
-					"version": "12.2.0-14+deb12u1"
-				},
-				{
-					"key": "gcc-12-base_12.2.0-14-p-deb12u1_amd64",
-					"name": "gcc-12-base",
-					"version": "12.2.0-14+deb12u1"
-				},
-				{
 					"key": "libbsd0_0.11.7-2_amd64",
 					"name": "libbsd0",
 					"version": "0.11.7-2"
@@ -1960,11 +3000,6 @@
 					"key": "libtiff6_4.5.0-6-p-deb12u4_amd64",
 					"name": "libtiff6",
 					"version": "4.5.0-6+deb12u4"
-				},
-				{
-					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
-					"name": "zlib1g",
-					"version": "1:1.2.13.dfsg-1"
 				},
 				{
 					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
@@ -2112,9 +3147,9 @@
 					"version": "20220623.1-1+deb12u2"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -2150,26 +3185,161 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-gd_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-gd_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-gd",
-			"sha256": "7305a9ced356c0d567e56514a4fabe3a1e30b633b094c641275a9b8c81c331bb",
+			"sha256": "b2f85f1ea6f1c09dc12172d447aea1bd6b86780eee654903e9a57aa0cce57c4a",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-gd_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-gd_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_amd64",
+			"key": "libgd3_2.3.3-16-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "libgd3",
-			"sha256": "f168fe3beb7424891a388ea54da71024f777fac268168fe451ac2d16d573deb4",
+			"sha256": "cf255fda3166ca39650461741fa4e86a1e26aa61949d02d3af31df5cfa2c0d7b",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-14+0~20260731.21+debian12~1.gbp938f32_amd64.deb"
+				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-16+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
+			"version": "2.3.3-16+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -2693,9 +3863,9 @@
 					"version": "1.0.9-2+b6"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "ucf_3.0043-p-nmu1-p-deb12u1_amd64",
@@ -2726,15 +3896,155 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-curl_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-curl_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-curl",
-			"sha256": "c8a769d0feeec9babb90cf6b8dbd63f761ec7d47077b8466927c8cfb78d9c0c2",
+			"sha256": "331e01cbd31b9038f9d9ee9189e3f82099db2a13a233182c3db8e9c1a3d89516",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-curl_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-curl_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -3001,9 +4311,9 @@
 					"version": "3.2.16-6+0~20260709.60+debian12~1.gbp1eff65"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -3044,6 +4354,151 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
 			"key": "php8.3-redis_6.3.0-2-p-0_20260711.69-p-debian12_1.gbpd148c3_amd64",
@@ -3073,9 +4528,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -3115,6 +4570,161 @@
 				{
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
+					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
 					"version": "6.4-4"
 				}
 			],
@@ -3170,9 +4780,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -3213,15 +4823,160 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-soap_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-soap_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-soap",
-			"sha256": "148f1889f51a9e44ee9a428a25349b39dfbbb20527bea52f21337b03dd51dc84",
+			"sha256": "297bca3234bcf58d4a561dbeba20d54c17edd6bef79482ed9a2f66a50b201a45",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-soap_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-soap_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -3247,9 +5002,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -3290,15 +5045,170 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-mbstring_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-mbstring_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-mbstring",
-			"sha256": "0edc8dfdec6261c924f6b736478598ae9c08fbd1963e838bd3161e5fcb6b92a0",
+			"sha256": "cd69b83a795179a184d04c72ec2e57ea19f2ae81cf3f370e610aa5f263a878a8",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mbstring_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mbstring_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -3330,9 +5240,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+					"key": "php8.3-common_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.3-common",
-					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+					"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -3373,15 +5283,170 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_amd64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_amd64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_amd64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-bcmath_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_amd64",
+			"key": "php8.3-bcmath_8.3.36-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.3-bcmath",
-			"sha256": "5de18439d94335a33cd0fd3d209401b7a89ad19ba989c0b620eb71c3a523c3ae",
+			"sha256": "ade4bf9ae9574e1dd85ceac785e705d46ea8ad6d6eac904eda41049c6a48fcb7",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-bcmath_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-bcmath_8.3.36-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
+			"version": "8.3.36-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
@@ -3392,9 +5457,9 @@
 					"version": "2:8.4+101+0~20261021.78+debian12~1.gbp53f25f"
 				},
 				{
-					"key": "php8.4-xml_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_amd64",
+					"key": "php8.4-xml_8.4.27-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.4-xml",
-					"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
+					"version": "8.4.27-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libxslt1.1_1.1.35-1-p-deb12u4_amd64",
@@ -3452,9 +5517,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.4-common_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_amd64",
+					"key": "php8.4-common_8.4.27-2-p-0_deb.sury.org.1-p-debian12_amd64",
 					"name": "php8.4-common",
-					"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
+					"version": "8.4.27-2+0~deb.sury.org.1+debian12"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_amd64",
@@ -3495,6 +5560,141 @@
 					"key": "libtinfo6_6.4-4_amd64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_amd64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_amd64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_amd64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_amd64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_amd64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_amd64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_amd64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_amd64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_amd64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_amd64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_amd64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_amd64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_amd64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_amd64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_amd64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_amd64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_amd64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_amd64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_amd64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_amd64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_amd64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_amd64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
 			"key": "php-pear_1-1.10.16-p-submodules-p-notgz-2-p-0_20250419.41-p-debian12_1.gbpc1b130_amd64",
@@ -3519,24 +5719,24 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php8.4-xml_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_amd64",
+			"key": "php8.4-xml_8.4.27-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.4-xml",
-			"sha256": "150c734d48ced8f24eb3f9e4fa104f2586715616117eccdf576692a380f1996e",
+			"sha256": "ffed6633781629d531f90fc7415cb8bbc473f905f8ed6ae6d15a85d165289331",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.27-1+0~20261021.57+debian12~1.gbp7636b9_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.27-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
+			"version": "8.4.27-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "php8.4-common_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_amd64",
+			"key": "php8.4-common_8.4.27-2-p-0_deb.sury.org.1-p-debian12_amd64",
 			"name": "php8.4-common",
-			"sha256": "21ab5e568e6d877243228f6069ba6f4b98615781a4a61ddb4854cef2466cbd13",
+			"sha256": "b613974a84f5b92ca4610c228e6f059c8121fb8a8962bb89d3509fe50c38d0c0",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.27-1+0~20261021.57+debian12~1.gbp7636b9_amd64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.27-2+0~deb.sury.org.1+debian12_amd64.deb"
 			],
-			"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
+			"version": "8.4.27-2+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "arm64",
@@ -3887,14 +6087,14 @@
 					"version": "6.4-4"
 				},
 				{
-					"key": "php8.3-opcache_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-opcache_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-opcache",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "php-common_2-101-p-0_20261021.78-p-debian12_1.gbp53f25f_arm64",
@@ -3907,14 +6107,14 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php8.3-cli_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-cli_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-cli",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
-					"key": "php8.3-readline_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-readline_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-readline",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_arm64",
@@ -3932,13 +6132,13 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php8.3-fpm_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-fpm_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-fpm",
-			"sha256": "49fa94c79866b76f0d14160320ddea41550bb235234daffc3ff34dddec3c0675",
+			"sha256": "869dc3bd76e15770a0e8494ce562a64700e4c822dde0ee4dd6225a93049c7fbd",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-fpm_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-fpm_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -4718,9 +6918,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -4761,15 +6961,170 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-opcache_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-opcache_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-opcache",
-			"sha256": "4eccc18cdce076a1fa460a19903ff127a04f72c0c6b412d8abe2f3e60b862186",
+			"sha256": "8fb7eb93d4adc70ec8fd52e7f0cfb9efcd1f77763be99450e6acc8390cf76938",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-opcache_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-opcache_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -4828,15 +7183,170 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-common",
-			"sha256": "0ab462403710bc17aab682c3603b7e0a24944e769ae5087c7a9fb7f8d050ed30",
+			"sha256": "ad18e8f2f0946e283b685a104edf07937b38828bb81cdde8affbeca072a38c76",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-common_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-common_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -4944,9 +7454,9 @@
 					"version": "2026b-0+deb12u1"
 				},
 				{
-					"key": "php8.3-readline_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-readline_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-readline",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libedit2_3.1-20221030-2_arm64",
@@ -4969,9 +7479,9 @@
 					"version": "1.0.4-2"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libffi8_3.4.4-1_arm64",
@@ -4989,9 +7499,144 @@
 					"version": "23.6-1"
 				},
 				{
-					"key": "php8.3-opcache_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
+				},
+				{
+					"key": "php8.3-opcache_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-opcache",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "media-types_10.0.0_arm64",
@@ -4999,24 +7644,24 @@
 					"version": "10.0.0"
 				}
 			],
-			"key": "php8.3-cli_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-cli_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-cli",
-			"sha256": "7be346e1bc6ad1c482a8f760bf65552354615e211e4d0a899b119d7e44378f1d",
+			"sha256": "b48f1463654d4d5bba4ab095d6b20f17009769babd0baa89d7170822ca91952a",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-cli_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-cli_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php8.3-readline_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-readline_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-readline",
-			"sha256": "c58e5a76db7465c4d672c0a096e30025602b4f9da0af0468607508ed85a0ed21",
+			"sha256": "c009631646e48cf3a7ab6603a54efbb1ae450f10eadee1103f0e30bef9ed2edb",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-readline_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-readline_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -5110,9 +7755,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -5153,15 +7798,150 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-xml_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-xml_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-xml",
-			"sha256": "0334ee00945403b4b9a13212ec4dda21ac11c436b91d85cac4f1ffa623819aef",
+			"sha256": "690e42f59284e049d0356055d1c2991ff7e55a86da7aef11d3919ebbd80705d4",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-xml_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-xml_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -5193,9 +7973,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -5236,15 +8016,170 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-mysql_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-mysql_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-mysql",
-			"sha256": "381067b755c8e0d28d917b56f43c17c8f6a84ab3c45511c427106c2feaad0a05",
+			"sha256": "2dcaf81985661cdd8750deac82a287c07296b294b20571fba5cf2ad59c32c75a",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mysql_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mysql_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -5275,9 +8210,9 @@
 					"version": "72.1-3+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -5318,15 +8253,170 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-intl_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-intl_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-intl",
-			"sha256": "7eed00cc87588f2a63215f711c8c4d413f1ca32e84c98b83c62de453174df9a7",
+			"sha256": "617c75df357e83e29b3869008f852e60416aa82f84f44b293d0e19a7f6a7e27c",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-intl_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-intl_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -5367,9 +8457,9 @@
 					"version": "1.0.8-5+b1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libffi8_3.4.4-1_arm64",
@@ -5405,15 +8495,160 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-zip_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-zip_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-zip",
-			"sha256": "17d7b6c2010622c1dd6b98c58bb3c9c1e12ec5c76efaece565d5c829607ff9ee",
+			"sha256": "79afdb524375b487fc140b014ffb10bceb20937482cc4c438800080368eccd07",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-zip_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-zip_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -5430,9 +8665,29 @@
 			"arch": "arm64",
 			"dependencies": [
 				{
-					"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_arm64",
+					"key": "libgd3_2.3.3-16-p-0_deb.sury.org.1-p-debian12_arm64",
 					"name": "libgd3",
-					"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
+					"version": "2.3.3-16+0~deb.sury.org.1+debian12"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libc6_2.36-9-p-deb12u14_arm64",
+					"name": "libc6",
+					"version": "2.36-9+deb12u14"
+				},
+				{
+					"key": "libgcc-s1_12.2.0-14-p-deb12u1_arm64",
+					"name": "libgcc-s1",
+					"version": "12.2.0-14+deb12u1"
+				},
+				{
+					"key": "gcc-12-base_12.2.0-14-p-deb12u1_arm64",
+					"name": "gcc-12-base",
+					"version": "12.2.0-14+deb12u1"
 				},
 				{
 					"key": "libxpm4_1-3.5.12-1.1-p-deb12u1_arm64",
@@ -5460,21 +8715,6 @@
 					"version": "1:1.1.2-3"
 				},
 				{
-					"key": "libc6_2.36-9-p-deb12u14_arm64",
-					"name": "libc6",
-					"version": "2.36-9+deb12u14"
-				},
-				{
-					"key": "libgcc-s1_12.2.0-14-p-deb12u1_arm64",
-					"name": "libgcc-s1",
-					"version": "12.2.0-14+deb12u1"
-				},
-				{
-					"key": "gcc-12-base_12.2.0-14-p-deb12u1_arm64",
-					"name": "gcc-12-base",
-					"version": "12.2.0-14+deb12u1"
-				},
-				{
 					"key": "libbsd0_0.11.7-2_arm64",
 					"name": "libbsd0",
 					"version": "0.11.7-2"
@@ -5498,11 +8738,6 @@
 					"key": "libtiff6_4.5.0-6-p-deb12u4_arm64",
 					"name": "libtiff6",
 					"version": "4.5.0-6+deb12u4"
-				},
-				{
-					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
-					"name": "zlib1g",
-					"version": "1:1.2.13.dfsg-1"
 				},
 				{
 					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
@@ -5650,9 +8885,9 @@
 					"version": "20220623.1-1+deb12u2"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -5688,26 +8923,161 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-gd_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-gd_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-gd",
-			"sha256": "d7fc09b6dff923c70312ffd96a0dbd678801f58dd2266d6f7d7f78e8c4c4b374",
+			"sha256": "00614059230abee9b841378e8299920e5cccd48a607050499867deefd59ec96c",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-gd_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-gd_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "libgd3_2.3.3-14-p-0_20260731.21-p-debian12_1.gbp938f32_arm64",
+			"key": "libgd3_2.3.3-16-p-0_deb.sury.org.1-p-debian12_arm64",
 			"name": "libgd3",
-			"sha256": "d448acc5bac05a6417b8a6f46fd8502d348259b1564a33d594fa8e1e9754a1ad",
+			"sha256": "8f3a8c630f5bd082ef149e2f50d8b1d6cbbcab0ad122e50d212b90e8a73433dc",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-14+0~20260731.21+debian12~1.gbp938f32_arm64.deb"
+				"https://packages.sury.org/php/pool/main/libg/libgd2/libgd3_2.3.3-16+0~deb.sury.org.1+debian12_arm64.deb"
 			],
-			"version": "2.3.3-14+0~20260731.21+debian12~1.gbp938f32"
+			"version": "2.3.3-16+0~deb.sury.org.1+debian12"
 		},
 		{
 			"arch": "arm64",
@@ -6231,9 +9601,9 @@
 					"version": "1.0.9-2+b6"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "ucf_3.0043-p-nmu1-p-deb12u1_arm64",
@@ -6264,15 +9634,155 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-curl_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-curl_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-curl",
-			"sha256": "89ffffaf0a388e6323cc7e00002c2592683446ba6a30674eb975486ceaeef413",
+			"sha256": "e561d862117f24a79aa259eaf3dcbb50a0693add8ed08d4afd6cc97ec81e9b40",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-curl_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-curl_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -6539,9 +10049,9 @@
 					"version": "3.2.16-6+0~20260709.60+debian12~1.gbp1eff65"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -6582,6 +10092,151 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
 			"key": "php8.3-redis_6.3.0-2-p-0_20260711.69-p-debian12_1.gbpd148c3_arm64",
@@ -6611,9 +10266,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -6653,6 +10308,161 @@
 				{
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
+					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
 					"version": "6.4-4"
 				}
 			],
@@ -6708,9 +10518,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -6751,15 +10561,160 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-soap_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-soap_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-soap",
-			"sha256": "da7ba8f01b24aa9a987530cae3c3ac682887f3957727c4640c3132dd8eac8669",
+			"sha256": "8bb7f8c6ccb085bf717eef71593b45ac7ffd5e963625eedc64de0ef32acd823d",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-soap_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-soap_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -6785,9 +10740,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -6828,15 +10783,170 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-mbstring_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-mbstring_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-mbstring",
-			"sha256": "2f7bca66df305bef1b685fe7359c5ad4c298867f6392a35a8e3a5704dc63d57f",
+			"sha256": "500f2389e61a30ca08bd4287ee789350aea3f1853b263dd43fa2d06d0544496e",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mbstring_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-mbstring_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -6868,9 +10978,9 @@
 					"version": "12.2.0-14+deb12u1"
 				},
 				{
-					"key": "php8.3-common_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+					"key": "php8.3-common_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 					"name": "php8.3-common",
-					"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+					"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -6911,15 +11021,170 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "liblzma5_5.4.1-1-p-deb12u1_arm64",
+					"name": "liblzma5",
+					"version": "5.4.1-1+deb12u1"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libgcrypt20_1.10.1-3-p-deb12u1_arm64",
+					"name": "libgcrypt20",
+					"version": "1.10.1-3+deb12u1"
+				},
+				{
+					"key": "libgpg-error0_1.46-1_arm64",
+					"name": "libgpg-error0",
+					"version": "1.46-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
-			"key": "php8.3-bcmath_8.3.35-1-p-0_20260925.87-p-debian12_1.gbp19383d_arm64",
+			"key": "php8.3-bcmath_8.3.36-1-p-0_20261021.88-p-debian12_1.gbp250f7c_arm64",
 			"name": "php8.3-bcmath",
-			"sha256": "edc6a98f19606446d3b57b07141f3ba994a587b671f3115de4b0b63cbf1dd601",
+			"sha256": "89f8b44a2e901cf4f7ab5e1150911e3cf8e750c1486469e0e4adc17f7ddc4ece",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-bcmath_8.3.35-1+0~20260925.87+debian12~1.gbp19383d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.3/php8.3-bcmath_8.3.36-1+0~20261021.88+debian12~1.gbp250f7c_arm64.deb"
 			],
-			"version": "8.3.35-1+0~20260925.87+debian12~1.gbp19383d"
+			"version": "8.3.36-1+0~20261021.88+debian12~1.gbp250f7c"
 		},
 		{
 			"arch": "arm64",
@@ -6930,9 +11195,9 @@
 					"version": "2:8.4+101+0~20261021.78+debian12~1.gbp53f25f"
 				},
 				{
-					"key": "php8.4-xml_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
+					"key": "php8.4-xml_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_arm64",
 					"name": "php8.4-xml",
-					"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
+					"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
 				},
 				{
 					"key": "libxslt1.1_1.1.35-1-p-deb12u4_arm64",
@@ -6990,9 +11255,9 @@
 					"version": "1.46-1"
 				},
 				{
-					"key": "php8.4-common_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
+					"key": "php8.4-common_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_arm64",
 					"name": "php8.4-common",
-					"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
+					"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
 				},
 				{
 					"key": "libssl3_3.0.20-1_deb12u2_arm64",
@@ -7033,6 +11298,141 @@
 					"key": "libtinfo6_6.4-4_arm64",
 					"name": "libtinfo6",
 					"version": "6.4-4"
+				},
+				{
+					"key": "procps_2-4.0.2-3_arm64",
+					"name": "procps",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "init-system-helpers_1.65.2-p-deb12u1_arm64",
+					"name": "init-system-helpers",
+					"version": "1.65.2+deb12u1"
+				},
+				{
+					"key": "usrmerge_37_deb12u1_arm64",
+					"name": "usrmerge",
+					"version": "37~deb12u1"
+				},
+				{
+					"key": "libfile-find-rule-perl_0.34-4_deb12u1_arm64",
+					"name": "libfile-find-rule-perl",
+					"version": "0.34-4~deb12u1"
+				},
+				{
+					"key": "libtext-glob-perl_0.11-3_arm64",
+					"name": "libtext-glob-perl",
+					"version": "0.11-3"
+				},
+				{
+					"key": "libnumber-compare-perl_0.03-3_arm64",
+					"name": "libnumber-compare-perl",
+					"version": "0.03-3"
+				},
+				{
+					"key": "perl_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "libperl5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "libperl5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-modules-5.36_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-modules-5.36",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "perl-base_5.36.0-7-p-deb12u3_arm64",
+					"name": "perl-base",
+					"version": "5.36.0-7+deb12u3"
+				},
+				{
+					"key": "dpkg_1.21.23_arm64",
+					"name": "dpkg",
+					"version": "1.21.23"
+				},
+				{
+					"key": "tar_1.34-p-dfsg-1.2-p-deb12u1_arm64",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2+deb12u1"
+				},
+				{
+					"key": "libselinux1_3.4-1-p-b6_arm64",
+					"name": "libselinux1",
+					"version": "3.4-1+b6"
+				},
+				{
+					"key": "libpcre2-8-0_10.42-1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.42-1"
+				},
+				{
+					"key": "libacl1_2.3.1-3_arm64",
+					"name": "libacl1",
+					"version": "2.3.1-3"
+				},
+				{
+					"key": "libzstd1_1.5.4-p-dfsg2-5_arm64",
+					"name": "libzstd1",
+					"version": "1.5.4+dfsg2-5"
+				},
+				{
+					"key": "libmd0_1.0.4-2_arm64",
+					"name": "libmd0",
+					"version": "1.0.4-2"
+				},
+				{
+					"key": "libbz2-1.0_1.0.8-5-p-b1_arm64",
+					"name": "libbz2-1.0",
+					"version": "1.0.8-5+b1"
+				},
+				{
+					"key": "libcrypt1_1-4.4.33-2_arm64",
+					"name": "libcrypt1",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"key": "libgdbm6_1.23-3_arm64",
+					"name": "libgdbm6",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libgdbm-compat4_1.23-3_arm64",
+					"name": "libgdbm-compat4",
+					"version": "1.23-3"
+				},
+				{
+					"key": "libdb5.3_5.3.28-p-dfsg2-1_arm64",
+					"name": "libdb5.3",
+					"version": "5.3.28+dfsg2-1"
+				},
+				{
+					"key": "libproc2-0_2-4.0.2-3_arm64",
+					"name": "libproc2-0",
+					"version": "2:4.0.2-3"
+				},
+				{
+					"key": "libsystemd0_252.39-1_deb12u2_arm64",
+					"name": "libsystemd0",
+					"version": "252.39-1~deb12u2"
+				},
+				{
+					"key": "liblz4-1_1.9.4-1_arm64",
+					"name": "liblz4-1",
+					"version": "1.9.4-1"
+				},
+				{
+					"key": "libcap2_1-2.66-4-p-deb12u3-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.66-4+deb12u3+b1"
+				},
+				{
+					"key": "libncursesw6_6.4-4_arm64",
+					"name": "libncursesw6",
+					"version": "6.4-4"
 				}
 			],
 			"key": "php-pear_1-1.10.16-p-submodules-p-notgz-2-p-0_20250419.41-p-debian12_1.gbpc1b130_arm64",
@@ -7057,24 +11457,24 @@
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php8.4-xml_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
+			"key": "php8.4-xml_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_arm64",
 			"name": "php8.4-xml",
-			"sha256": "886d37e8e46951000dc6bed1f8e0bd523907f113fefb3bda287c1c52b42a20d4",
+			"sha256": "3d6d4f3e10e001e39ba00de004ac7bb5939a6e67807a089a3ff00423238cc6eb",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.26-1+0~20260925.56+debian12~1.gbp80d95d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-xml_8.4.27-1+0~20261021.57+debian12~1.gbp7636b9_arm64.deb"
 			],
-			"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
+			"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
 		},
 		{
 			"arch": "arm64",
 			"dependencies": [],
-			"key": "php8.4-common_8.4.26-1-p-0_20260925.56-p-debian12_1.gbp80d95d_arm64",
+			"key": "php8.4-common_8.4.27-1-p-0_20261021.57-p-debian12_1.gbp7636b9_arm64",
 			"name": "php8.4-common",
-			"sha256": "a26aade65c57be7468deab046d3165dcb3ff0bee21d4cac4904fd46835da1743",
+			"sha256": "733961e40db172fddb47849e096e7d372c1a652baac08188ac265b6c124c699f",
 			"urls": [
-				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.26-1+0~20260925.56+debian12~1.gbp80d95d_arm64.deb"
+				"https://packages.sury.org/php/pool/main/p/php8.4/php8.4-common_8.4.27-1+0~20261021.57+debian12~1.gbp7636b9_arm64.deb"
 			],
-			"version": "8.4.26-1+0~20260925.56+debian12~1.gbp80d95d"
+			"version": "8.4.27-1+0~20261021.57+debian12~1.gbp7636b9"
 		}
 	],
 	"version": 1
