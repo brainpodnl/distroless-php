@@ -4,7 +4,7 @@ sources:
   - channel: bookworm main contrib
     url: https://snapshot.debian.org/archive/debian/20260716T082409Z
   - channel: bookworm-security main
-    url: https://snapshot.debian.org/archive/debian-security/20260716T114414Z
+    url: https://snapshot.debian.org/archive/debian-security/20261020T213255Z
   - channel: bookworm-updates main
     url: https://snapshot.debian.org/archive/debian/20260716T082409Z
 
@@ -16,7 +16,8 @@ packages:
   - media-types
   - tzdata
   - coreutils
-  - ca-certificates
+  # DLA-4845-1: keep the generated bundle and installed roots on the same fixed package.
+  - "ca-certificates (= 20250419~deb12u2)"
   - dash
 
   # Command-line dependencies
