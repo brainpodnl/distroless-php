@@ -213,13 +213,13 @@
 					"version": "12.2.0-14+deb12u1"
 				}
 			],
-			"key": "ca-certificates_20230311-p-deb12u1_amd64",
+			"key": "ca-certificates_20250419_deb12u2_amd64",
 			"name": "ca-certificates",
-			"sha256": "0d5f444f594e48c1e16a41d8fc628a09b24c658916a1274025c2330f2a802bed",
+			"sha256": "b9f76b5271a7ac373fd5e7e1b5b826a71ddd702b42a0d104955ecb1acfffc94b",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/c/ca-certificates/ca-certificates_20230311+deb12u1_all.deb"
+				"https://snapshot.debian.org/archive/debian-security/20261020T213255Z/pool/updates/main/c/ca-certificates/ca-certificates_20250419~deb12u2_all.deb"
 			],
-			"version": "20230311+deb12u1"
+			"version": "20250419~deb12u2"
 		},
 		{
 			"arch": "amd64",
@@ -1729,13 +1729,13 @@
 					"version": "12.2.0-14+deb12u1"
 				}
 			],
-			"key": "ca-certificates_20230311-p-deb12u1_arm64",
+			"key": "ca-certificates_20250419_deb12u2_arm64",
 			"name": "ca-certificates",
-			"sha256": "0d5f444f594e48c1e16a41d8fc628a09b24c658916a1274025c2330f2a802bed",
+			"sha256": "b9f76b5271a7ac373fd5e7e1b5b826a71ddd702b42a0d104955ecb1acfffc94b",
 			"urls": [
-				"https://snapshot.debian.org/archive/debian/20260716T082409Z/pool/main/c/ca-certificates/ca-certificates_20230311+deb12u1_all.deb"
+				"https://snapshot.debian.org/archive/debian-security/20261020T213255Z/pool/updates/main/c/ca-certificates/ca-certificates_20250419~deb12u2_all.deb"
 			],
-			"version": "20230311+deb12u1"
+			"version": "20250419~deb12u2"
 		},
 		{
 			"arch": "arm64",

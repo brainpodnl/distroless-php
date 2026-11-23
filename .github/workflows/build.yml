@@ -23,6 +23,12 @@ jobs:
         run: |
           echo "${{ secrets.BUILDBUDDY_BAZELRC }}" > .bazelrc.user &&
             echo "build --compilation_mode=opt" >> .bazelrc.user
+      - name: Verify CA trust bundle
+        run: |
+          bazel build //php:php-fpm-8.4_cacerts @php-common//ca-certificates:data
+          python3 tests/check_ca_trust.py \
+            "$(bazel cquery //php:php-fpm-8.4_cacerts --output=files)" \
+            "$(bazel cquery @php-common//ca-certificates:data --output=files)"
       - name: Setup Steiger
         run: |
           curl -Lo steiger https://github.com/brainhivenl/steiger/releases/download/v0.0.1/steiger-x86_64-unknown-linux-gnu &&
